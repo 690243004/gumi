@@ -1,0 +1,115 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixin.scss";
+
+.glow-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: $fontSize_1;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-appearance: none;
+  // 移动设备上如手机和平板横屏会导致字体变大，-webkit-text-size-adjust: 100%可以禁止字体变化
+  -webkit-text-size-adjust: 100%;
+  user-select: none;
+}
+
+.glow-button::before {
+  @include absoluteCenter;
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  border: inherit;
+  border-color: $black;
+  border-radius: inherit;
+  opacity: 0;
+  content: " ";
+}
+
+.glow-button:active::before {
+  opacity: 0.1;
+}
+
+.glow-button--default {
+  color: $white;
+  background-color: $silver;
+  border: 1px solid $silver;
+}
+
+.glow-button--plain.glow-button--default {
+  background-color: $white;
+  color: $silver;
+}
+
+.glow-button--primary {
+  color: $white;
+  background-color: $miku;
+  border: 1px solid $border-miku;
+}
+
+.glow-button--plain.glow-button--primary {
+  background-color: $white;
+  color: $miku;
+}
+
+.glow-button--success {
+  color: $white;
+  background-color: $fern;
+  border: 1px solid $border-fern;
+}
+
+.glow-button--plain.glow-button--success {
+  background-color: $white;
+  color: $fern;
+}
+
+.glow-button--danger {
+  color: $white;
+  background-color: $froly;
+  border: 1px solid $border-froly ;
+}
+
+.glow-button--plain.glow-button--danger {
+  background-color: $white;
+  color: $froly;
+}
+
+.glow-button--warn {
+  color: $white;
+  background-color: $tulipTree;
+  border: 1px solid $border-tulipTree ;
+}
+
+.glow-button--plain.glow-button--warn {
+  background-color: $white;
+  color: $tulipTree;
+}
+
+.glow-button--small {
+  padding: 12px 18px;
+}
+
+.glow-button--normal {
+  padding: 18px 27px;
+}
+
+.glow-button--large {
+  padding: 24px 36px;
+}
+
+.glow-button--round {
+  border-radius: 999px;
+}
+
+.glow-button--block {
+  display: block;
+}
+
+.glow-button--disabled {
+  opacity: .5;
+}
+
+.glow-button--disabled:active::before {
+  opacity: 0;
+}

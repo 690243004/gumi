@@ -1,0 +1,115 @@
+@import "../../scss/vars.scss";
+
+.glow-loading {
+  position: relative;
+}
+
+.glow-loading--round,
+.glow-loading--round:before,
+.glow-loading--round:after {
+  border-radius: 50%;
+}
+
+.glow-loading--round {
+  color: $miku;
+  position: relative;
+  box-shadow: inset 0 0 0 10px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.glow-loading--round__before,
+.glow-loading--round__after {
+  position: absolute;
+}
+
+.glow-loading--round__before {
+  top: -5px;
+  left: -5px;
+  animation-name: round;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  // animation: load 2s infinite ease 1.5s;
+}
+
+.glow-loading--round__after {
+  top: -5px;
+  right: -5px;
+  transform-origin: 0;
+  animation-name: round;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+
+@-webkit-keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.glow-loading--text {
+  font-size: 28px;
+  color: #333;
+  margin-top: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.glow-loading--rect {
+  height: 100%;
+  display: inline-block;
+  animation-name: stretchdelay;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  background-color: $miku;
+
+}
+
+
+@-webkit-keyframes stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+
+@keyframes stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}

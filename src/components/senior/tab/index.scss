@@ -1,0 +1,48 @@
+@import "../../scss/vars.scss";
+
+.glow-tab {
+  overflow: hidden;
+}
+
+.glow-tab--label {
+  display: flex;
+  height: $brilliance;
+  width: 100%;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-color: $white;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.glow-tab--label--item {
+  line-height: $brilliance;
+  text-align: center;
+  flex: 1;
+  flex-shrink: 0;
+  font-size: $fontSize_1;
+  user-select: none;
+  cursor: pointer;
+  height: 100%;
+}
+
+.glow-tab--label--item__active {
+  font-size: $fontSize_2;
+  color: $miku;
+}
+
+.glow-tab--line {
+  width: 50px;
+  height: 5px;
+  background-color: $miku;
+  bottom: 0;
+  position: absolute;
+  border-radius: 2.5px;
+}
+
+.glow-tab--main {
+  display: flex;
+}

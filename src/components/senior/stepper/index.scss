@@ -1,0 +1,81 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixin.scss";
+
+
+.glow-stepper {
+  width: 175px;
+  height: $beauty;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.glow-stepper--increase,
+.glow-stepper--decrease {
+  height: $bella;
+  width: $bella;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  i {
+    font-size: $fontSize_2;
+    font-weight: bold;
+    transform: scale(.5);
+  }
+}
+
+.glow-stepper--increase::before,
+.glow-stepper--decrease::before {
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  border: inherit;
+  border-color: $black;
+  border-radius: inherit;
+  opacity: 0;
+  content: " ";
+  @include absoluteCenter;
+}
+
+.glow-stepper--increase:active::before,
+.glow-stepper--decrease:active::before {
+  opacity: 0.1;
+}
+
+.glow-stepper--increase {
+  background-color: $miku;
+
+  i {
+    color: $white;
+  }
+}
+
+.glow-stepper--decrease {
+  border: 1px solid $miku;
+
+  i {
+    color: $miku;
+  }
+}
+
+.glow-stepper--num {
+  font-size: $fontSize_3;
+  color: $osloGray;
+  user-select: none;
+}
+
+.glow-stepper--disabled {
+  opacity: .5;
+}
+
+.glow-stepper--disabled .glow-stepper--increase:active::before,
+.glow-stepper--disabled .glow-stepper--decrease:active::before {
+  opacity: 0;
+}

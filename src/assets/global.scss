@@ -1,0 +1,28 @@
+.component-view {
+}
+
+.component-display {
+  padding: 30px;
+
+  &--title {
+    color: #999;
+  }
+  &--content{ 
+    margin-top: 20px;
+  }
+  &--button__type {
+    .glow-button {
+      & + .glow-button {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+body,html {
+  height: 100%;
+}
+
+body { 
+  background-color: #f9f9f9;
+}

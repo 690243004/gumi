@@ -1,0 +1,28 @@
+@import "../../scss/vars.scss";
+
+.glow-tabbar-item {
+  flex: 1;
+  text-align: center;
+  height: 100%;
+  color: $mineShaft;
+}
+
+.glow-tabbar-item--icon {
+  margin-top: 15px;
+  line-height: 1;
+
+  .glow-icon {
+    font-size: $fontSize_4;
+  }
+}
+
+.glow-tabbar-item--text {
+  font-size: $fontSize_0;
+  margin-top: 10px;
+  line-height: 1;
+  user-select: none;
+}
+
+.glow-tabbar-item--active {
+  color: $miku
+}

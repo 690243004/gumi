@@ -1,0 +1,24 @@
+@import "../../scss/color.scss";
+
+.glow-tag {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 24px;
+  padding: 6px 15px 6px 10px;
+  border-radius: 0 999px 999px 0;
+  -webkit-appearance: none;
+  // 移动设备上如手机和平板横屏会导致字体变大，-webkit-text-size-adjust: 100%可以禁止字体变化
+  -webkit-text-size-adjust: 100%;
+  user-select: none;
+}
+
+.glow-tag--default {
+  color: #fff;
+  background-color: #aaa;
+}
+
+.glow-tag--primary {
+  color: $white;
+  background-color: $miku;
+}

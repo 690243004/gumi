@@ -1,0 +1,53 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixin.scss";
+
+.glow-navigation {
+  height: $brutality;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.glow-navigation--icon,
+.glow-navigation--right-icon {
+  flex: 0 0 32px;
+  @include center;
+  i {
+    font-size: $fontSize_2;
+  }
+}
+
+.glow-navigation--title {
+  flex: 1;
+  text-align: center;
+  line-height: $brutality;
+  font-size: $fontSize_2;
+}
+
+.glow-navigation--default {
+  background-color: $white;
+
+  .glow-navigation--title {
+    color: $mineShaft;
+  }
+
+  .glow-navigation--icon,
+  .glow-navigation--right-icon {
+    color: $mineShaft;
+  }
+}
+
+.glow-navigation--primary {
+  background-color: $miku;
+
+  .glow-navigation--title {
+    color: $white;
+  }
+
+  .glow-navigation--icon,
+  .glow-navigation--right-icon {
+    color: $white;
+  }
+}

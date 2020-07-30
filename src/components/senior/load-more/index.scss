@@ -1,0 +1,16 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixin.scss";
+
+.glow-load-more--holder {
+  height: 100px;
+  font-size: $fontSize_1;
+  color: $osloGray;
+  text-align: center;
+  background-color: $alabaster;
+}
+
+.glow-load-more--holder-text {
+  position: relative;
+  height: 100%;
+  @include center;
+}

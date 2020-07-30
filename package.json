@@ -1,0 +1,72 @@
+{
+  "name": "glow-ui",
+  "version": "1.0.0",
+  "description": "a good vue components",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --config build/webpack.dev.js",
+    "build": "webpack --config build/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --ext .js,.vue --fix ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:zdxhxh/glow-ui.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "npm run eslint",
+      "prettier .prettierrc.js --write",
+      "git add"
+    ]
+  },
+  "keywords": [],
+  "author": "xh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.1.0",
+    "eruda": "^2.3.3",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "vue-eslint-parser": "^7.1.0",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
+  }
+}

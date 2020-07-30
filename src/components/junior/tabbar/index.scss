@@ -1,0 +1,8 @@
+@import "../../scss/vars.scss";
+
+.glow-tabbar {
+  height: $butterfly;
+  width: 100%;
+  background-color: $white;
+  display: flex;
+}

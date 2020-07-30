@@ -1,0 +1,10 @@
+.glow-tab-panel {
+  flex-shrink: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.glow-tab-panel--inactive {
+  height: 0;
+  overflow: visible;
+}

@@ -1,0 +1,184 @@
+$duration:.3s;
+$border_width : 50px;
+
+.glow-popup {
+  position: fixed;
+  background-color: #fff;
+}
+
+.glow-popup--overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba($color: #000000, $alpha: .5);
+}
+
+.glow-popup--top {
+  min-height: 10%;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0 0 $border_width $border_width;
+}
+
+.glow-popup--top-enter-active {
+  animation: slideInDown .3s;
+}
+
+.glow-popup--top-leave-active {
+  animation: slideOutUp .3s;
+}
+.glow-popup--bottom-enter-active {
+  animation: slideInUp .3s;
+}
+
+.glow-popup--bottom-leave-active {
+  animation: slideOutDown .3s;
+}
+.glow-popup--left-enter-active {
+  animation: slideInLeft .3s;
+}
+
+.glow-popup--left-leave-active {
+  animation: slideOutLeft .3s;
+}
+.glow-popup--right-enter-active {
+  animation: slideInRight .3s;
+}
+
+.glow-popup--right-leave-active {
+  animation: slideOutRight .3s;
+}
+
+.glow-popup--bottom {
+  min-height: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: $border_width $border_width 0 0;
+}
+
+.glow-popup--left {
+  min-width: 10%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.glow-popup--right {
+  min-width: 10%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+// left 
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: hidden;
+  }
+}
+
+// right 
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: hidden;
+  }
+}
+
+
+// top 
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+// bottom 
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}

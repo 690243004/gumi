@@ -1,0 +1,9 @@
+.glow-radio-group {
+  display: flex;
+  flex-wrap: wrap;
+
+  .glow-radio {
+    line-height: 75px;
+    margin-right: 20px;
+  }
+}

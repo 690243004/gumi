@@ -1,0 +1,27 @@
+@import "../../scss/color.scss";
+
+.glow-swipe {
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+}
+
+
+.glow-swipe--bottom { 
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  left : 0;
+  right: 0;
+}
+.glow-swipe--indicator {
+  background-color: #ddd;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.glow-swipe--indicator--active { 
+  background-color: $miku
+}

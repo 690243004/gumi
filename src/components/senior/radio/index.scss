@@ -1,0 +1,55 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixin.scss";
+
+.glow-radio {
+  display: flex;
+  align-items: center;
+  font-size: $fontSize_1;
+  color: $mineShaft;
+}
+
+.glow-radio--icon {
+  height: $fontSize_1;
+  width: $fontSize_1;
+  margin-right: 15px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 50%;
+  &::after {
+    transition: all .2s linear;
+  }
+}
+
+.glow-radio--unselected {
+  .glow-radio--icon {
+    border: 1px solid $osloGray;
+
+    &::after {
+      @include absoluteCenter;
+      content: '';
+      width: 0px;
+      height: 0px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      background-color: $miku;
+    }
+  }
+}
+
+.glow-radio--selected {
+  color: $miku;
+
+  .glow-radio--icon {
+    border: 1px solid $miku;
+
+    &::after {
+      @include absoluteCenter;
+      content: '';
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      background-color: $miku;
+    }
+  }
+}

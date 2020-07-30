@@ -1,0 +1,39 @@
+@import "../../scss/vars.scss";
+
+.glow-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($color: $black, $alpha: .5);
+  z-index: 2020;
+}
+
+.glow-overlay-fade-enter-active {
+  animation: fadeIn 0.3s;
+}
+
+.glow-overlay-fade-leave-active {
+  animation: fadeOut 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,95 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixin.scss";
+
+.glow-cell {
+  min-height: $bravery;
+  box-sizing: border-box;
+  padding: 12px 30px;
+  position: relative;
+  background: $white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.glow-cell--isLink {
+  cursor: pointer;
+}
+
+.glow-cell--isLink::before {
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  border: inherit;
+  border-color: $black;
+  border-radius: inherit;
+  opacity: 0;
+  content: " ";
+  @include absoluteCenter;
+}
+
+.glow-cell--isLink:active::before {
+  opacity: 0.1;
+}
+
+.glow-cell--border::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  left: 30px;
+  right: 30px;
+  background-color: $miku;
+  transform: scaleY(0.5);
+}
+
+.glow-cell--icon {
+  margin-right: 10px;
+
+  i {
+    font-size: $fontSize_1;
+  }
+}
+
+.glow-cell--meta {
+  flex-basis: 100%;
+  flex-shrink: 0;
+
+  span {
+    color: $osloGray;
+    font-size: $fontSize_0;
+    transform: scale(0.9);
+  }
+}
+
+.glow-cell--icon,
+.glow-cell--label,
+.glow-cell--meta,
+.glow-cell--value {
+  line-height: $beauty;
+  min-height: $beauty;
+}
+
+.glow-cell--label {
+  flex: 0 0 200px;
+  position: relative;
+  font-size: $fontSize_1;
+  color: $mineShaft;
+}
+
+.glow-cell--value {
+  text-align: right;
+  // align-self: center;
+  flex: 1;
+  font-size: $fontSize_1;
+  color: $osloGray;
+}
+
+.glow-cell--link {
+  margin-left: 10px;
+
+  i {
+    font-size: $fontSize_1;
+  }
+}

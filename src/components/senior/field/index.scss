@@ -1,0 +1,82 @@
+@import "../../scss/vars.scss";
+$bravery : 72px;
+
+.glow-field {
+  min-height: $bravery;
+  padding: 12px 30px;
+  display: flex;
+  position: relative;
+  background-color: $white;
+  box-sizing: border-box;
+
+  &:last-child::after {
+    display: none;
+  }
+
+  &--required::before {
+    content: '*';
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    color: $froly;
+    font-size: $fontSize_1;
+  }
+}
+
+.glow-field--button {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.glow-field--border::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  left: 30px;
+  right: 30px;
+  background-color: $miku;
+  transform: scaleY(.5);
+}
+
+.glow-field--label {
+  flex: 0 0 200px;
+  line-height: $beauty;
+  min-height: $beauty;
+  width: 200px;
+  word-break: break-all;
+  position: relative;
+  font-size: $fontSize_1;
+  color: $mineShaft;
+}
+
+.glow-field--input,
+.glow-field--textarea {
+  flex: 1;
+  overflow: hidden;
+  display: block;
+  font-size: $fontSize_1;
+  border: none;
+  outline: none;
+  line-height: $beauty;
+  height: $beauty;
+
+  &:disabled {
+    background-color: $white;
+    color: $silver;
+  }
+
+  &__right {
+    text-align: right;
+    justify-content: flex-end;
+    flex: 1;
+  }
+}
+
+.glow-field--input {
+  height: $beauty;
+}
