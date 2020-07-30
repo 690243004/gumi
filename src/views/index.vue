@@ -38,76 +38,76 @@
 </template>
 
 <script>
-import mainIcon from "../assets/main.png";
+import mainIcon from '../assets/main.png'
 export default {
-  name: "App",
+  name: 'App',
   data() {
     return {
       mainIcon,
       active: 0,
       basicList: [
         {
-          name: "按钮组件",
-          path: "/base/button"
+          name: '按钮组件',
+          path: '/base/button'
         },
         {
-          name: "单元格",
-          path: "/base/cell"
+          name: '单元格',
+          path: '/base/cell'
         },
         {
-          name: "导航栏",
-          path: "/base/navigation"
+          name: '导航栏',
+          path: '/base/navigation'
         },
         {
-          name: "工具栏",
-          path: "/base/tabbar"
+          name: '工具栏',
+          path: '/base/tabbar'
         },
         {
-          name: "弹出框",
-          path: "/base/popup"
+          name: '弹出框',
+          path: '/base/popup'
         },
         {
-          name: "图标",
-          path: "/base/icon"
+          name: '图标',
+          path: '/base/icon'
         }
       ],
       seniorList: [
         {
-          name: "输入框",
-          path: "/senior/field"
+          name: '输入框',
+          path: '/senior/field'
         },
         {
-          name: "单选框",
-          path: "/senior/radio"
+          name: '单选框',
+          path: '/senior/radio'
         },
         {
-          name: "步进器",
-          path: "/senior/stepper"
+          name: '步进器',
+          path: '/senior/stepper'
         },
         {
-          name: "下拉刷新",
-          path: "/senior/pullRefresh"
+          name: '下拉刷新',
+          path: '/senior/pullRefresh'
         },
         {
-          name: "上拉加载",
-          path: "/senior/loadMore"
+          name: '上拉加载',
+          path: '/senior/loadMore'
         },
         {
-          name: "轮播图",
-          path: "/senior/swipe"
+          name: '轮播图',
+          path: '/senior/swipe'
         },
         {
-          name: "标签栏",
-          path: "/senior/tab"
+          name: '标签栏',
+          path: '/senior/tab'
         },
         {
-          name: "加载中",
-          path: "/senior/loading"
+          name: '加载中',
+          path: '/senior/loading'
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss">

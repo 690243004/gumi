@@ -1,6 +1,6 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[12],{
 
-/***/ 91:
+/***/ 93:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -221,16 +221,12 @@ render._withStripped = true
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ var tabbarvue_type_script_lang_js_ = ({
   data() {
     return {
       active: 0,
       activeSecond: 0,
-      activeThird: "home"
+      activeThird: 'home'
     };
   },
 

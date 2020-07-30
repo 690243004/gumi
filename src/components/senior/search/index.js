@@ -1,37 +1,36 @@
-import globalMixin from "../../helper/mixins/global";
-import { createNamespace } from "../../helper/util";
-const _createNamespace = createNamespace("search");
-const [createComponent, bem] = _createNamespace;
-import "./index.scss";
+import { createNamespace } from '../../helper/util'
+const _createNamespace = createNamespace('search')
+const [createComponent, bem] = _createNamespace
+import './index.scss'
 
 export default createComponent({
   props: {},
   data() {
-    return {};
+    return {}
   },
   methods: {},
   render(h) {
     return h(
-      "div",
+      'div',
       {
         class: bem()
       },
       [
         h(
-          "div",
+          'div',
           {
-            class: bem("input")
+            class: bem('input')
           },
-          [h("input")]
+          [h('input')]
         ),
         h(
-          "div",
+          'div',
           {
-            class: bem("button")
+            class: bem('button')
           },
-          "搜索"
+          '搜索'
         )
       ]
-    );
+    )
   }
-});
+})

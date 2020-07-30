@@ -1,7 +1,7 @@
-import { createNamespace } from "../../helper/util";
-import "./index.scss";
-const _createNamespace = createNamespace("tab-panel");
-const [createComponent, bem] = _createNamespace;
+import { createNamespace } from '../../helper/util'
+import './index.scss'
+const _createNamespace = createNamespace('tab-panel')
+const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
@@ -12,27 +12,27 @@ export default createComponent({
     return {
       index: undefined,
       inited: false
-    };
+    }
   },
   computed: {
     isActive() {
-      return this.index === this.$parent.value;
+      return this.index === this.$parent.value
     }
   },
   watch: {
     isActive(val) {
-      this.inited = this.inited || val;
+      this.inited = this.inited || val
     }
   },
   mounted() {
-    this.index = this.name || this.$parent.childrenNodes.length;
-    this.$parent.childrenNodes.push(this);
+    this.index = this.name || this.$parent.childrenNodes.length
+    this.$parent.childrenNodes.push(this)
   },
   render(h) {
-    const shouldRender = this.inited || !this.$parent.lazyRender;
-    const Content = shouldRender ? this.$slots.default : h();
+    const shouldRender = this.inited || !this.$parent.lazyRender
+    const Content = shouldRender ? this.$slots.default : h()
     return h(
-      "div",
+      'div',
       {
         class:
           bem() +
@@ -41,6 +41,6 @@ export default createComponent({
           })
       },
       [Content]
-    );
+    )
   }
-});
+})

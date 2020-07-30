@@ -3,6 +3,7 @@ const { merge } = require('webpack-merge')
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const htmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
@@ -52,11 +53,14 @@ module.exports = [
       bundle: path.resolve(__dirname, '../src/index.js')
     },
     output: {
-      path: path.resolve(__dirname, '../mobile'),
+      path: path.resolve(__dirname, '../dist'),
       filename: 'bundle.js',
       libraryTarget: 'var'
     },
     plugins: [
+      new CopyWebpackPlugin({
+        patterns: [{ from: path.resolve(__dirname, '../public/'), to: path.resolve(__dirname, '../dist/') }]
+      }),
       new htmlWebpackPlugin({
         template: path.resolve(__dirname, '../public/index.html'),
         filename: 'index.html',

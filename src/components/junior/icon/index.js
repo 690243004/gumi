@@ -1,7 +1,7 @@
-import { createNamespace } from "../../helper/util";
-const _createNamespace = createNamespace("icon");
-const [createComponent, bem] = _createNamespace;
-import "./index.scss";
+import { createNamespace } from '../../helper/util'
+const _createNamespace = createNamespace('icon')
+const [createComponent, bem] = _createNamespace
+import './index.scss'
 
 export default createComponent({
   props: {
@@ -10,26 +10,25 @@ export default createComponent({
     color: String
   },
   render(h) {
-    const iconStyle = {};
+    const iconStyle = {}
     if (this.size) {
-      iconStyle.fontSize =
-        typeof this.size === "number" ? this.size + "px" : this.size;
+      iconStyle.fontSize = typeof this.size === 'number' ? this.size + 'px' : this.size
     }
     if (this.color) {
-      iconStyle.color = this.color;
+      iconStyle.color = this.color
     }
 
     return h(
-      "div",
+      'div',
       {
         class: bem()
       },
       [
-        h("i", {
+        h('i', {
           style: iconStyle,
           class: `glow-icon ${this.name}`
         })
       ]
-    );
+    )
   }
-});
+})

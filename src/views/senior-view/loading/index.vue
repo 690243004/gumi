@@ -42,13 +42,7 @@
         继承父节点的宽度(用于自适应布局)
       </div>
       <div class="component-display--content inherit-parent">
-        <gl-loading
-          backgroundColor="#f9f9f9"
-          color="#66ccff"
-          inherit
-          size="80"
-          title="width:150px"
-        />
+        <gl-loading backgroundColor="#f9f9f9" color="#66ccff" inherit size="80" title="width:150px" />
       </div>
     </div>
   </div>
@@ -59,9 +53,9 @@ export default {
   data() {
     return {
       strokeLength: 0
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

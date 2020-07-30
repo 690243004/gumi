@@ -19,14 +19,14 @@
 
 <script>
 export default {
-  name: "stepperpage",
+  name: 'stepperpage',
   data() {
     return {
       num: 0,
       num2: 10
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped></style>

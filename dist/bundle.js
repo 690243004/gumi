@@ -196,7 +196,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 59);
+/******/ 	return __webpack_require__(__webpack_require__.s = 57);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -9066,11 +9066,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, "html{-webkit-text-size-adjust:none;-ms-text-size-adjust:none}input[type=submit],input[type=reset],input[type=button],input:focus,button:focus,select:focus,textarea:focus{outline:none}input{-webkit-appearance:none;resize:none;border-radius:0}body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{-webkit-tap-highlight-color:rgba(0,0,0,0)}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}img{max-width:100%;height:auto;width:auto\\9 ;-ms-interpolation-mode:bicubic}body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;border:none}em,i{font-style:normal}strong{font-weight:normal}.clearfix:after{content:\"\";display:block;visibility:hidden;height:0;clear:both}.clearfix{zoom:1}a{text-decoration:none;color:#333}a:hover{color:#fed503;text-decoration:none}ul,ol{list-style:none}h1,h2,h3,h4,h5,h6{font-size:100%;font-family:Microsoft YaHei}img{border:none}", ""]);
 // Exports
@@ -9107,11 +9107,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".component-display{padding:4vw}.component-display--title{color:#999}.component-display--content{margin-top:2.66667vw}.component-display--button__type .glow-button+.glow-button{margin-left:2.66667vw}body,html{height:100%}body{background-color:#f9f9f9}", ""]);
 // Exports
@@ -9148,11 +9148,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, "", ""]);
 // Exports
@@ -9189,11 +9189,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-button{position:relative;display:inline-block;box-sizing:border-box;font-size:3.73333vw;border-radius:0.53333vw;text-align:center;cursor:pointer;-webkit-appearance:none;-webkit-text-size-adjust:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.glow-button::before{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;height:100%;background-color:#000;border:inherit;border-color:#000;border-radius:inherit;opacity:0;content:\" \"}.glow-button:active::before{opacity:.1}.glow-button--default{color:#fff;background-color:#ccc;border:1px solid #ccc}.glow-button--plain.glow-button--default{background-color:#fff;color:#ccc}.glow-button--primary{color:#fff;background-color:#39c5bb;border:1px solid #39c5dd}.glow-button--plain.glow-button--primary{background-color:#fff;color:#39c5bb}.glow-button--success{color:#fff;background-color:#5cb85c;border:1px solid #10b310}.glow-button--plain.glow-button--success{background-color:#fff;color:#5cb85c}.glow-button--danger{color:#fff;background-color:#f56c6c;border:1px solid #d9534f}.glow-button--plain.glow-button--danger{background-color:#fff;color:#f56c6c}.glow-button--warn{color:#fff;background-color:#e6a23c;border:1px solid #ce9135}.glow-button--plain.glow-button--warn{background-color:#fff;color:#e6a23c}.glow-button--small{padding:1.6vw 2.4vw}.glow-button--normal{padding:2.4vw 3.6vw}.glow-button--large{padding:3.2vw 4.8vw}.glow-button--round{border-radius:133.2vw}.glow-button--block{display:block}.glow-button--disabled{opacity:.5}.glow-button--disabled:active::before{opacity:0}", ""]);
 // Exports
@@ -9230,11 +9230,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-icon{display:inline-block;line-height:1}", ""]);
 // Exports
@@ -9271,11 +9271,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-cell{min-height:9.6vw;box-sizing:border-box;padding:1.6vw 4vw;position:relative;background:#fff;display:flex;flex-wrap:wrap;align-items:center}.glow-cell--isLink{cursor:pointer}.glow-cell--isLink::before{width:100%;height:100%;background-color:#000;border:inherit;border-color:#000;border-radius:inherit;opacity:0;content:\" \";position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}.glow-cell--isLink:active::before{opacity:.1}.glow-cell--border::after{content:\"\";display:block;position:absolute;bottom:0;height:1px;left:4vw;right:4vw;background-color:#39c5bb;transform:scaleY(0.5)}.glow-cell--icon{margin-right:1.33333vw}.glow-cell--icon i{font-size:3.73333vw}.glow-cell--meta{flex-basis:100%;flex-shrink:0}.glow-cell--meta span{color:#909399;font-size:3.2vw;transform:scale(0.9)}.glow-cell--icon,.glow-cell--label,.glow-cell--meta,.glow-cell--value{line-height:6.4vw;min-height:6.4vw}.glow-cell--label{flex:0 0 26.66667vw;position:relative;font-size:3.73333vw;color:#333}.glow-cell--value{text-align:right;flex:1;font-size:3.73333vw;color:#909399}.glow-cell--link{margin-left:1.33333vw}.glow-cell--link i{font-size:3.73333vw}", ""]);
 // Exports
@@ -9312,11 +9312,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-navigation{height:11.73333vw;padding:0 4vw;display:flex;justify-content:space-between;position:relative;box-sizing:border-box}.glow-navigation--icon,.glow-navigation--right-icon{flex:0 0 4.26667vw;display:flex;justify-content:center;align-items:center}.glow-navigation--icon i,.glow-navigation--right-icon i{font-size:4.26667vw}.glow-navigation--title{flex:1;text-align:center;line-height:11.73333vw;font-size:4.26667vw}.glow-navigation--default{background-color:#fff}.glow-navigation--default .glow-navigation--title{color:#333}.glow-navigation--default .glow-navigation--icon,.glow-navigation--default .glow-navigation--right-icon{color:#333}.glow-navigation--primary{background-color:#39c5bb}.glow-navigation--primary .glow-navigation--title{color:#fff}.glow-navigation--primary .glow-navigation--icon,.glow-navigation--primary .glow-navigation--right-icon{color:#fff}", ""]);
 // Exports
@@ -9353,11 +9353,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.5);z-index:2020}.glow-overlay-fade-enter-active{-webkit-animation:fadeIn .3s;animation:fadeIn .3s}.glow-overlay-fade-leave-active{-webkit-animation:fadeOut .3s;animation:fadeOut .3s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}@-webkit-keyframes fadeOut{from{opacity:1}to{opacity:0}}@keyframes fadeOut{from{opacity:1}to{opacity:0}}", ""]);
 // Exports
@@ -9394,11 +9394,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-popup{position:fixed;background-color:#fff}.glow-popup--overlay{position:fixed;bottom:0;left:0;right:0;top:0;background-color:rgba(0,0,0,.5)}.glow-popup--top{min-height:10%;top:0;left:0;right:0;border-radius:0 0 6.66667vw 6.66667vw}.glow-popup--top-enter-active{-webkit-animation:slideInDown .3s;animation:slideInDown .3s}.glow-popup--top-leave-active{-webkit-animation:slideOutUp .3s;animation:slideOutUp .3s}.glow-popup--bottom-enter-active{-webkit-animation:slideInUp .3s;animation:slideInUp .3s}.glow-popup--bottom-leave-active{-webkit-animation:slideOutDown .3s;animation:slideOutDown .3s}.glow-popup--left-enter-active{-webkit-animation:slideInLeft .3s;animation:slideInLeft .3s}.glow-popup--left-leave-active{-webkit-animation:slideOutLeft .3s;animation:slideOutLeft .3s}.glow-popup--right-enter-active{-webkit-animation:slideInRight .3s;animation:slideInRight .3s}.glow-popup--right-leave-active{-webkit-animation:slideOutRight .3s;animation:slideOutRight .3s}.glow-popup--bottom{min-height:10%;bottom:0;left:0;right:0;border-radius:6.66667vw 6.66667vw 0 0}.glow-popup--left{min-width:10%;top:0;bottom:0;left:0}.glow-popup--right{min-width:10%;top:0;bottom:0;right:0}@-webkit-keyframes slideInLeft{from{transform:translate3d(-100%, 0, 0);visibility:visible}to{transform:translate3d(0, 0, 0)}}@keyframes slideInLeft{from{transform:translate3d(-100%, 0, 0);visibility:visible}to{transform:translate3d(0, 0, 0)}}@-webkit-keyframes slideOutLeft{from{transform:translate3d(0, 0, 0)}to{transform:translate3d(-100%, 0, 0);visibility:hidden}}@keyframes slideOutLeft{from{transform:translate3d(0, 0, 0)}to{transform:translate3d(-100%, 0, 0);visibility:hidden}}@-webkit-keyframes slideInRight{from{transform:translate3d(100%, 0, 0);visibility:visible}to{transform:translate3d(0, 0, 0)}}@keyframes slideInRight{from{transform:translate3d(100%, 0, 0);visibility:visible}to{transform:translate3d(0, 0, 0)}}@-webkit-keyframes slideOutRight{from{transform:translate3d(0, 0, 0)}to{transform:translate3d(100%, 0, 0);visibility:hidden}}@keyframes slideOutRight{from{transform:translate3d(0, 0, 0)}to{transform:translate3d(100%, 0, 0);visibility:hidden}}@-webkit-keyframes slideInDown{from{transform:translate3d(0, -100%, 0);visibility:visible}to{transform:translate3d(0, 0, 0)}}@keyframes slideInDown{from{transform:translate3d(0, -100%, 0);visibility:visible}to{transform:translate3d(0, 0, 0)}}@-webkit-keyframes slideOutUp{from{transform:translate3d(0, 0, 0)}to{visibility:hidden;transform:translate3d(0, -100%, 0)}}@keyframes slideOutUp{from{transform:translate3d(0, 0, 0)}to{visibility:hidden;transform:translate3d(0, -100%, 0)}}@-webkit-keyframes slideInUp{from{transform:translate3d(0, 100%, 0);visibility:visible}to{transform:translate3d(0, 0, 0)}}@keyframes slideInUp{from{transform:translate3d(0, 100%, 0);visibility:visible}to{transform:translate3d(0, 0, 0)}}@-webkit-keyframes slideOutDown{from{transform:translate3d(0, 0, 0)}to{visibility:hidden;transform:translate3d(0, 100%, 0)}}@keyframes slideOutDown{from{transform:translate3d(0, 0, 0)}to{visibility:hidden;transform:translate3d(0, 100%, 0)}}", ""]);
 // Exports
@@ -9435,11 +9435,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-tabbar{height:13.06667vw;width:100%;background-color:#fff;display:flex}", ""]);
 // Exports
@@ -9476,11 +9476,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-tabbar-item{flex:1;text-align:center;height:100%;color:#333}.glow-tabbar-item--icon{margin-top:2vw;line-height:1}.glow-tabbar-item--icon .glow-icon{font-size:5.33333vw}.glow-tabbar-item--text{font-size:3.2vw;margin-top:1.33333vw;line-height:1;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.glow-tabbar-item--active{color:#39c5bb}", ""]);
 // Exports
@@ -9517,11 +9517,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-tag{position:relative;display:inline-block;box-sizing:border-box;font-size:3.2vw;padding:0.8vw 2vw 0.8vw 1.33333vw;border-radius:0 133.2vw 133.2vw 0;-webkit-appearance:none;-webkit-text-size-adjust:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.glow-tag--default{color:#fff;background-color:#aaa}.glow-tag--primary{color:#fff;background-color:#39c5bb}", ""]);
 // Exports
@@ -9558,13 +9558,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-field{min-height:9.6vw;padding:1.6vw 4vw;display:flex;position:relative;background-color:#fff;box-sizing:border-box}.glow-field:last-child::after{display:none}.glow-field--required::before{content:\"*\";position:absolute;left:2vw;top:2.66667vw;color:#f56c6c;font-size:3.73333vw}.glow-field--button{position:absolute;right:4vw;top:50%;transform:translateY(-50%)}.glow-field--border::after{content:\"\";display:block;position:absolute;bottom:0;height:1px;left:4vw;right:4vw;background-color:#39c5bb;transform:scaleY(0.5)}.glow-field--label{flex:0 0 26.66667vw;line-height:6.4vw;min-height:6.4vw;width:26.66667vw;word-break:break-all;position:relative;font-size:3.73333vw;color:#333}.glow-field--input,.glow-field--textarea{flex:1;overflow:hidden;display:block;font-size:3.73333vw;border:none;outline:none;line-height:6.4vw;height:6.4vw}.glow-field--input:disabled,.glow-field--textarea:disabled{background-color:#fff;color:#ccc}.glow-field--input__right,.glow-field--textarea__right{text-align:right;justify-content:flex-end;flex:1}.glow-field--input{height:6.4vw}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9599,13 +9599,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-field{min-height:9.6vw;padding:1.6vw 4vw;display:flex;position:relative;background-color:#fff;box-sizing:border-box}.glow-field:last-child::after{display:none}.glow-field--required::before{content:\"*\";position:absolute;left:2vw;top:2.66667vw;color:#f56c6c;font-size:3.73333vw}.glow-field--button{position:absolute;right:4vw;top:50%;transform:translateY(-50%)}.glow-field--border::after{content:\"\";display:block;position:absolute;bottom:0;height:1px;left:4vw;right:4vw;background-color:#39c5bb;transform:scaleY(0.5)}.glow-field--label{flex:0 0 26.66667vw;line-height:6.4vw;min-height:6.4vw;width:26.66667vw;word-break:break-all;position:relative;font-size:3.73333vw;color:#333}.glow-field--input,.glow-field--textarea{flex:1;overflow:hidden;display:block;font-size:3.73333vw;border:none;outline:none;line-height:6.4vw;height:6.4vw}.glow-field--input:disabled,.glow-field--textarea:disabled{background-color:#fff;color:#ccc}.glow-field--input__right,.glow-field--textarea__right{text-align:right;justify-content:flex-end;flex:1}.glow-field--input{height:6.4vw}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-load-more--holder{height:13.33333vw;font-size:3.73333vw;color:#909399;text-align:center;background-color:#f9f9f9}.glow-load-more--holder-text{position:relative;height:100%;display:flex;justify-content:center;align-items:center}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9640,13 +9640,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-load-more--holder{height:13.33333vw;font-size:3.73333vw;color:#909399;text-align:center;background-color:#f9f9f9}.glow-load-more--holder-text{position:relative;height:100%;display:flex;justify-content:center;align-items:center}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-pull-refresh{position:relative;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.glow-pull-refresh--track{background-color:#f9f9f9}.glow-pull-refresh--track--header{display:flex;justify-content:center;align-items:center;color:#333;font-size:3.73333vw;position:absolute;width:100%;transform:translateY(-100%);height:13.33333vw}.glow-pull-refresh--track__loading .glow-pull-refresh--track--loadingWrapper{width:6.66667vw;height:6.66667vw}.glow-pull-refresh--track--text{color:#909399}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9681,13 +9681,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-pull-refresh{position:relative;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.glow-pull-refresh--track{background-color:#f9f9f9}.glow-pull-refresh--track--header{display:flex;justify-content:center;align-items:center;color:#333;font-size:3.73333vw;position:absolute;width:100%;transform:translateY(-100%);height:13.33333vw}.glow-pull-refresh--track__loading .glow-pull-refresh--track--loadingWrapper{width:6.66667vw;height:6.66667vw}.glow-pull-refresh--track--text{color:#909399}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-loading{position:relative}.glow-loading--round,.glow-loading--round:before,.glow-loading--round:after{border-radius:50%}.glow-loading--round{color:#39c5bb;position:relative;box-shadow:inset 0 0 0 1.33333vw;transform:translateZ(0)}.glow-loading--round__before,.glow-loading--round__after{position:absolute}.glow-loading--round__before{top:-0.66667vw;left:-0.66667vw;-webkit-animation-name:round;animation-name:round;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease;animation-timing-function:ease}.glow-loading--round__after{top:-0.66667vw;right:-0.66667vw;transform-origin:0;-webkit-animation-name:round;animation-name:round;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease;animation-timing-function:ease}@-webkit-keyframes round{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes round{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.glow-loading--text{font-size:3.73333vw;color:#333;margin-top:1.33333vw;text-align:center;white-space:nowrap}.glow-loading--rect{height:100%;display:inline-block;-webkit-animation-name:stretchdelay;animation-name:stretchdelay;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;background-color:#39c5bb}@-webkit-keyframes stretchdelay{0%,40%,100%{-webkit-transform:scaleY(0.4)}20%{-webkit-transform:scaleY(1)}}@keyframes stretchdelay{0%,40%,100%{transform:scaleY(0.4);-webkit-transform:scaleY(0.4)}20%{transform:scaleY(1);-webkit-transform:scaleY(1)}}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9722,13 +9722,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-loading{position:relative}.glow-loading--round,.glow-loading--round:before,.glow-loading--round:after{border-radius:50%}.glow-loading--round{color:#39c5bb;position:relative;box-shadow:inset 0 0 0 1.33333vw;transform:translateZ(0)}.glow-loading--round__before,.glow-loading--round__after{position:absolute}.glow-loading--round__before{top:-0.66667vw;left:-0.66667vw;-webkit-animation-name:round;animation-name:round;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease;animation-timing-function:ease}.glow-loading--round__after{top:-0.66667vw;right:-0.66667vw;transform-origin:0;-webkit-animation-name:round;animation-name:round;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease;animation-timing-function:ease}@-webkit-keyframes round{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes round{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.glow-loading--text{font-size:3.73333vw;color:#333;margin-top:1.33333vw;text-align:center;white-space:nowrap}.glow-loading--rect{height:100%;display:inline-block;-webkit-animation-name:stretchdelay;animation-name:stretchdelay;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;background-color:#39c5bb}@-webkit-keyframes stretchdelay{0%,40%,100%{-webkit-transform:scaleY(0.4)}20%{-webkit-transform:scaleY(1)}}@keyframes stretchdelay{0%,40%,100%{transform:scaleY(0.4);-webkit-transform:scaleY(0.4)}20%{transform:scaleY(1);-webkit-transform:scaleY(1)}}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-radio{display:flex;align-items:center;font-size:3.73333vw;color:#333}.glow-radio--icon{height:3.73333vw;width:3.73333vw;margin-right:2vw;box-sizing:border-box;position:relative;border-radius:50%}.glow-radio--icon::after{transition:all .2s linear}.glow-radio--unselected .glow-radio--icon{border:1px solid #909399}.glow-radio--unselected .glow-radio--icon::after{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);content:\"\";width:0px;height:0px;border-radius:50%;box-sizing:border-box;background-color:#39c5bb}.glow-radio--selected{color:#39c5bb}.glow-radio--selected .glow-radio--icon{border:1px solid #39c5bb}.glow-radio--selected .glow-radio--icon::after{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);content:\"\";width:1.6vw;height:1.6vw;border-radius:50%;box-sizing:border-box;background-color:#39c5bb}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9763,13 +9763,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-radio{display:flex;align-items:center;font-size:3.73333vw;color:#333}.glow-radio--icon{height:3.73333vw;width:3.73333vw;margin-right:2vw;box-sizing:border-box;position:relative;border-radius:50%}.glow-radio--icon::after{transition:all .2s linear}.glow-radio--unselected .glow-radio--icon{border:1px solid #909399}.glow-radio--unselected .glow-radio--icon::after{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);content:\"\";width:0px;height:0px;border-radius:50%;box-sizing:border-box;background-color:#39c5bb}.glow-radio--selected{color:#39c5bb}.glow-radio--selected .glow-radio--icon{border:1px solid #39c5bb}.glow-radio--selected .glow-radio--icon::after{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);content:\"\";width:1.6vw;height:1.6vw;border-radius:50%;box-sizing:border-box;background-color:#39c5bb}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-radio-group{display:flex;flex-wrap:wrap}.glow-radio-group .glow-radio{line-height:10vw;margin-right:2.66667vw}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9804,13 +9804,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-radio-group{display:flex;flex-wrap:wrap}.glow-radio-group .glow-radio{line-height:10vw;margin-right:2.66667vw}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9845,13 +9845,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-stepper{width:23.33333vw;height:6.4vw;box-sizing:border-box;position:relative;padding:0 1.33333vw;display:flex;align-items:center;justify-content:space-between}.glow-stepper--increase,.glow-stepper--decrease{height:4.8vw;width:4.8vw;border-radius:50%;box-sizing:border-box;display:flex;justify-content:center;align-items:center;position:relative}.glow-stepper--increase i,.glow-stepper--decrease i{font-size:4.26667vw;font-weight:bold;transform:scale(0.5)}.glow-stepper--increase::before,.glow-stepper--decrease::before{width:100%;height:100%;background-color:#000;border:inherit;border-color:#000;border-radius:inherit;opacity:0;content:\" \";position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}.glow-stepper--increase:active::before,.glow-stepper--decrease:active::before{opacity:.1}.glow-stepper--increase{background-color:#39c5bb}.glow-stepper--increase i{color:#fff}.glow-stepper--decrease{border:1px solid #39c5bb}.glow-stepper--decrease i{color:#39c5bb}.glow-stepper--num{font-size:4.8vw;color:#909399;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.glow-stepper--disabled{opacity:.5}.glow-stepper--disabled .glow-stepper--increase:active::before,.glow-stepper--disabled .glow-stepper--decrease:active::before{opacity:0}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9886,13 +9886,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-stepper{width:23.33333vw;height:6.4vw;box-sizing:border-box;position:relative;padding:0 1.33333vw;display:flex;align-items:center;justify-content:space-between}.glow-stepper--increase,.glow-stepper--decrease{height:4.8vw;width:4.8vw;border-radius:50%;box-sizing:border-box;display:flex;justify-content:center;align-items:center;position:relative}.glow-stepper--increase i,.glow-stepper--decrease i{font-size:4.26667vw;font-weight:bold;transform:scale(0.5)}.glow-stepper--increase::before,.glow-stepper--decrease::before{width:100%;height:100%;background-color:#000;border:inherit;border-color:#000;border-radius:inherit;opacity:0;content:\" \";position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}.glow-stepper--increase:active::before,.glow-stepper--decrease:active::before{opacity:.1}.glow-stepper--increase{background-color:#39c5bb}.glow-stepper--increase i{color:#fff}.glow-stepper--decrease{border:1px solid #39c5bb}.glow-stepper--decrease i{color:#39c5bb}.glow-stepper--num{font-size:4.8vw;color:#909399;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.glow-stepper--disabled{opacity:.5}.glow-stepper--disabled .glow-stepper--increase:active::before,.glow-stepper--disabled .glow-stepper--decrease:active::before{opacity:0}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-swipe{position:relative;overflow:hidden;line-height:0}.glow-swipe--bottom{position:absolute;bottom:1.33333vw;display:flex;justify-content:center;left:0;right:0}.glow-swipe--indicator{background-color:#ddd;width:2.66667vw;height:2.66667vw;border-radius:50%;margin-right:1.33333vw}.glow-swipe--indicator--active{background-color:#39c5bb}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9927,13 +9927,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-swipe{position:relative;overflow:hidden;line-height:0}.glow-swipe--bottom{position:absolute;bottom:1.33333vw;display:flex;justify-content:center;left:0;right:0}.glow-swipe--indicator{background-color:#ddd;width:2.66667vw;height:2.66667vw;border-radius:50%;margin-right:1.33333vw}.glow-swipe--indicator--active{background-color:#39c5bb}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-swipe-item{height:100%}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -9968,13 +9968,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-swipe-item{height:100%}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".glow-tab{overflow:hidden}.glow-tab--label{display:flex;height:10.4vw;width:100%;position:relative;overflow-x:auto;overflow-y:hidden;background-color:#fff}.glow-tab--label::-webkit-scrollbar{display:none}.glow-tab--label--item{line-height:10.4vw;text-align:center;flex:1;flex-shrink:0;font-size:3.73333vw;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;height:100%}.glow-tab--label--item__active{font-size:4.26667vw;color:#39c5bb}.glow-tab--line{width:6.66667vw;height:0.66667vw;background-color:#39c5bb;bottom:0;position:absolute;border-radius:0.33333vw}.glow-tab--main{display:flex}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -10009,52 +10009,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
-// Module
-___CSS_LOADER_EXPORT___.push([module.i, ".glow-tab{overflow:hidden}.glow-tab--label{display:flex;height:10.4vw;width:100%;position:relative;overflow-x:auto;overflow-y:hidden;background-color:#fff}.glow-tab--label::-webkit-scrollbar{display:none}.glow-tab--label--item{line-height:10.4vw;text-align:center;flex:1;flex-shrink:0;font-size:3.73333vw;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;height:100%}.glow-tab--label--item__active{font-size:4.26667vw;color:#39c5bb}.glow-tab--line{width:6.66667vw;height:0.66667vw;background-color:#39c5bb;bottom:0;position:absolute;border-radius:0.33333vw}.glow-tab--main{display:flex}", ""]);
-// Exports
-/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-/* 57 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(1);
-            var content = __webpack_require__(58);
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-/* 58 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_1_1_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".glow-tab-panel{flex-shrink:0;width:100%;margin-top:1.33333vw}.glow-tab-panel--inactive{height:0;overflow:visible}", ""]);
 // Exports
@@ -10062,7 +10021,7 @@ ___CSS_LOADER_EXPORT___.push([module.i, ".glow-tab-panel{flex-shrink:0;width:100
 
 
 /***/ }),
-/* 59 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13054,67 +13013,67 @@ vue_runtime_esm["a" /* default */].use(vue_router_esm);
   routes: [{
     path: '/base/button',
     name: 'button',
-    component: () => __webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 99))
+    component: () => __webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 89))
   }, {
     path: '/base/cell',
     name: 'button',
-    component: () => __webpack_require__.e(/* import() */ 11).then(__webpack_require__.bind(null, 104))
+    component: () => __webpack_require__.e(/* import() */ 11).then(__webpack_require__.bind(null, 90))
   }, {
     path: '/base/navigation',
     name: 'navigation',
-    component: () => __webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, 102))
+    component: () => __webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, 91))
   }, {
     path: '/base/icon',
     name: 'icon',
-    component: () => __webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 103))
+    component: () => __webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 92))
   }, {
     path: '/base/tabbar',
     name: 'tabbar',
-    component: () => __webpack_require__.e(/* import() */ 12).then(__webpack_require__.bind(null, 91))
+    component: () => __webpack_require__.e(/* import() */ 12).then(__webpack_require__.bind(null, 93))
   }, {
     path: '/base/popup',
     name: 'popup',
-    component: () => __webpack_require__.e(/* import() */ 4).then(__webpack_require__.bind(null, 101))
+    component: () => __webpack_require__.e(/* import() */ 4).then(__webpack_require__.bind(null, 94))
   }, {
     path: '/base/tag',
     name: 'tag',
-    component: () => __webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 100))
+    component: () => __webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 95))
   }, {
     path: '/senior/field',
     name: 'field',
-    component: () => __webpack_require__.e(/* import() */ 13).then(__webpack_require__.bind(null, 98))
+    component: () => __webpack_require__.e(/* import() */ 13).then(__webpack_require__.bind(null, 96))
   }, {
     path: '/senior/stepper',
     name: 'stepper',
-    component: () => __webpack_require__.e(/* import() */ 15).then(__webpack_require__.bind(null, 105))
+    component: () => __webpack_require__.e(/* import() */ 15).then(__webpack_require__.bind(null, 97))
   }, {
     path: '/senior/pullRefresh',
     name: 'pullRefresh',
-    component: () => __webpack_require__.e(/* import() */ 9).then(__webpack_require__.bind(null, 96))
+    component: () => __webpack_require__.e(/* import() */ 9).then(__webpack_require__.bind(null, 98))
   }, {
     path: '/senior/loading',
     name: 'loading',
-    component: () => __webpack_require__.e(/* import() */ 8).then(__webpack_require__.bind(null, 95))
+    component: () => __webpack_require__.e(/* import() */ 8).then(__webpack_require__.bind(null, 99))
   }, {
     path: '/senior/radio',
     name: 'radio',
-    component: () => __webpack_require__.e(/* import() */ 14).then(__webpack_require__.bind(null, 94))
+    component: () => __webpack_require__.e(/* import() */ 14).then(__webpack_require__.bind(null, 100))
   }, {
     path: '/senior/loadMore',
     name: 'loadMore',
-    component: () => __webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(null, 93))
+    component: () => __webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(null, 101))
   }, {
     path: '/senior/swipe',
     name: 'swipe',
-    component: () => __webpack_require__.e(/* import() */ 16).then(__webpack_require__.bind(null, 92))
+    component: () => __webpack_require__.e(/* import() */ 16).then(__webpack_require__.bind(null, 102))
   }, {
     path: '/senior/tab',
     name: 'tab',
-    component: () => __webpack_require__.e(/* import() */ 10).then(__webpack_require__.bind(null, 97))
+    component: () => __webpack_require__.e(/* import() */ 10).then(__webpack_require__.bind(null, 103))
   }, {
     path: '*',
     name: 'index',
-    component: () => __webpack_require__.e(/* import() */ 6).then(__webpack_require__.bind(null, 90))
+    component: () => __webpack_require__.e(/* import() */ 6).then(__webpack_require__.bind(null, 88))
   }]
 }));
 // EXTERNAL MODULE: ./node_modules/_eruda@2.3.3@eruda/eruda.js
@@ -13129,22 +13088,22 @@ var global = __webpack_require__(11);
 
 // CONCATENATED MODULE: ./src/components/helper/util/index.js
 
-const COMPONENT_NAME = "glow";
-const COMPONENT_PREFIX = "gl";
+const COMPONENT_NAME = 'glow';
+const COMPONENT_PREFIX = 'gl';
 /**
  * 判断是否对象
  * @param {*} val 目标对象
  */
 
 function isPlainObject(val) {
-  return toString.call(val) === "[object Object]";
+  return toString.call(val) === '[object Object]';
 } // 是否定义
 
 function isDef(target) {
   return target !== undefined;
 }
 function addUnit(value) {
-  return value === 0 ? undefined : value + "" + "px";
+  return value === 0 ? undefined : value + '' + 'px';
 } // 深合并
 
 function deepMerge(...objs) {
@@ -13179,7 +13138,7 @@ function deepMerge(...objs) {
 
 const createNamespace = function (namespace) {
   function createComponent(Component) {
-    Object.defineProperty(Component, "name", {
+    Object.defineProperty(Component, 'name', {
       get() {
         return `${COMPONENT_PREFIX}-${namespace}`;
       },
@@ -13191,20 +13150,20 @@ const createNamespace = function (namespace) {
   }
 
   function bem(classes) {
-    if (typeof classes === "undefined") {
+    if (typeof classes === 'undefined') {
       return `${COMPONENT_NAME}-${namespace} `;
-    } else if (typeof classes === "string") {
+    } else if (typeof classes === 'string') {
       return `${COMPONENT_NAME}-${namespace}--${classes}`;
     } else if (Array.isArray(classes)) {
-      return classes.map(item => bem(item)).join(" ");
-    } else if (typeof classes === "object") {
+      return classes.map(item => bem(item)).join(' ');
+    } else if (typeof classes === 'object') {
       const classNames = [];
       Object.keys(classes).forEach(key => {
         classes[key] ? classNames.push(`${COMPONENT_NAME}-${namespace}--${key}`) : undefined;
       });
-      return classNames.join(" ");
+      return classNames.join(' ');
     } else {
-      console.log("error : bem can not matching");
+      console.log('error : bem can not matching');
     }
   }
 
@@ -13212,7 +13171,7 @@ const createNamespace = function (namespace) {
 };
 function mount(Component, config) {
   const instance = new vue_runtime_esm["a" /* default */]({
-    el: document.createElement("div"),
+    el: document.createElement('div'),
     props: Component.props,
     render: function render(h) {
       return h(Component, deepMerge({
@@ -13226,10 +13185,10 @@ function mount(Component, config) {
 function addTransitionEndEvent(element, callback) {
   // 浏览器检测
   const transitions = {
-    transition: "transitionend",
-    OTransition: "oTransitionEnd",
-    MozTransition: "transitionend",
-    WebkitTransition: "webkitTransitionEnd"
+    transition: 'transitionend',
+    OTransition: 'oTransitionEnd',
+    MozTransition: 'transitionend',
+    WebkitTransition: 'webkitTransitionEnd'
   };
   Object.keys(transitions).forEach(key => {
     const targetTransitionName = getComputedStyle(element)[key];
@@ -13242,11 +13201,11 @@ function addTransitionEndEvent(element, callback) {
 function addAnimateEndEvent(element, callback) {
   // 浏览器检测
   const transitions = {
-    animation: "animationend",
-    webkitAnimation: "webkitAnimationEnd",
-    oanimation: "oanimationen",
-    oAnimation: "oAnimationEnd ",
-    msAnimation: "msAnimationEnd"
+    animation: 'animationend',
+    webkitAnimation: 'webkitAnimationEnd',
+    oanimation: 'oanimationen',
+    oAnimation: 'oAnimationEnd ',
+    msAnimation: 'msAnimationEnd'
   };
   let relase;
   Object.keys(transitions).forEach(key => {
@@ -13263,7 +13222,7 @@ function addAnimateEndEvent(element, callback) {
 function getParentVNode(context, componentName) {
   if (!context.$parent) return;
 
-  if (context.$parent.$vnode.componentOptions.tag === "componentName") {
+  if (context.$parent.$vnode.componentOptions.tag === 'componentName') {
     return context.$parnet;
   } else {
     return getParentVNode(context.$parent, componentName);
@@ -13297,18 +13256,18 @@ function ra1(callback) {
 let supportPassive = false;
 
 try {
-  let opts = {};
-  Object.defineProperties(opts, "passive", {
+  const opts = {};
+  Object.defineProperties(opts, 'passive', {
     get: function get() {
       supportPassive = true;
     }
   });
-  window.addEventListener("test-passive", null, opts);
+  window.addEventListener('test-passive', null, opts);
 } catch (e) {// console.log(e);
 }
 
 function on(target, event, handler, passive) {
-  if (typeof passive === "undefined") {
+  if (typeof passive === 'undefined') {
     passive = false;
   }
 
@@ -13324,7 +13283,7 @@ function getClientRect(element) {
   return element.getBoundingClientRect();
 }
 function isScroller(element) {
-  return getComputedStyle(element).overflow === "scroll";
+  return getComputedStyle(element).overflow === 'scroll';
 }
 function traceScroller(element) {
   if (!element || element === document) return false;
@@ -13379,7 +13338,7 @@ const scrollUtil = function () {
   const removeEvent = callback => {
     const index = cache.findIndex(callback);
 
-    if (typeof index !== "undefined") {
+    if (typeof index !== 'undefined') {
       cache.splice(index, 1);
     }
   };
@@ -13411,7 +13370,7 @@ function getWindowHeight() {
 function createElement(tagName, props) {
   const element = document.createElement(tagName);
   Object.keys(props).forEach(key => {
-    if (key === "on") {
+    if (key === 'on') {
       Object.keys(props.on).forEach(event => element.addEventListener(event, props.on[event]));
     } else {
       element.setAttribute(key, props[key]);
@@ -13435,11 +13394,11 @@ function getScroller(element, outter) {
 }
 function isHidden(el) {
   const style = window.getComputedStyle(el);
-  const hidden = style.display === "none"; // 还有以下情况也视为隐藏
+  const hidden = style.display === 'none'; // 还有以下情况也视为隐藏
   // 1. 父元素display 为 noen
   // 2. 它设置了fixed
 
-  const parentHidden = el.offsetParent === null && style.position !== "fixed";
+  const parentHidden = el.offsetParent === null && style.position !== 'fixed';
   return hidden || parentHidden;
 }
 // CONCATENATED MODULE: ./src/components/helper/mixins/bind-event/index.js
@@ -13466,7 +13425,6 @@ function isHidden(el) {
     beforeDestroy: unbind
   };
 });
-;
 // EXTERNAL MODULE: ./src/components/junior/affix/index.scss
 var affix = __webpack_require__(13);
 
@@ -13477,7 +13435,7 @@ var affix = __webpack_require__(13);
 
 
 
-const _createNamespace = createNamespace("affix");
+const _createNamespace = createNamespace('affix');
 
 const [createComponent, bem] = _createNamespace;
 /* harmony default export */ var junior_affix = (createComponent({
@@ -13500,7 +13458,7 @@ const [createComponent, bem] = _createNamespace;
       this.scroller = getScroller(this.$el, true);
     }
 
-    bind(this.scroller, "scroll", this.check);
+    bind(this.scroller, 'scroll', this.check);
   })],
   methods: {
     check() {
@@ -13510,10 +13468,10 @@ const [createComponent, bem] = _createNamespace;
         const affixStyle = {};
 
         if (scrollerRect.top < 0) {
-          affixStyle.position = "fixed";
-          affixStyle.top = typeof this.top === "string" ? this.top : this.top + "px";
+          affixStyle.position = 'fixed';
+          affixStyle.top = typeof this.top === 'string' ? this.top : this.top + 'px';
           affixStyle.zIndex = 1000;
-          affixStyle.width = "100%";
+          affixStyle.width = '100%';
         }
 
         this.affixStyle = affixStyle;
@@ -13524,9 +13482,9 @@ const [createComponent, bem] = _createNamespace;
 
   render(h) {
     this.memorize = this.slot.default;
-    return h("div", {
+    return h('div', {
       class: bem()
-    }, [h("div", {
+    }, [h('div', {
       style: this.affixStyle
     }, [this.slot.default])]);
   }
@@ -13540,18 +13498,18 @@ var junior_button = __webpack_require__(15);
 
 
 
-const button_createNamespace = createNamespace("button");
+const button_createNamespace = createNamespace('button');
 
 const [button_createComponent, button_bem] = button_createNamespace;
 /* harmony default export */ var components_junior_button = (button_createComponent({
   props: {
     type: {
       type: String,
-      default: "default"
+      default: 'default'
     },
     size: {
       type: String,
-      default: "normal"
+      default: 'normal'
     },
     link: [String, Object],
     href: String,
@@ -13566,7 +13524,7 @@ const [button_createComponent, button_bem] = button_createNamespace;
     onClick(e) {
       e.stopPropagation();
       if (this.disabled) return;
-      this.$emit("click");
+      this.$emit('click');
 
       if (this.href) {
         return window.location.href = this.href;
@@ -13580,7 +13538,7 @@ const [button_createComponent, button_bem] = button_createNamespace;
   },
 
   render(h) {
-    return h("div", {
+    return h('div', {
       class: button_bem() + button_bem([this.type, this.size, {
         round: this.round,
         block: this.block,
@@ -13600,7 +13558,7 @@ var junior_icon = __webpack_require__(17);
 // CONCATENATED MODULE: ./src/components/junior/icon/index.js
 
 
-const icon_createNamespace = createNamespace("icon");
+const icon_createNamespace = createNamespace('icon');
 
 const [icon_createComponent, icon_bem] = icon_createNamespace;
 
@@ -13615,16 +13573,16 @@ const [icon_createComponent, icon_bem] = icon_createNamespace;
     const iconStyle = {};
 
     if (this.size) {
-      iconStyle.fontSize = typeof this.size === "number" ? this.size + "px" : this.size;
+      iconStyle.fontSize = typeof this.size === 'number' ? this.size + 'px' : this.size;
     }
 
     if (this.color) {
       iconStyle.color = this.color;
     }
 
-    return h("div", {
+    return h('div', {
       class: icon_bem()
-    }, [h("i", {
+    }, [h('i', {
       style: iconStyle,
       class: `glow-icon ${this.name}`
     })]);
@@ -13639,7 +13597,7 @@ var cell = __webpack_require__(19);
 
 
 
-const cell_createNamespace = createNamespace("cell");
+const cell_createNamespace = createNamespace('cell');
 
 const [cell_createComponent, cell_bem] = cell_createNamespace;
 
@@ -13662,8 +13620,8 @@ const [cell_createComponent, cell_bem] = cell_createNamespace;
     let icon;
 
     if (this.slot.icon || this.icon) {
-      icon = h("div", {
-        class: cell_bem("icon")
+      icon = h('div', {
+        class: cell_bem('icon')
       }, [this.slot.icon || h(components_junior_icon, {
         attrs: {
           name: this.icon
@@ -13671,29 +13629,29 @@ const [cell_createComponent, cell_bem] = cell_createNamespace;
       })]);
     }
 
-    const label = h("div", {
-      class: cell_bem("label")
+    const label = h('div', {
+      class: cell_bem('label')
     }, [this.label || this.slot.default]);
     const link = this.isLink ? h(components_junior_icon, {
-      class: cell_bem("link"),
+      class: cell_bem('link'),
       attrs: {
-        name: "right"
+        name: 'right'
       }
     }) : undefined;
     let meta;
 
     if (this.slot.meta || this.meta) {
-      meta = h("div", {
-        class: cell_bem("meta")
-      }, [this.slot.meta || h("span", {
-        class: cell_bem("meta") + "--text"
+      meta = h('div', {
+        class: cell_bem('meta')
+      }, [this.slot.meta || h('span', {
+        class: cell_bem('meta') + '--text'
       }, this.meta)]);
     }
 
-    const value = h("div", {
-      class: cell_bem("value")
+    const value = h('div', {
+      class: cell_bem('value')
     }, [this.slot.value || this.value, link]);
-    return h("div", {
+    return h('div', {
       class: cell_bem() + cell_bem({
         border: this.border,
         isLink: this.isLink
@@ -13711,7 +13669,7 @@ var junior_navigation = __webpack_require__(21);
 
 
 
-const navigation_createNamespace = createNamespace("navigation");
+const navigation_createNamespace = createNamespace('navigation');
 
 const [navigation_createComponent, navigation_bem] = navigation_createNamespace;
 
@@ -13722,14 +13680,14 @@ const [navigation_createComponent, navigation_bem] = navigation_createNamespace;
     more: Boolean,
     type: {
       type: String,
-      default: "default"
+      default: 'default'
     },
     fixed: Boolean
   },
   mixins: [mixins_global],
   methods: {
     onLeftIconClick() {
-      this.$emit("onLeftClick");
+      this.$emit('onLeftClick');
 
       if (this.back) {
         this.$router.go(-1);
@@ -13737,7 +13695,7 @@ const [navigation_createComponent, navigation_bem] = navigation_createNamespace;
     },
 
     onRightIconClick() {
-      this.$emit("onRightClick");
+      this.$emit('onRightClick');
     }
 
   },
@@ -13749,7 +13707,7 @@ const [navigation_createComponent, navigation_bem] = navigation_createNamespace;
     if (this.back) {
       iconNodes[0] = h(components_junior_icon, {
         props: {
-          name: "left"
+          name: 'left'
         }
       });
     }
@@ -13761,7 +13719,7 @@ const [navigation_createComponent, navigation_bem] = navigation_createNamespace;
     if (this.more) {
       rightIconNodes[0] = h(components_junior_icon, {
         props: {
-          name: "more"
+          name: 'more'
         }
       });
     }
@@ -13770,17 +13728,17 @@ const [navigation_createComponent, navigation_bem] = navigation_createNamespace;
       rightIconNodes[0] = this.slot.right;
     }
 
-    let navigation = h("div", {
+    let navigation = h('div', {
       class: navigation_bem() + navigation_bem(this.type)
-    }, [h("div", {
-      class: navigation_bem("icon"),
+    }, [h('div', {
+      class: navigation_bem('icon'),
       on: {
         click: this.onLeftIconClick
       }
-    }, iconNodes), h("div", {
-      class: navigation_bem("title")
-    }, [this.title]), h("div", {
-      class: navigation_bem("right-icon"),
+    }, iconNodes), h('div', {
+      class: navigation_bem('title')
+    }, [this.title]), h('div', {
+      class: navigation_bem('right-icon'),
       on: {
         click: this.onRightIconClick
       }
@@ -13801,7 +13759,7 @@ var overlay = __webpack_require__(23);
 
 
 
-const overlay_createNamespace = createNamespace("overlay");
+const overlay_createNamespace = createNamespace('overlay');
 
 const [overlay_createComponent, overlay_bem] = overlay_createNamespace;
 /* harmony default export */ var junior_overlay = (overlay_createComponent({
@@ -13816,7 +13774,7 @@ const [overlay_createComponent, overlay_bem] = overlay_createNamespace;
     style() {
       return {
         zIndex: this.zIndex,
-        display: this.value ? "block" : "none"
+        display: this.value ? 'block' : 'none'
       };
     }
 
@@ -13824,23 +13782,23 @@ const [overlay_createComponent, overlay_bem] = overlay_createNamespace;
   methods: {
     onClick(e) {
       e.stopPropagation();
-      this.$emit("click");
+      this.$emit('click');
     }
 
   },
 
   render(h) {
-    return h("transition", {
+    return h('transition', {
       attrs: {
-        name: "glow-overlay-fade"
+        name: 'glow-overlay-fade'
       }
-    }, [h("div", {
-      class: overlay_bem() + overlay_bem(this.value ? "active" : "unactive"),
+    }, [h('div', {
+      class: overlay_bem() + overlay_bem(this.value ? 'active' : 'unactive'),
       style: {
         zIndex: this.zIndex
       },
       directives: [{
-        name: "show",
+        name: 'show',
         value: this.value
       }],
       on: {
@@ -13860,7 +13818,7 @@ var popup = __webpack_require__(25);
 
 
 
-const popup_createNamespace = createNamespace("popup");
+const popup_createNamespace = createNamespace('popup');
 
 const [popup_createComponent, popup_bem] = popup_createNamespace;
 let zIndex = 2000;
@@ -13873,7 +13831,7 @@ let zIndex = 2000;
     },
     position: {
       type: String,
-      default: "bottom"
+      default: 'bottom'
     }
   },
   mixins: [mixins_global],
@@ -13890,7 +13848,7 @@ let zIndex = 2000;
       this.overlayInstance = mount(junior_overlay, {
         on: {
           click: () => {
-            this.$emit("input", false);
+            this.$emit('input', false);
             this.overlayInstance.value = false;
           }
         },
@@ -13928,18 +13886,18 @@ let zIndex = 2000;
   },
 
   render(h) {
-    return h("transition", {
+    return h('transition', {
       attrs: {
         name: popup_bem(this.position)
       }
-    }, [h("div", {
+    }, [h('div', {
       class: popup_bem() + popup_bem(this.position),
-      ref: "popup",
+      ref: 'popup',
       style: {
         zIndex: this.zIndex
       },
       directives: [{
-        name: "show",
+        name: 'show',
         value: this.value
       }]
     }, this.slot.default)]); // return h(
@@ -13961,7 +13919,7 @@ var tabbar = __webpack_require__(27);
 
 
 
-const tabbar_createNamespace = createNamespace("tabbar");
+const tabbar_createNamespace = createNamespace('tabbar');
 
 const [tabbar_createComponent, tabbar_bem] = tabbar_createNamespace;
 
@@ -13982,8 +13940,8 @@ const [tabbar_createComponent, tabbar_bem] = tabbar_createNamespace;
   },
   methods: {
     onChange(index) {
-      this.$emit("input", index);
-      this.$emit("change", index);
+      this.$emit('input', index);
+      this.$emit('change', index);
 
       if (this.route) {
         this.$router.push(index);
@@ -13995,7 +13953,7 @@ const [tabbar_createComponent, tabbar_bem] = tabbar_createNamespace;
   mounted() {
     if (this.bottom) {
       this.tabbarStyle = {
-        position: "fixed",
+        position: 'fixed',
         left: 0,
         bottom: 0
       };
@@ -14005,7 +13963,7 @@ const [tabbar_createComponent, tabbar_bem] = tabbar_createNamespace;
   mixins: [mixins_global],
 
   render(h) {
-    return h("div", {
+    return h('div', {
       class: tabbar_bem(),
       style: this.tabbarStyle
     }, this.slot.default);
@@ -14021,7 +13979,7 @@ var tabbar_item = __webpack_require__(29);
 
 
 
-const tabbar_item_createNamespace = createNamespace("tabbar-item");
+const tabbar_item_createNamespace = createNamespace('tabbar-item');
 
 const [tabbar_item_createComponent, tabbar_item_bem] = tabbar_item_createNamespace;
 /* harmony default export */ var junior_tabbar_item = (tabbar_item_createComponent({
@@ -14090,7 +14048,7 @@ const [tabbar_item_createComponent, tabbar_item_bem] = tabbar_item_createNamespa
       iconNodes[0] = this.$slots.icon;
     }
 
-    return h("div", {
+    return h('div', {
       class: tabbar_item_bem() + tabbar_item_bem({
         active: this.isActive
       }),
@@ -14098,10 +14056,10 @@ const [tabbar_item_createComponent, tabbar_item_bem] = tabbar_item_createNamespa
         click: this.onClick.bind(this)
       },
       style
-    }, [h("div", {
-      class: tabbar_item_bem("icon")
-    }, iconNodes), h("div", {
-      class: tabbar_item_bem("text")
+    }, [h('div', {
+      class: tabbar_item_bem('icon')
+    }, iconNodes), h('div', {
+      class: tabbar_item_bem('text')
     }, this.$slots.default)]);
   }
 
@@ -14113,7 +14071,7 @@ var tag = __webpack_require__(31);
 
 
 
-const tag_createNamespace = createNamespace("tag");
+const tag_createNamespace = createNamespace('tag');
 
 const [tag_createComponent, tag_bem] = tag_createNamespace;
 
@@ -14121,14 +14079,14 @@ const [tag_createComponent, tag_bem] = tag_createNamespace;
   props: {
     type: {
       type: String,
-      default: "default"
+      default: 'default'
     },
     color: String
   },
   mixin: [mixins_global],
 
   render(h) {
-    return h("div", {
+    return h('div', {
       class: tag_bem() + tag_bem(this.type),
       style: {
         backgroundColor: this.color
@@ -14137,108 +14095,14 @@ const [tag_createComponent, tag_bem] = tag_createNamespace;
   }
 
 }));
-// EXTERNAL MODULE: ./src/components/senior/cycle/index.scss
-var cycle = __webpack_require__(33);
-
-// CONCATENATED MODULE: ./src/components/senior/cycle/index.js
-
-
-
-const cycle_createNamespace = createNamespace("cycle");
-
-const [cycle_createComponent, cycle_bem] = cycle_createNamespace;
-
-const OUTER_COLOR = "#f05815";
-const INNER_COLOR = "#fff";
-/* harmony default export */ var senior_cycle = (cycle_createComponent({
-  props: {
-    value: {
-      type: Number,
-      default: 0
-    },
-    width: {
-      type: Number,
-      default: 45
-    },
-    max: {
-      type: Number,
-      default: 75
-    }
-  },
-
-  data() {
-    return {
-      circleWidth: cacPixel(this.width)
-    };
-  },
-
-  mounted() {
-    resize(() => {
-      this.circleWidth = cacPixel(this.width);
-    });
-  },
-
-  computed: {
-    svgProps() {
-      return {
-        width: this.circleWidth,
-        height: this.circleWidth,
-        viewbox: `0 0 ${this.circleWidth} ${this.circleWidth}`
-      };
-    },
-
-    radius() {
-      return this.circleWidth * 2 / 5;
-    },
-
-    circleProps() {
-      return {
-        cx: this.circleWidth / 2,
-        cy: this.circleWidth / 2,
-        r: this.radius,
-        "stroke-width": this.circleWidth / 10,
-        fill: "none"
-      };
-    },
-
-    dasharray() {
-      const perimeter = Math.PI * 2 * this.radius;
-      const percent = (this.value > this.max ? this.max : this.value) / 100;
-      const result = perimeter * percent + " " + perimeter * (1 - percent);
-      return result;
-    },
-
-    transform() {
-      return `matrix(0,-1,1,0,0,${this.circleWidth})`;
-    }
-
-  },
-
-  render(h) {
-    return h("svg", {
-      attrs: this.svgProps
-    }, [h("circle", {
-      attrs: { ...this.circleProps,
-        stroke: INNER_COLOR
-      }
-    }), h("circle", {
-      attrs: { ...this.circleProps,
-        stroke: OUTER_COLOR,
-        "stroke-dasharray": this.dasharray,
-        transform: this.transform
-      }
-    })]);
-  }
-
-}));
 // EXTERNAL MODULE: ./src/components/senior/field/index.scss
-var field = __webpack_require__(35);
+var field = __webpack_require__(33);
 
 // CONCATENATED MODULE: ./src/components/senior/field/index.js
 
 
 
-const field_createNamespace = createNamespace("field");
+const field_createNamespace = createNamespace('field');
 
 const [field_createComponent, field_bem] = field_createNamespace;
 
@@ -14262,9 +14126,9 @@ const [field_createComponent, field_bem] = field_createNamespace;
   methods: {
     onInput(e) {
       if (this._events.input) {
-        this.$emit("input", e.target.value);
+        this.$emit('input', e.target.value);
       } else {
-        this.$refs.inputRef.value = this.value || "";
+        this.$refs.inputRef.value = this.value || '';
       }
     }
 
@@ -14279,41 +14143,41 @@ const [field_createComponent, field_bem] = field_createNamespace;
     };
 
     if (this.password) {
-      inputProps.type = "password";
+      inputProps.type = 'password';
     }
 
-    const label = h("div", {
-      class: field_bem("label")
+    const label = h('div', {
+      class: field_bem('label')
     }, this.slot.label || this.label);
     let button;
 
     if (this.slot.button) {
-      button = h("div", {
-        class: field_bem("button")
+      button = h('div', {
+        class: field_bem('button')
       }, [this.slot.button]);
     }
 
-    return h("div", {
+    return h('div', {
       class: field_bem() + field_bem({
         border: this.border,
         required: this.required
       })
-    }, [label, h(this.textarea ? "textarea" : "input", {
-      class: field_bem([this.textarea ? "textarea" : "input", {
+    }, [label, h(this.textarea ? 'textarea' : 'input', {
+      class: field_bem([this.textarea ? 'textarea' : 'input', {
         input__right: this.alignRight
       }]),
       attrs: inputProps,
       on: {
         input: this.onInput
       },
-      ref: "inputRef"
+      ref: 'inputRef'
     }), button]);
   }
 
 }));
 // CONCATENATED MODULE: ./src/components/helper/dom/scroll.js
 function scroll_isScroller(element) {
-  return getComputedStyle(element).overflowY === "scroll";
+  return getComputedStyle(element).overflowY === 'scroll';
 }
 function scroll_traceScroller(element) {
   if (!element || element === document) return false;
@@ -14353,27 +14217,27 @@ const MIN_DISTANCE = 10;
 
 function getDirection(x, y) {
   if (x > y && x > MIN_DISTANCE) {
-    return "horizontal";
+    return 'horizontal';
   }
 
   if (y > x && y > MIN_DISTANCE) {
-    return "vertical";
+    return 'vertical';
   }
 
-  return "";
+  return '';
 }
 
 function getHorizonDirection(deltaX) {
   // if (Math.abs(deltaX) < MIN_HORIZONDISTANCE) return "";
-  return deltaX > 0 ? "right" : "left";
+  return deltaX > 0 ? 'right' : 'left';
 }
 
 /* harmony default export */ var touch = (() => {
   return {
     data() {
       return {
-        direction: "",
-        horizonDirection: "",
+        direction: '',
+        horizonDirection: '',
         deltaX: 0,
         deltaY: 0,
         offsetX: 0,
@@ -14390,8 +14254,8 @@ function getHorizonDirection(deltaX) {
       },
 
       resetTouchStatus() {
-        this.direction = "";
-        this.horizonDirection = "";
+        this.direction = '';
+        this.horizonDirection = '';
         this.deltaX = 0;
         this.deltaY = 0;
         this.offsetX = 0;
@@ -14438,7 +14302,7 @@ function getHorizonDirection(deltaX) {
   };
 });
 // EXTERNAL MODULE: ./src/components/senior/load-more/index.scss
-var load_more = __webpack_require__(37);
+var load_more = __webpack_require__(35);
 
 // CONCATENATED MODULE: ./src/components/senior/load-more/index.js
 
@@ -14448,7 +14312,7 @@ var load_more = __webpack_require__(37);
 
 
 
-const load_more_createNamespace = createNamespace("load-more");
+const load_more_createNamespace = createNamespace('load-more');
 
 const [load_more_createComponent, load_more_bem] = load_more_createNamespace;
 /* harmony default export */ var senior_load_more = (load_more_createComponent({
@@ -14459,11 +14323,11 @@ const [load_more_createComponent, load_more_bem] = load_more_createNamespace;
     },
     finishedText: {
       type: String,
-      default: "已没有更多数据"
+      default: '已没有更多数据'
     },
     valueText: {
       type: String,
-      default: "正在加载更多"
+      default: '正在加载更多'
     },
     offset: {
       type: Number,
@@ -14485,7 +14349,7 @@ const [load_more_createComponent, load_more_bem] = load_more_createNamespace;
       this.scroller = scroll_getScroller(this.$el);
     }
 
-    bind(this.scroller, "scroll", this.check);
+    bind(this.scroller, 'scroll', this.check);
   })],
 
   mounted() {
@@ -14523,11 +14387,11 @@ const [load_more_createComponent, load_more_bem] = load_more_createNamespace;
         }
 
         const placeholderRect = this.$refs.placeholder.getBoundingClientRect();
-        let isReactEdg = placeholderRect.bottom - scrollerRect.bottom < offset;
+        const isReactEdg = placeholderRect.bottom - scrollerRect.bottom < offset;
 
         if (isReactEdg) {
-          this.$emit("input", true);
-          this.$emit("load");
+          this.$emit('input', true);
+          this.$emit('load');
         }
       });
     }
@@ -14535,26 +14399,26 @@ const [load_more_createComponent, load_more_bem] = load_more_createNamespace;
   },
 
   render(h) {
-    return h("div", {
+    return h('div', {
       class: load_more_bem()
-    }, [this.$slots.default, h("div", {
-      class: load_more_bem("holder"),
+    }, [this.$slots.default, h('div', {
+      class: load_more_bem('holder'),
       direcitives: [{
-        name: "show",
+        name: 'show',
         value: this.value
       }]
-    }, [h("div", {
-      class: load_more_bem("holder-text"),
-      ref: "placeholder"
+    }, [h('div', {
+      class: load_more_bem('holder-text'),
+      ref: 'placeholder'
     }, [this.finished ? this.finishedText : this.valueText])])]);
   }
 
 }));
 // EXTERNAL MODULE: ./src/components/senior/pull-refresh/index.scss
-var pull_refresh = __webpack_require__(39);
+var pull_refresh = __webpack_require__(37);
 
 // EXTERNAL MODULE: ./src/components/senior/loading/index.scss
-var loading = __webpack_require__(41);
+var loading = __webpack_require__(39);
 
 // CONCATENATED MODULE: ./src/components/senior/loading/index.js
 // 导入组件工具
@@ -14562,7 +14426,7 @@ var loading = __webpack_require__(41);
 
  // 柯里化获取命名函数数组
 
-const loading_createNamespace = createNamespace("loading"); // 提取命名函数数组
+const loading_createNamespace = createNamespace('loading'); // 提取命名函数数组
 
 
 const [loading_createComponent, loading_bem] = loading_createNamespace;
@@ -14573,7 +14437,7 @@ const [loading_createComponent, loading_bem] = loading_createNamespace;
     // 加载样式类型
     type: {
       type: String,
-      default: "round"
+      default: 'round'
     },
     // 加载动画时间 默认2000ms
     duration: {
@@ -14590,7 +14454,7 @@ const [loading_createComponent, loading_bem] = loading_createNamespace;
     // round 类型 loading背景颜色必须与父元素的背景颜色一致 默认为 #f5f5f5
     backgroundColor: {
       type: String,
-      default: "#f5f5f5"
+      default: '#f5f5f5'
     },
     // 条状物数量 默认为 4
     barNum: {
@@ -14643,55 +14507,54 @@ const [loading_createComponent, loading_bem] = loading_createNamespace;
       color
     } = this; // 定义临时变量
 
-    let text, shape, _width, _duration; // 创建text节点
-
+    let text, shape; // 创建text节点
 
     if (isDef(title)) {
-      text = h("div", {
-        class: loading_bem("text")
+      text = h('div', {
+        class: loading_bem('text')
       }, title);
     } // 获取width
 
 
-    _width = this.width; // 获取动画duration
+    const _width = this.width; // 获取动画duration
 
-    _duration = parseInt(duration);
+    const _duration = parseInt(duration);
 
-    if (type === "round") {
+    if (type === 'round') {
       // 创建圆形加载节点
-      let _delay, _holderWidth;
+      const _delay = duration - 500 + 'ms';
 
-      _delay = duration - 500 + "ms";
-      _holderWidth = _width / 2 + 5;
-      shape = [h("div", {
-        class: loading_bem("round"),
+      const _holderWidth = _width / 2 + 5;
+
+      shape = [h('div', {
+        class: loading_bem('round'),
         style: {
-          width: _width + "px",
-          height: _width + "px",
+          width: _width + 'px',
+          height: _width + 'px',
           color
         }
-      }), h("div", {
-        class: loading_bem("round__before"),
+      }), h('div', {
+        class: loading_bem('round__before'),
         style: {
           backgroundColor,
           animationDelay: _delay,
-          animationDuration: _duration + "ms",
-          width: _holderWidth + "px",
-          height: _holderWidth * 2 + "px",
+          animationDuration: _duration + 'ms',
+          width: _holderWidth + 'px',
+          height: _holderWidth * 2 + 'px',
           borderRadius: `${_holderWidth}px 0 0 ${_holderWidth}px`,
           transformOrigin: `${_holderWidth}px ${_holderWidth}px`
         }
-      }), h("div", {
-        class: loading_bem("round__after"),
+      }), h('div', {
+        class: loading_bem('round__after'),
         style: {
           backgroundColor,
-          animationDuration: _duration + "ms",
-          width: _holderWidth + "px",
-          height: _holderWidth * 2 + "px",
+          animationDuration: _duration + 'ms',
+          width: _holderWidth + 'px',
+          height: _holderWidth * 2 + 'px',
           borderRadius: `0 ${_holderWidth}px ${_holderWidth}px 0`
         }
       })];
-    } else if (type === "bar") {
+    } else if (type === 'bar') {
       // 创建条状加载节点
       const {
         barNum,
@@ -14702,24 +14565,24 @@ const [loading_createComponent, loading_bem] = loading_createNamespace;
       const _rectTotalWidth = _width - (barNum + 1) * barDistance;
 
       for (let index = 0; index < barNum; index++) {
-        shape.push(h("div", {
-          class: loading_bem("rect"),
+        shape.push(h('div', {
+          class: loading_bem('rect'),
           style: {
             margin: index === 0 ? `0 ${barDistance}px` : `0 ${barDistance}px 0 0`,
-            width: _rectTotalWidth / barNum + "px",
-            height: _width + "px",
-            animationDuration: _duration + "ms",
-            animationDelay: -1 * _duration + index * 100 + "ms"
+            width: _rectTotalWidth / barNum + 'px',
+            height: _width + 'px',
+            animationDuration: _duration + 'ms',
+            animationDelay: -1 * _duration + index * 100 + 'ms'
           }
         }));
       }
     } // 返回渲染所需vnode
 
 
-    return h("div", {
+    return h('div', {
       class: loading_bem(),
       style: {
-        width: _width + "px"
+        width: _width + 'px'
       }
     }, [shape, text]);
   }
@@ -14741,7 +14604,7 @@ const [loading_createComponent, loading_bem] = loading_createNamespace;
 
  // 柯里化获取命名函数数组
 
-const pull_refresh_createNamespace = createNamespace("pull-refresh"); // 提取命名函数数组
+const pull_refresh_createNamespace = createNamespace('pull-refresh'); // 提取命名函数数组
 
 
 const [pull_refresh_createComponent, pull_refresh_bem] = pull_refresh_createNamespace; // 下拉中
@@ -14775,11 +14638,11 @@ const LOADING = Symbol(); // 通过数据做出相应的动作 -> 通过数据�
       this.scroller = scroll_getScroller(this.$el);
     }
 
-    bind(this.$el, "touchstart", e => {
-      document.body.style.overscrollBehaviorY = "contain";
+    bind(this.$el, 'touchstart', e => {
+      document.body.style.overscrollBehaviorY = 'contain';
       this.touchStart(e);
     });
-    bind(this.$el, "touchmove", e => {
+    bind(this.$el, 'touchmove', e => {
       if (this.status === LOADING || this.deltaY < 0 || !onTop(this.scroller)) {
         return;
       } // Please remove e.preventDefault(), because event.cancelable of touchmove is false
@@ -14791,7 +14654,7 @@ const LOADING = Symbol(); // 通过数据做出相应的动作 -> 通过数据�
 
       this.touchMove(e);
     });
-    bind(this.$el, "touchend", e => {
+    bind(this.$el, 'touchend', e => {
       this.onTouchEnd(e);
       document.body.style.overscrollBehaviorY = null;
     });
@@ -14828,7 +14691,7 @@ const LOADING = Symbol(); // 通过数据做出相应的动作 -> 通过数据�
       if (height === 0) {
         _height = 0;
       } else {
-        _height = height + "px";
+        _height = height + 'px';
       }
 
       this.trackStyle = {
@@ -14853,8 +14716,8 @@ const LOADING = Symbol(); // 通过数据做出相应的动作 -> 通过数据�
 
       this._setHeight(50);
 
-      this.$emit("input", true);
-      this.$emit("load");
+      this.$emit('input', true);
+      this.$emit('load');
     },
 
     _onRebouce() {
@@ -14876,48 +14739,48 @@ const LOADING = Symbol(); // 通过数据做出相应的动作 -> 通过数据�
   },
 
   render(h) {
-    const trackLoading = this.status === LOADING ? h("div", {
-      class: pull_refresh_bem("track--loadingWrapper")
+    const trackLoading = this.status === LOADING ? h('div', {
+      class: pull_refresh_bem('track--loadingWrapper')
     }, [h(senior_loading, {
       props: {
-        backgroundColor: "#f9f9f9",
+        backgroundColor: '#f9f9f9',
         inherit: true
       }
     })]) : h();
-    const trackText = h("div", {
-      class: pull_refresh_bem("track--text"),
+    const trackText = h('div', {
+      class: pull_refresh_bem('track--text'),
       directives: [{
-        name: "show",
+        name: 'show',
         value: this.status === PULL
       }]
-    }, "松手加载更多");
-    const header = h("div", {
-      class: pull_refresh_bem(["track--header"], {
-        "track--header__loading": this.status === LOADING
+    }, '松手加载更多');
+    const header = h('div', {
+      class: pull_refresh_bem(['track--header'], {
+        'track--header__loading': this.status === LOADING
       })
     }, [trackLoading, trackText]);
-    const track = h("div", {
-      class: pull_refresh_bem(["track"]),
+    const track = h('div', {
+      class: pull_refresh_bem(['track']),
       style: { ...this.trackStyle,
-        transitionDuration: this.onTransition ? "300ms" : null
+        transitionDuration: this.onTransition ? '300ms' : null
       }
     }, [header, this.slot.default]);
-    return h("div", {
+    return h('div', {
       class: pull_refresh_bem()
     }, [track]);
   }
 
 }));
 // EXTERNAL MODULE: ./src/components/senior/radio/index.scss
-var senior_radio = __webpack_require__(43);
+var senior_radio = __webpack_require__(41);
 
 // CONCATENATED MODULE: ./src/components/senior/radio/index.js
 
 
 
-const radio_createNamespace = createNamespace("radio");
+const radio_createNamespace = createNamespace('radio');
 
-const [radio_createComponent, radio_bem, className] = radio_createNamespace;
+const [radio_createComponent, radio_bem] = radio_createNamespace;
 
 /* harmony default export */ var components_senior_radio = (radio_createComponent({
   props: {
@@ -14932,7 +14795,7 @@ const [radio_createComponent, radio_bem, className] = radio_createNamespace;
     setup() {
       const currentIndex = this.$parent.childrenList.length;
 
-      if (typeof this.index === "undefined") {
+      if (typeof this.index === 'undefined') {
         this.index = currentIndex;
       }
 
@@ -14959,25 +14822,25 @@ const [radio_createComponent, radio_bem, className] = radio_createNamespace;
   },
 
   render(h) {
-    return h("div", {
-      class: radio_bem() + radio_bem(this.isSelect ? "selected" : "unselected"),
+    return h('div', {
+      class: radio_bem() + radio_bem(this.isSelect ? 'selected' : 'unselected'),
       on: {
         click: this.onClickHandler.bind(this)
       }
-    }, [h("div", {
-      class: radio_bem("icon")
+    }, [h('div', {
+      class: radio_bem('icon')
     }), this.$slots.default]);
   }
 
 }));
 // EXTERNAL MODULE: ./src/components/senior/radio-group/index.scss
-var radio_group = __webpack_require__(45);
+var radio_group = __webpack_require__(43);
 
 // CONCATENATED MODULE: ./src/components/senior/radio-group/index.js
 
 
 
-const radio_group_createNamespace = createNamespace("radio-group");
+const radio_group_createNamespace = createNamespace('radio-group');
 
 const [radio_group_createComponent, radio_group_bem] = radio_group_createNamespace;
 
@@ -14998,26 +14861,25 @@ const [radio_group_createComponent, radio_group_bem] = radio_group_createNamespa
   methods: {
     onChange(name) {
       if (this.value === name) return;
-      this.$emit("input", name);
+      this.$emit('input', name);
     }
 
   },
 
   render(h) {
-    return h("div", {
+    return h('div', {
       class: radio_group_bem()
     }, this.$slots.default);
   }
 
 }));
 // EXTERNAL MODULE: ./src/components/senior/search/index.scss
-var search = __webpack_require__(47);
+var search = __webpack_require__(45);
 
 // CONCATENATED MODULE: ./src/components/senior/search/index.js
 
 
-
-const search_createNamespace = createNamespace("search");
+const search_createNamespace = createNamespace('search');
 
 const [search_createComponent, search_bem] = search_createNamespace;
 
@@ -15031,25 +14893,25 @@ const [search_createComponent, search_bem] = search_createNamespace;
   methods: {},
 
   render(h) {
-    return h("div", {
+    return h('div', {
       class: search_bem()
-    }, [h("div", {
-      class: search_bem("input")
-    }, [h("input")]), h("div", {
-      class: search_bem("button")
-    }, "搜索")]);
+    }, [h('div', {
+      class: search_bem('input')
+    }, [h('input')]), h('div', {
+      class: search_bem('button')
+    }, '搜索')]);
   }
 
 }));
 // EXTERNAL MODULE: ./src/components/senior/stepper/index.scss
-var stepper = __webpack_require__(49);
+var stepper = __webpack_require__(47);
 
 // CONCATENATED MODULE: ./src/components/senior/stepper/index.js
 
 
 
 
-const stepper_createNamespace = createNamespace("stepper");
+const stepper_createNamespace = createNamespace('stepper');
 
 const [stepper_createComponent, stepper_bem] = stepper_createNamespace;
 /* harmony default export */ var senior_stepper = (stepper_createComponent({
@@ -15077,50 +14939,50 @@ const [stepper_createComponent, stepper_bem] = stepper_createNamespace;
       if (this.disabled) return;
       const result = this.value + 1;
       if (result > this.max) return;
-      this.$emit("input", this.value + 1);
+      this.$emit('input', this.value + 1);
     },
 
     onDecrease() {
       if (this.disabled) return;
       const result = this.value - 1;
       if (result < this.min) return;
-      this.$emit("input", this.value - 1);
+      this.$emit('input', this.value - 1);
     }
 
   },
 
   render(h) {
     const isShow = !isDef(this.value) || this.value !== 0 || !this.zeroHide;
-    const increase = h("div", {
-      class: stepper_bem("increase"),
+    const increase = h('div', {
+      class: stepper_bem('increase'),
       on: {
         click: this.onIncrease
       }
     }, [h(components_junior_icon, {
       props: {
-        name: "increase"
+        name: 'increase'
       }
     })]);
-    const decrease = h("div", {
-      class: stepper_bem("decrease"),
+    const decrease = h('div', {
+      class: stepper_bem('decrease'),
       style: {
-        visibility: isShow ? "visible" : "hidden"
+        visibility: isShow ? 'visible' : 'hidden'
       },
       on: {
         click: this.onDecrease
       }
     }, [h(components_junior_icon, {
       props: {
-        name: "decrease"
+        name: 'decrease'
       }
     })]);
-    const num = h("div", {
-      class: stepper_bem("num"),
+    const num = h('div', {
+      class: stepper_bem('num'),
       style: {
-        visibility: isShow ? "visible" : "hidden"
+        visibility: isShow ? 'visible' : 'hidden'
       }
     }, this.value);
-    return h("div", {
+    return h('div', {
       class: stepper_bem() + stepper_bem({
         disabled: this.disabled
       })
@@ -15147,7 +15009,7 @@ const [stepper_createComponent, stepper_bem] = stepper_createNamespace;
 
 });
 // EXTERNAL MODULE: ./src/components/senior/swipe/index.scss
-var swipe = __webpack_require__(51);
+var swipe = __webpack_require__(49);
 
 // CONCATENATED MODULE: ./src/components/senior/swipe/index.js
 
@@ -15157,7 +15019,7 @@ var swipe = __webpack_require__(51);
 
 
 
-const swipe_createNamespace = createNamespace("swipe");
+const swipe_createNamespace = createNamespace('swipe');
 
 const [swipe_createComponent, swipe_bem] = swipe_createNamespace;
 /* harmony default export */ var senior_swipe = (swipe_createComponent({
@@ -15205,8 +15067,8 @@ const [swipe_createComponent, swipe_bem] = swipe_createNamespace;
     computedStyle() {
       return {
         width: `${this.containerWidth}px`,
-        display: "flex",
-        transitionDuration: this.isSwiping ? "0ms" : `${this.duration}ms`,
+        display: 'flex',
+        transitionDuration: this.isSwiping ? '0ms' : `${this.duration}ms`,
         transform: `translateX(${this.moveX}px)`
       };
     },
@@ -15276,10 +15138,10 @@ const [swipe_createComponent, swipe_bem] = swipe_createNamespace;
     getIndicator() {
       if (!this.showIndicator) return;
       return this.swipes.map((item, index) => {
-        let isActive = index === 0 && this.active === this.count || this.active === -1 && index === this.count - 1 || this.active === index;
-        return this.$createElement("div", {
-          class: swipe_bem(["indicator", {
-            "indicator--active": isActive
+        const isActive = index === 0 && this.active === this.count || this.active === -1 && index === this.count - 1 || this.active === index;
+        return this.$createElement('div', {
+          class: swipe_bem(['indicator', {
+            'indicator--active': isActive
           }])
         });
       });
@@ -15358,7 +15220,7 @@ const [swipe_createComponent, swipe_bem] = swipe_createNamespace;
         this.moveX = this.originalTranslateX;
       } else {
         ra2(() => {
-          this.horizonDirection === "left" ? this.next() : this.pre();
+          this.horizonDirection === 'left' ? this.next() : this.pre();
         });
       }
 
@@ -15389,12 +15251,12 @@ const [swipe_createComponent, swipe_bem] = swipe_createNamespace;
 
   },
   mixins: [touch(), viewport, bind_event(function (bind) {
-    bind(this.$el, "touchstart", this.touchStart);
-    bind(this.$el, "touchmove", this.touchMove);
-    bind(this.$el, "touchend", this.touchEnd);
-    bind(this.$el, "touchstart", this.onTouchStart);
-    bind(this.$el, "touchmove", this.onTouchMove);
-    bind(this.$el, "touchend", this.onTouchEnd);
+    bind(this.$el, 'touchstart', this.touchStart);
+    bind(this.$el, 'touchmove', this.touchMove);
+    bind(this.$el, 'touchend', this.touchEnd);
+    bind(this.$el, 'touchstart', this.onTouchStart);
+    bind(this.$el, 'touchmove', this.onTouchMove);
+    bind(this.$el, 'touchend', this.onTouchEnd);
   })],
   watch: {
     count() {
@@ -15412,24 +15274,24 @@ const [swipe_createComponent, swipe_bem] = swipe_createNamespace;
   },
 
   render(h) {
-    return h("div", {
+    return h('div', {
       class: swipe_bem()
-    }, [h("div", {
-      class: swipe_bem("content"),
+    }, [h('div', {
+      class: swipe_bem('content'),
       style: this.computedStyle
-    }, this.$slots.default), h("div", {
-      class: swipe_bem("bottom")
+    }, this.$slots.default), h('div', {
+      class: swipe_bem('bottom')
     }, this.getIndicator())]);
   }
 
 }));
 // EXTERNAL MODULE: ./src/components/senior/swipe-item/index.scss
-var swipe_item = __webpack_require__(53);
+var swipe_item = __webpack_require__(51);
 
 // CONCATENATED MODULE: ./src/components/senior/swipe-item/index.js
 
 
-const swipe_item_createNamespace = createNamespace("swipe-item");
+const swipe_item_createNamespace = createNamespace('swipe-item');
 
 const [swipe_item_createComponent, swipe_item_bem] = swipe_item_createNamespace;
 
@@ -15447,7 +15309,7 @@ const [swipe_item_createComponent, swipe_item_bem] = swipe_item_createNamespace;
   computed: {
     computedStyle() {
       return {
-        width: this.$parent.clientWidth + "px",
+        width: this.$parent.clientWidth + 'px',
         transform: `translateX(${this.offset}px)`
       };
     }
@@ -15459,7 +15321,7 @@ const [swipe_item_createComponent, swipe_item_bem] = swipe_item_createNamespace;
   },
 
   render(h) {
-    return h("div", {
+    return h('div', {
       class: swipe_item_bem(),
       style: this.computedStyle
     }, this.$slots.default);
@@ -15467,7 +15329,7 @@ const [swipe_item_createComponent, swipe_item_bem] = swipe_item_createNamespace;
 
 }));
 // EXTERNAL MODULE: ./src/components/senior/tab/index.scss
-var tab = __webpack_require__(55);
+var tab = __webpack_require__(53);
 
 // CONCATENATED MODULE: ./src/components/senior/tab/index.js
 
@@ -15476,7 +15338,7 @@ var tab = __webpack_require__(55);
 
 
 
-const tab_createNamespace = createNamespace("tab");
+const tab_createNamespace = createNamespace('tab');
 
 const [tab_createComponent, tab_bem] = tab_createNamespace;
 /* harmony default export */ var senior_tab = (tab_createComponent({
@@ -15531,9 +15393,9 @@ const [tab_createComponent, tab_bem] = tab_createNamespace;
   },
   mixins: [touch(), bind_event(function (bind) {
     if (this.touchable) {
-      bind(window, "touchstart", this.touchStart);
-      bind(window, "touchmove", this.touchMove);
-      bind(window, "touchend", this.touchEnd);
+      bind(window, 'touchstart', this.touchStart);
+      bind(window, 'touchmove', this.touchMove);
+      bind(window, 'touchend', this.touchEnd);
     }
 
     if (this.fixed) {
@@ -15541,7 +15403,7 @@ const [tab_createComponent, tab_bem] = tab_createNamespace;
         this.scroller = getScroller(this.$el);
       }
 
-      bind(this.scroller, "scroll", this.check);
+      bind(this.scroller, 'scroll', this.check);
     }
   })],
   methods: {
@@ -15552,12 +15414,12 @@ const [tab_createComponent, tab_bem] = tab_createNamespace;
         const wrapStyle = {};
 
         if (scrollerRect.top < 0) {
-          wrapStyle.position = "fixed";
+          wrapStyle.position = 'fixed';
           wrapStyle.top = 0;
           wrapStyle.zIndex = 1000;
         }
 
-        wrapStyle.overflowX = this.touchable ? "hidden" : "scroll";
+        wrapStyle.overflowX = this.touchable ? 'hidden' : 'scroll';
         this.wrapStyle = wrapStyle;
       });
     },
@@ -15599,15 +15461,15 @@ const [tab_createComponent, tab_bem] = tab_createNamespace;
       return this.childrenNodes.map((node, index) => {
         const _name = node.name || index,
               isActive = this.value === _name,
-              _vnode = _h("div", {
-          class: tab_bem(["label--item", {
-            "label--item__active": isActive
+              _vnode = _h('div', {
+          class: tab_bem(['label--item', {
+            'label--item__active': isActive
           }]),
           style: this.labelStyle,
           on: {
             click: e => {
               e.stopPropagation();
-              this.$emit("input", _name);
+              this.$emit('input', _name);
             }
           }
         }, node.title);
@@ -15647,7 +15509,7 @@ const [tab_createComponent, tab_bem] = tab_createNamespace;
 
     setup() {
       if (this.scrollspy && this.count > this.scrollNum) {
-        this.labelStyle.flexBasis = "22%";
+        this.labelStyle.flexBasis = '22%';
       }
 
       ra2(() => {
@@ -15670,12 +15532,12 @@ const [tab_createComponent, tab_bem] = tab_createNamespace;
       if (!this.touchable) return;
 
       if (this.offsetX > 20) {
-        if (val === "left") {
+        if (val === 'left') {
           if (this.active === this.count - 1) return;
-          this.$emit("input", this.childrenNodes[this.active + 1].index);
-        } else if (val === "right") {
+          this.$emit('input', this.childrenNodes[this.active + 1].index);
+        } else if (val === 'right') {
           if (this.active === 0) return;
-          this.$emit("input", this.childrenNodes[this.active - 1].index);
+          this.$emit('input', this.childrenNodes[this.active - 1].index);
         }
       }
     },
@@ -15699,31 +15561,31 @@ const [tab_createComponent, tab_bem] = tab_createNamespace;
 
   render(h) {
     const labels = this.getLabels();
-    const tabLine = h("div", {
-      class: tab_bem("line"),
+    const tabLine = h('div', {
+      class: tab_bem('line'),
       style: this.lineStyle
     });
-    return h("div", {
+    return h('div', {
       class: tab_bem()
-    }, [h("div", {
-      class: tab_bem("label"),
-      ref: "labelList",
+    }, [h('div', {
+      class: tab_bem('label'),
+      ref: 'labelList',
       style: this.wrapStyle
-    }, [labels, tabLine]), h("div", {
-      class: tab_bem("main"),
+    }, [labels, tabLine]), h('div', {
+      class: tab_bem('main'),
       style: this.mainStyle
     }, this.$slots.default)]);
   }
 
 }));
 // EXTERNAL MODULE: ./src/components/senior/tab-panel/index.scss
-var tab_panel = __webpack_require__(57);
+var tab_panel = __webpack_require__(55);
 
 // CONCATENATED MODULE: ./src/components/senior/tab-panel/index.js
 
 
 
-const tab_panel_createNamespace = createNamespace("tab-panel");
+const tab_panel_createNamespace = createNamespace('tab-panel');
 
 const [tab_panel_createComponent, tab_panel_bem] = tab_panel_createNamespace;
 /* harmony default export */ var senior_tab_panel = (tab_panel_createComponent({
@@ -15760,7 +15622,7 @@ const [tab_panel_createComponent, tab_panel_bem] = tab_panel_createNamespace;
   render(h) {
     const shouldRender = this.inited || !this.$parent.lazyRender;
     const Content = shouldRender ? this.$slots.default : h();
-    return h("div", {
+    return h('div', {
       class: tab_panel_bem() + tab_panel_bem({
         inactive: !this.isActive
       })
@@ -15769,7 +15631,6 @@ const [tab_panel_createComponent, tab_panel_bem] = tab_panel_createNamespace;
 
 }));
 // CONCATENATED MODULE: ./src/components/index.js
-
 
 
 
@@ -15793,10 +15654,10 @@ const [tab_panel_createComponent, tab_panel_bem] = tab_panel_createNamespace;
 
 
 
-const version = "0.0.0";
+const version = '0.0.0';
 
 function components_install(Vue) {
-  const components = [junior_affix, components_junior_button, junior_cell, components_junior_icon, components_junior_navigation, junior_overlay, junior_popup, junior_tabbar, junior_tabbar_item, junior_tag, senior_cycle, senior_field, senior_load_more, // Loading,
+  const components = [junior_affix, components_junior_button, junior_cell, components_junior_icon, components_junior_navigation, junior_overlay, junior_popup, junior_tabbar, junior_tabbar_item, junior_tag, senior_field, senior_load_more, // Loading,
   senior_pull_refresh, components_senior_radio, senior_radio_group, senior_search, senior_stepper, senior_swipe, senior_swipe_item, senior_tab, senior_tab_panel, senior_loading];
   components.forEach(function (item) {
     if (item.install) {

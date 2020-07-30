@@ -1,8 +1,8 @@
-import globalMixin from "../../helper/mixins/global";
-import { createNamespace } from "../../helper/util";
-const _createNamespace = createNamespace("field");
-const [createComponent, bem] = _createNamespace;
-import "./index.scss";
+import globalMixin from '../../helper/mixins/global'
+import { createNamespace } from '../../helper/util'
+const _createNamespace = createNamespace('field')
+const [createComponent, bem] = _createNamespace
+import './index.scss'
 
 export default createComponent({
   props: {
@@ -17,15 +17,15 @@ export default createComponent({
   },
   computed: {
     placeholder() {
-      return `请输入${this.label}`;
+      return `请输入${this.label}`
     }
   },
   methods: {
     onInput(e) {
       if (this._events.input) {
-        this.$emit("input", e.target.value);
+        this.$emit('input', e.target.value)
       } else {
-        this.$refs.inputRef.value = this.value || "";
+        this.$refs.inputRef.value = this.value || ''
       }
     }
   },
@@ -35,31 +35,31 @@ export default createComponent({
       placeholder: this.placeholder,
       value: this.value,
       disabled: this.disabled
-    };
+    }
     if (this.password) {
-      inputProps.type = "password";
+      inputProps.type = 'password'
     }
     const label = h(
-      "div",
+      'div',
       {
-        class: bem("label")
+        class: bem('label')
       },
       this.slot.label || this.label
-    );
+    )
 
-    let button;
+    let button
     if (this.slot.button) {
       button = h(
-        "div",
+        'div',
         {
-          class: bem("button")
+          class: bem('button')
         },
         [this.slot.button]
-      );
+      )
     }
 
     return h(
-      "div",
+      'div',
       {
         class:
           bem() +
@@ -70,9 +70,9 @@ export default createComponent({
       },
       [
         label,
-        h(this.textarea ? "textarea" : "input", {
+        h(this.textarea ? 'textarea' : 'input', {
           class: bem([
-            this.textarea ? "textarea" : "input",
+            this.textarea ? 'textarea' : 'input',
             {
               input__right: this.alignRight
             }
@@ -81,10 +81,10 @@ export default createComponent({
           on: {
             input: this.onInput
           },
-          ref: "inputRef"
+          ref: 'inputRef'
         }),
         button
       ]
-    );
+    )
   }
-});
+})

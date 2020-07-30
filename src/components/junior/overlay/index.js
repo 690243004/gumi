@@ -1,7 +1,7 @@
-import { createNamespace } from "../../helper/util";
-import "./index.scss";
-const _createNamespace = createNamespace("overlay");
-const [createComponent, bem] = _createNamespace;
+import { createNamespace } from '../../helper/util'
+import './index.scss'
+const _createNamespace = createNamespace('overlay')
+const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
@@ -15,33 +15,33 @@ export default createComponent({
     style() {
       return {
         zIndex: this.zIndex,
-        display: this.value ? "block" : "none"
-      };
+        display: this.value ? 'block' : 'none'
+      }
     }
   },
   methods: {
     onClick(e) {
-      e.stopPropagation();
-      this.$emit("click");
+      e.stopPropagation()
+      this.$emit('click')
     }
   },
   render(h) {
     return h(
-      "transition",
+      'transition',
       {
         attrs: {
-          name: "glow-overlay-fade"
+          name: 'glow-overlay-fade'
         }
       },
       [
-        h("div", {
-          class: bem() + bem(this.value ? "active" : "unactive"),
+        h('div', {
+          class: bem() + bem(this.value ? 'active' : 'unactive'),
           style: {
             zIndex: this.zIndex
           },
           directives: [
             {
-              name: "show",
+              name: 'show',
               value: this.value
             }
           ],
@@ -50,6 +50,6 @@ export default createComponent({
           }
         })
       ]
-    );
+    )
   }
-});
+})

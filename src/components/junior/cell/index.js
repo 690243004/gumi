@@ -1,9 +1,9 @@
-import globalMixin from "../../helper/mixins/global";
-import { createNamespace } from "../../helper/util";
-import Icon from "../icon";
-const _createNamespace = createNamespace("cell");
-const [createComponent, bem] = _createNamespace;
-import "./index.scss";
+import globalMixin from '../../helper/mixins/global'
+import { createNamespace } from '../../helper/util'
+import Icon from '../icon'
+const _createNamespace = createNamespace('cell')
+const [createComponent, bem] = _createNamespace
+import './index.scss'
 
 export default createComponent({
   props: {
@@ -20,12 +20,12 @@ export default createComponent({
   mixins: [globalMixin],
   render(h) {
     // slot better then props
-    let icon;
+    let icon
     if (this.slot.icon || this.icon) {
       icon = h(
-        "div",
+        'div',
         {
-          class: bem("icon")
+          class: bem('icon')
         },
         [
           this.slot.icon ||
@@ -33,56 +33,56 @@ export default createComponent({
               attrs: { name: this.icon }
             })
         ]
-      );
+      )
     }
 
     const label = h(
-      "div",
+      'div',
       {
-        class: bem("label")
+        class: bem('label')
       },
       [this.label || this.slot.default]
-    );
+    )
 
     const link = this.isLink
       ? h(Icon, {
-          class: bem("link"),
+          class: bem('link'),
           attrs: {
-            name: "right"
+            name: 'right'
           }
         })
-      : undefined;
+      : undefined
 
-    let meta;
+    let meta
     if (this.slot.meta || this.meta) {
       meta = h(
-        "div",
+        'div',
         {
-          class: bem("meta")
+          class: bem('meta')
         },
         [
           this.slot.meta ||
             h(
-              "span",
+              'span',
               {
-                class: bem("meta") + "--text"
+                class: bem('meta') + '--text'
               },
               this.meta
             )
         ]
-      );
+      )
     }
 
     const value = h(
-      "div",
+      'div',
       {
-        class: bem("value")
+        class: bem('value')
       },
       [this.slot.value || this.value, link]
-    );
+    )
 
     return h(
-      "div",
+      'div',
       {
         class:
           bem() +
@@ -92,6 +92,6 @@ export default createComponent({
           })
       },
       [icon, label, value, meta]
-    );
+    )
   }
-});
+})

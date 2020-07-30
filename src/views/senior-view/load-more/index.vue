@@ -2,15 +2,9 @@
   <div class="component-view">
     <gl-navigation back type="primary" title="加载更多"></gl-navigation>
     <gl-load-more @load="onLoad" v-model="loading" :finished="finished">
-      <div
-        class="load-more-content-item"
-        v-for="(item, index) in array"
-        :key="index"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae
-        rerum illo tempora quas placeat sunt aliquam provident, deserunt cum
-        optio consequatur nulla tenetur libero voluptatibus ipsa accusantium
-        nemo explicabo!
+      <div class="load-more-content-item" v-for="(item, index) in array" :key="index">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae rerum illo tempora quas placeat sunt aliquam
+        provident, deserunt cum optio consequatur nulla tenetur libero voluptatibus ipsa accusantium nemo explicabo!
       </div>
     </gl-load-more>
   </div>
@@ -23,39 +17,39 @@ export default {
       array: [],
       loading: false,
       finished: false
-    };
+    }
   },
   methods: {
     onPullRefresh() {
       setTimeout(() => {
-        this.setup();
-        this.pullLoading = false;
-        this.finished = false;
-      }, 2000);
+        this.setup()
+        this.pullLoading = false
+        this.finished = false
+      }, 2000)
     },
     setup() {
-      this.array = [];
+      this.array = []
       for (let index = 1; index <= 12; index++) {
-        this.array.push(index);
+        this.array.push(index)
       }
     },
     onLoad() {
       setTimeout(() => {
         if (this.array.length >= 30) {
-          return (this.finished = true);
+          return (this.finished = true)
         }
-        let lastItem = this.array[this.array.length - 1];
+        const lastItem = this.array[this.array.length - 1]
         for (let index = 1; index <= 12; index++) {
-          this.array.push(lastItem + index);
+          this.array.push(lastItem + index)
         }
-        this.loading = false;
-      }, 1000);
+        this.loading = false
+      }, 1000)
     }
   },
   mounted() {
-    this.setup();
+    this.setup()
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

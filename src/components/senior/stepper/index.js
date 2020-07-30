@@ -1,8 +1,8 @@
-import { createNamespace, isDef } from "../../helper/util";
-import Icon from "../../junior/icon";
-import "./index.scss";
-const _createNamespace = createNamespace("stepper");
-const [createComponent, bem] = _createNamespace;
+import { createNamespace, isDef } from '../../helper/util'
+import Icon from '../../junior/icon'
+import './index.scss'
+const _createNamespace = createNamespace('stepper')
+const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
@@ -26,24 +26,24 @@ export default createComponent({
   },
   methods: {
     onIncrease() {
-      if (this.disabled) return;
-      const result = this.value + 1;
-      if (result > this.max) return;
-      this.$emit("input", this.value + 1);
+      if (this.disabled) return
+      const result = this.value + 1
+      if (result > this.max) return
+      this.$emit('input', this.value + 1)
     },
     onDecrease() {
-      if (this.disabled) return;
-      const result = this.value - 1;
-      if (result < this.min) return;
-      this.$emit("input", this.value - 1);
+      if (this.disabled) return
+      const result = this.value - 1
+      if (result < this.min) return
+      this.$emit('input', this.value - 1)
     }
   },
   render(h) {
-    const isShow = !isDef(this.value) || this.value !== 0 || !this.zeroHide;
+    const isShow = !isDef(this.value) || this.value !== 0 || !this.zeroHide
     const increase = h(
-      "div",
+      'div',
       {
-        class: bem("increase"),
+        class: bem('increase'),
         on: {
           click: this.onIncrease
         }
@@ -51,18 +51,18 @@ export default createComponent({
       [
         h(Icon, {
           props: {
-            name: "increase"
+            name: 'increase'
           }
         })
       ]
-    );
+    )
 
     const decrease = h(
-      "div",
+      'div',
       {
-        class: bem("decrease"),
+        class: bem('decrease'),
         style: {
-          visibility: isShow ? "visible" : "hidden"
+          visibility: isShow ? 'visible' : 'hidden'
         },
         on: {
           click: this.onDecrease
@@ -71,23 +71,23 @@ export default createComponent({
       [
         h(Icon, {
           props: {
-            name: "decrease"
+            name: 'decrease'
           }
         })
       ]
-    );
+    )
     const num = h(
-      "div",
+      'div',
       {
-        class: bem("num"),
+        class: bem('num'),
         style: {
-          visibility: isShow ? "visible" : "hidden"
+          visibility: isShow ? 'visible' : 'hidden'
         }
       },
       this.value
-    );
+    )
     return h(
-      "div",
+      'div',
       {
         class:
           bem() +
@@ -96,6 +96,6 @@ export default createComponent({
           })
       },
       [decrease, num, increase]
-    );
+    )
   }
-});
+})

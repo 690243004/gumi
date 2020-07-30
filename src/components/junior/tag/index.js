@@ -1,20 +1,20 @@
-import globalMixin from "../../helper/mixins/global";
-import { createNamespace } from "../../helper/util";
-const _createNamespace = createNamespace("tag");
-const [createComponent, bem] = _createNamespace;
-import "./index.scss";
+import globalMixin from '../../helper/mixins/global'
+import { createNamespace } from '../../helper/util'
+const _createNamespace = createNamespace('tag')
+const [createComponent, bem] = _createNamespace
+import './index.scss'
 export default createComponent({
   props: {
     type: {
       type: String,
-      default: "default"
+      default: 'default'
     },
     color: String
   },
   mixin: [globalMixin],
   render(h) {
     return h(
-      "div",
+      'div',
       {
         class: bem() + bem(this.type),
         style: {
@@ -22,6 +22,6 @@ export default createComponent({
         }
       },
       this.$slots.default
-    );
+    )
   }
-});
+})

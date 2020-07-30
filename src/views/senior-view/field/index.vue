@@ -33,10 +33,10 @@
 export default {
   data() {
     return {
-      remark: ""
-    };
+      remark: ''
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped></style>

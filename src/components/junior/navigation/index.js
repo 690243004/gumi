@@ -1,10 +1,10 @@
-import globalMixin from "../../helper/mixins/global";
-import { createNamespace } from "../../helper/util";
-import Affix from "../affix";
-import Icon from "../icon";
-const _createNamespace = createNamespace("navigation");
-const [createComponent, bem] = _createNamespace;
-import "./index.scss";
+import globalMixin from '../../helper/mixins/global'
+import { createNamespace } from '../../helper/util'
+import Affix from '../affix'
+import Icon from '../icon'
+const _createNamespace = createNamespace('navigation')
+const [createComponent, bem] = _createNamespace
+import './index.scss'
 export default createComponent({
   props: {
     title: String,
@@ -12,56 +12,56 @@ export default createComponent({
     more: Boolean,
     type: {
       type: String,
-      default: "default"
+      default: 'default'
     },
     fixed: Boolean
   },
   mixins: [globalMixin],
   methods: {
     onLeftIconClick() {
-      this.$emit("onLeftClick");
+      this.$emit('onLeftClick')
       if (this.back) {
-        this.$router.go(-1);
+        this.$router.go(-1)
       }
     },
     onRightIconClick() {
-      this.$emit("onRightClick");
+      this.$emit('onRightClick')
     }
   },
   render(h) {
-    const iconNodes = [];
-    const rightIconNodes = [];
+    const iconNodes = []
+    const rightIconNodes = []
     if (this.back) {
       iconNodes[0] = h(Icon, {
         props: {
-          name: "left"
+          name: 'left'
         }
-      });
+      })
     }
     if (this.slot.icon) {
-      iconNodes[0] = this.slot.icon;
+      iconNodes[0] = this.slot.icon
     }
     if (this.more) {
       rightIconNodes[0] = h(Icon, {
         props: {
-          name: "more"
+          name: 'more'
         }
-      });
+      })
     }
     if (this.slot.right) {
-      rightIconNodes[0] = this.slot.right;
+      rightIconNodes[0] = this.slot.right
     }
 
     let navigation = h(
-      "div",
+      'div',
       {
         class: bem() + bem(this.type)
       },
       [
         h(
-          "div",
+          'div',
           {
-            class: bem("icon"),
+            class: bem('icon'),
             on: {
               click: this.onLeftIconClick
             }
@@ -69,16 +69,16 @@ export default createComponent({
           iconNodes
         ),
         h(
-          "div",
+          'div',
           {
-            class: bem("title")
+            class: bem('title')
           },
           [this.title]
         ),
         h(
-          "div",
+          'div',
           {
-            class: bem("right-icon"),
+            class: bem('right-icon'),
             on: {
               click: this.onRightIconClick
             }
@@ -86,12 +86,12 @@ export default createComponent({
           rightIconNodes
         )
       ]
-    );
+    )
 
     if (this.fixed) {
-      navigation = h(Affix, {}, [navigation]);
+      navigation = h(Affix, {}, [navigation])
     }
 
-    return navigation;
+    return navigation
   }
-});
+})

@@ -26,12 +26,12 @@
       <div class="component-display--title">固钉</div>
     </div>
     <gl-navigation fixed back type="primary" title="使用固钉"> </gl-navigation>
-    <div class="component-display" style="height : 1000px"></div>
+    <div class="component-display" style="height: 1000px;"></div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss" scoped>

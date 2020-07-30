@@ -1,17 +1,17 @@
-import { on, off } from "../../dom";
+import { on, off } from '../../dom'
 
-export default function(handler) {
+export default function (handler) {
   function bind() {
     if (!this.binded) {
-      handler.call(this, on, true);
-      this.binded = true;
+      handler.call(this, on, true)
+      this.binded = true
     }
   }
 
   function unbind() {
     if (this.binded) {
-      handler.call(this, off, false);
-      this.binded = false;
+      handler.call(this, off, false)
+      this.binded = false
     }
   }
 
@@ -20,5 +20,5 @@ export default function(handler) {
     activated: bind,
     deactivated: unbind,
     beforeDestroy: unbind
-  };
-};
+  }
+}

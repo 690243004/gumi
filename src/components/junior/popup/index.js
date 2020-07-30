@@ -1,13 +1,13 @@
-import globalMixin from "../../helper/mixins/global";
-import { createNamespace, addAnimateEndEvent } from "../../helper/util";
-import { mount } from "../../helper/util";
-import Overlay from "../overlay";
-import "./index.scss";
+import globalMixin from '../../helper/mixins/global'
+import { createNamespace } from '../../helper/util'
+import { mount } from '../../helper/util'
+import Overlay from '../overlay'
+import './index.scss'
 
-const _createNamespace = createNamespace("popup");
-const [createComponent, bem] = _createNamespace;
+const _createNamespace = createNamespace('popup')
+const [createComponent, bem] = _createNamespace
 
-let zIndex = 2000;
+let zIndex = 2000
 export default createComponent({
   props: {
     value: Boolean,
@@ -17,53 +17,53 @@ export default createComponent({
     },
     position: {
       type: String,
-      default: "bottom"
+      default: 'bottom'
     }
   },
   mixins: [globalMixin],
   data() {
     return {
       zIndex
-    };
+    }
   },
   methods: {
     mountOverlay() {
-      if (this.overlayInstance) return;
+      if (this.overlayInstance) return
       this.overlayInstance = mount(Overlay, {
         on: {
           click: () => {
-            this.$emit("input", false);
-            this.overlayInstance.value = false;
+            this.$emit('input', false)
+            this.overlayInstance.value = false
           }
         },
         props: {
           zIndex: 100
         }
-      });
+      })
     },
     removeOverlay() {
-      const el = this.overlayInstance.$el;
-      el.parentNode.removeChild(el);
+      const el = this.overlayInstance.$el
+      el.parentNode.removeChild(el)
     },
     updateOverlay() {
-      this.overlayInstance.value = this.value;
+      this.overlayInstance.value = this.value
     },
     setup() {
-      zIndex++;
+      zIndex++
     }
   },
   mounted() {
-    this.mountOverlay();
-    this.setup();
+    this.mountOverlay()
+    this.setup()
   },
   watch: {
     value() {
-      this.updateOverlay();
+      this.updateOverlay()
     }
   },
   render(h) {
     return h(
-      "transition",
+      'transition',
       {
         attrs: {
           name: bem(this.position)
@@ -71,16 +71,16 @@ export default createComponent({
       },
       [
         h(
-          "div",
+          'div',
           {
             class: bem() + bem(this.position),
-            ref: "popup",
+            ref: 'popup',
             style: {
               zIndex: this.zIndex
             },
             directives: [
               {
-                name: "show",
+                name: 'show',
                 value: this.value
               }
             ]
@@ -88,7 +88,7 @@ export default createComponent({
           this.slot.default
         )
       ]
-    );
+    )
     // return h(
     //   "div",
     //   {
@@ -99,4 +99,4 @@ export default createComponent({
     //   this.$slots.default
     // );
   }
-});
+})

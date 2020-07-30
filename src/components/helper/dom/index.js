@@ -1,30 +1,30 @@
 export function ra2(callback) {
-  requestAnimationFrame(() => requestAnimationFrame(callback));
+  requestAnimationFrame(() => requestAnimationFrame(callback))
 }
 
 export function ra1(callback) {
-  requestAnimationFrame(callback);
+  requestAnimationFrame(callback)
 }
 
 // 测试浏览器是否支持passive属性
 
-export let supportPassive = false;
+export let supportPassive = false
 
 try {
-  let opts = {};
-  Object.defineProperties(opts, "passive", {
+  const opts = {}
+  Object.defineProperties(opts, 'passive', {
     get: function get() {
-      supportPassive = true;
+      supportPassive = true
     }
-  });
-  window.addEventListener("test-passive", null, opts);
+  })
+  window.addEventListener('test-passive', null, opts)
 } catch (e) {
   // console.log(e);
 }
 
 export function on(target, event, handler, passive) {
-  if (typeof passive === "undefined") {
-    passive = false;
+  if (typeof passive === 'undefined') {
+    passive = false
   }
   target.addEventListener(
     event,
@@ -35,140 +35,130 @@ export function on(target, event, handler, passive) {
           passive: passive
         }
       : false
-  );
+  )
 }
 
 export function off(target, event, handler) {
-  target.removeEventListener(event, handler);
+  target.removeEventListener(event, handler)
 }
 
 export function getClientRect(element) {
-  return element.getBoundingClientRect();
+  return element.getBoundingClientRect()
 }
 
 export function isScroller(element) {
-  return getComputedStyle(element).overflow === "scroll";
+  return getComputedStyle(element).overflow === 'scroll'
 }
 
 export function traceScroller(element) {
-  if (!element || element === document) return false;
-  if (isScroller(element)) return element;
-  return traceScroller(element.parentNode);
+  if (!element || element === document) return false
+  if (isScroller(element)) return element
+  return traceScroller(element.parentNode)
 }
 
 // 广度优先搜索
 export function bfsScroller(element) {
-  const queue = [];
-  queue.push(element);
+  const queue = []
+  queue.push(element)
   while (queue.length > 0) {
-    const cNode = queue.shift();
-    const children = Array.from(cNode.childNodes).filter(
-      item => item.nodeType === 1
-    );
+    const cNode = queue.shift()
+    const children = Array.from(cNode.childNodes).filter((item) => item.nodeType === 1)
     if (children && children.length > 0) {
-      queue.push(...children);
+      queue.push(...children)
     }
     if (isScroller(cNode)) {
-      return cNode;
+      return cNode
     }
   }
 }
 
 export function hasScrollbar() {
-  return (
-    getScrollHeight() >
-    (window.innerHeight || document.documentElement.clientHeight)
-  );
+  return getScrollHeight() > (window.innerHeight || document.documentElement.clientHeight)
 }
 
 export function cacPixel(value) {
-  return (value * document.documentElement.clientWidth) / 750;
+  return (value * document.documentElement.clientWidth) / 750
 }
 
 export function resize(callback) {
-  const _resize = window.onresize;
+  const _resize = window.onresize
   window.onresize = _resize
     ? () => {
-        _resize();
-        callback();
+        _resize()
+        callback()
       }
-    : callback;
+    : callback
 }
 
-export const scrollUtil = (function() {
-  const cache = [];
-  const addEvent = callback => {
+export const scrollUtil = (function () {
+  const cache = []
+  const addEvent = (callback) => {
     if (!cache.includes(callback)) {
-      cache.push(callback);
+      cache.push(callback)
     }
     return () => {
-      removeEvent(callback);
-    };
-  };
-  const removeEvent = callback => {
-    const index = cache.findIndex(callback);
-    if (typeof index !== "undefined") {
-      cache.splice(index, 1);
+      removeEvent(callback)
     }
-  };
-  const _scroll = window.onscroll;
+  }
+  const removeEvent = (callback) => {
+    const index = cache.findIndex(callback)
+    if (typeof index !== 'undefined') {
+      cache.splice(index, 1)
+    }
+  }
+  const _scroll = window.onscroll
   if (_scroll) {
     window.onscroll = () => {
-      _scroll();
-      cache.forEach(cb => cb());
-    };
+      _scroll()
+      cache.forEach((cb) => cb())
+    }
   } else {
-    window.onscroll = () => cache.forEach(cb => cb());
+    window.onscroll = () => cache.forEach((cb) => cb())
   }
-  return { addEvent, removeEvent };
-})();
+  return { addEvent, removeEvent }
+})()
 
 export function getScrollHeight() {
-  return Math.max(
-    document.body.scrollHeight,
-    document.documentElement.scrollHeight
-  );
+  return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)
 }
 
 // 获取视口高度
 export function getWindowHeight() {
-  return document.documentElement.clientHeight || document.body.clientHeight;
+  return document.documentElement.clientHeight || document.body.clientHeight
 }
 
 export function createElement(tagName, props) {
-  const element = document.createElement(tagName);
-  Object.keys(props).forEach(key => {
-    if (key === "on") {
-      Object.keys(props.on).forEach(event =>
-        element.addEventListener(event, props.on[event])
-      );
+  const element = document.createElement(tagName)
+  Object.keys(props).forEach((key) => {
+    if (key === 'on') {
+      Object.keys(props.on).forEach((event) => element.addEventListener(event, props.on[event]))
     } else {
-      element.setAttribute(key, props[key]);
+      element.setAttribute(key, props[key])
     }
-  });
-  return element;
+  })
+  return element
 }
 
 export function bindEvent(element, name, callback, options) {
-  element.addEventListener(name, callback, options);
+  element.addEventListener(name, callback, options)
 }
 
 export function getScroller(element, outter) {
-  let scroller;
+  let scroller
   if (outter) {
-    scroller = traceScroller(element) || window;
+    scroller = traceScroller(element) || window
   } else {
-    scroller = bfsScroller(element) || traceScroller(element) || window;
+    scroller = bfsScroller(element) || traceScroller(element) || window
   }
-  return scroller;
+  return scroller
 }
 
 export function isHidden(el) {
-  const style = window.getComputedStyle(el);
-  const hidden = style.display === "none";
+  const style = window.getComputedStyle(el)
+  const hidden = style.display === 'none'
   // 还有以下情况也视为隐藏
   // 1. 父元素display 为 noen
   // 2. 它设置了fixed
-  const parentHidden = el.offsetParent === null && style.position !== "fixed";
-  return hidden || parentHidden;
+  const parentHidden = el.offsetParent === null && style.position !== 'fixed'
+  return hidden || parentHidden
 }

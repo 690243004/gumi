@@ -16,18 +16,12 @@
     <div class="component-display">
       <div class="component-display--title">使用属性</div>
     </div>
-    <gl-cell
-      icon="cart"
-      meta="菊花花"
-      is-link
-      value="雷电芽衣"
-      label="购物车"
-    ></gl-cell>
+    <gl-cell icon="cart" meta="菊花花" is-link value="雷电芽衣" label="购物车"></gl-cell>
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss" scoped></style>

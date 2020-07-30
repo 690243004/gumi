@@ -1,8 +1,8 @@
-import globalMixin from "../../helper/mixins/global";
-import { createNamespace } from "../../helper/util";
-const _createNamespace = createNamespace("radio");
-const [createComponent, bem, className] = _createNamespace;
-import "./index.scss";
+import globalMixin from '../../helper/mixins/global'
+import { createNamespace } from '../../helper/util'
+const _createNamespace = createNamespace('radio')
+const [createComponent, bem] = _createNamespace
+import './index.scss'
 export default createComponent({
   props: {
     name: [String, Number]
@@ -10,44 +10,44 @@ export default createComponent({
   mixin: [globalMixin],
   methods: {
     onClickHandler() {
-      this.$parent.onChange(this.index);
+      this.$parent.onChange(this.index)
     },
     setup() {
-      const currentIndex = this.$parent.childrenList.length;
-      if (typeof this.index === "undefined") {
-        this.index = currentIndex;
+      const currentIndex = this.$parent.childrenList.length
+      if (typeof this.index === 'undefined') {
+        this.index = currentIndex
       }
-      this.$parent.childrenList.push(this);
+      this.$parent.childrenList.push(this)
     }
   },
   data() {
     return {
       index: this.name
-    };
+    }
   },
   computed: {
     isSelect() {
-      return this.$parent.value === this.index;
+      return this.$parent.value === this.index
     }
   },
   mounted() {
-    this.setup();
+    this.setup()
   },
   render(h) {
     return h(
-      "div",
+      'div',
       {
-        class: bem() + bem(this.isSelect ? "selected" : "unselected"),
+        class: bem() + bem(this.isSelect ? 'selected' : 'unselected'),
         on: {
           click: this.onClickHandler.bind(this)
         }
       },
       [
-        h("div", {
-          class: bem("icon")
+        h('div', {
+          class: bem('icon')
         }),
         this.$slots.default
       ]
-    );
+    )
   }
-});
+})

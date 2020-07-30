@@ -1,6 +1,6 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[15],{
 
-/***/ 105:
+/***/ 97:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97,7 +97,7 @@ render._withStripped = true
 //
 //
 /* harmony default export */ var steppervue_type_script_lang_js_ = ({
-  name: "stepperpage",
+  name: 'stepperpage',
 
   data() {
     return {

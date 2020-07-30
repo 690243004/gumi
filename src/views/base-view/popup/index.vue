@@ -28,16 +28,16 @@ export default {
   data() {
     return {
       isShowPopup: false,
-      position: "bottom"
-    };
+      position: 'bottom'
+    }
   },
   methods: {
     onClick(position) {
-      this.position = position;
-      this.isShowPopup = true;
+      this.position = position
+      this.isShowPopup = true
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

@@ -19,9 +19,9 @@ export default {
   data() {
     return {
       active: 1
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped></style>

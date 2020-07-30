@@ -1,59 +1,58 @@
-const MIN_DISTANCE = 10;
+const MIN_DISTANCE = 10
 function getDirection(x, y) {
   if (x > y && x > MIN_DISTANCE) {
-    return "horizontal";
+    return 'horizontal'
   }
 
   if (y > x && y > MIN_DISTANCE) {
-    return "vertical";
+    return 'vertical'
   }
 
-  return "";
+  return ''
 }
 
 function getHorizonDirection(deltaX) {
   // if (Math.abs(deltaX) < MIN_HORIZONDISTANCE) return "";
-  return deltaX > 0 ? "right" : "left";
+  return deltaX > 0 ? 'right' : 'left'
 }
 
 export default () => {
   return {
     data() {
       return {
-        direction: "",
-        horizonDirection: "",
+        direction: '',
+        horizonDirection: '',
         deltaX: 0,
         deltaY: 0,
         offsetX: 0,
         offsetY: 0,
         touchContext: null
-      };
+      }
     },
     methods: {
       touchStart(event) {
-        this.resetTouchStatus();
-        this.startX = event.touches[0].clientX;
-        this.startY = event.touches[0].clientY;
+        this.resetTouchStatus()
+        this.startX = event.touches[0].clientX
+        this.startY = event.touches[0].clientY
       },
       resetTouchStatus() {
-        this.direction = "";
-        this.horizonDirection = "";
-        this.deltaX = 0;
-        this.deltaY = 0;
-        this.offsetX = 0;
-        this.offsetY = 0;
+        this.direction = ''
+        this.horizonDirection = ''
+        this.deltaX = 0
+        this.deltaY = 0
+        this.offsetX = 0
+        this.offsetY = 0
       },
       touchMove(event) {
-        const touch = event.touches[0];
-        this.deltaX = touch.clientX - this.startX;
-        this.deltaY = touch.clientY - this.startY;
-        this.offsetX = Math.abs(this.deltaX);
-        this.offsetY = Math.abs(this.deltaY);
-        this.direction =
-          this.direction || getDirection(this.offsetX, this.offsetY);
+        const touch = event.touches[0]
+        this.deltaX = touch.clientX - this.startX
+        this.deltaY = touch.clientY - this.startY
+        this.offsetX = Math.abs(this.deltaX)
+        this.offsetY = Math.abs(this.deltaY)
+        this.direction = this.direction || getDirection(this.offsetX, this.offsetY)
       },
       touchEnd() {
-        this.horizonDirection = getHorizonDirection(this.deltaX);
+        this.horizonDirection = getHorizonDirection(this.deltaX)
       }
     }
     // mounted() {
@@ -79,5 +78,5 @@ export default () => {
     // destoryed() {
     //   this.remove && this.remove();
     // }
-  };
-};
+  }
+}

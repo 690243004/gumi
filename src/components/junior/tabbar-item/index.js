@@ -1,15 +1,15 @@
-import globalMixin from "../../helper/mixins/global";
-import { createNamespace } from "../../helper/util";
-import Icon from "../icon";
-import "./index.scss";
-const _createNamespace = createNamespace("tabbar-item");
-const [createComponent, bem] = _createNamespace;
+import globalMixin from '../../helper/mixins/global'
+import { createNamespace } from '../../helper/util'
+import Icon from '../icon'
+import './index.scss'
+const _createNamespace = createNamespace('tabbar-item')
+const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   data() {
     return {
       index: undefined
-    };
+    }
   },
   props: {
     icon: {
@@ -21,15 +21,13 @@ export default createComponent({
   },
   mixins: [globalMixin],
   mounted() {
-    const length = this.$parent.childrenNode.length;
-    this.$parent.childrenNode.push(this);
-    this.index = this.name || length;
+    const length = this.$parent.childrenNode.length
+    this.$parent.childrenNode.push(this)
+    this.index = this.name || length
   },
   computed: {
     isActive() {
-      return this.$parent.route
-        ? this.$route.path === this.index
-        : this.$parent.value === this.index;
+      return this.$parent.route ? this.$route.path === this.index : this.$parent.value === this.index
     }
   },
   components: {
@@ -37,34 +35,34 @@ export default createComponent({
   },
   methods: {
     onClick() {
-      if (this.isActive) return;
-      this.$parent.onChange(this.index);
+      if (this.isActive) return
+      this.$parent.onChange(this.index)
     }
   },
   render(h) {
-    const iconNodes = [];
-    const style = {};
-    const acitveColor = this.$parent.activeColor;
-    const color = this.$parent.color;
+    const iconNodes = []
+    const style = {}
+    const acitveColor = this.$parent.activeColor
+    const color = this.$parent.color
     if (this.isActive && acitveColor) {
-      style.color = acitveColor;
+      style.color = acitveColor
     }
     if (!this.isActive && color) {
-      style.color = acitveColor;
+      style.color = acitveColor
     }
     if (this.icon) {
       iconNodes[0] = h(Icon, {
         props: {
           name: this.icon
         }
-      });
+      })
     }
     if (this.$slots.icon) {
-      iconNodes[0] = this.$slots.icon;
+      iconNodes[0] = this.$slots.icon
     }
 
     return h(
-      "div",
+      'div',
       {
         class:
           bem() +
@@ -78,20 +76,20 @@ export default createComponent({
       },
       [
         h(
-          "div",
+          'div',
           {
-            class: bem("icon")
+            class: bem('icon')
           },
           iconNodes
         ),
         h(
-          "div",
+          'div',
           {
-            class: bem("text")
+            class: bem('text')
           },
           this.$slots.default
         )
       ]
-    );
+    )
   }
-});
+})

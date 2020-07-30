@@ -1,6 +1,6 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[13],{
 
-/***/ 98:
+/***/ 96:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -155,7 +155,7 @@ render._withStripped = true
 /* harmony default export */ var fieldvue_type_script_lang_js_ = ({
   data() {
     return {
-      remark: ""
+      remark: ''
     };
   }
 

@@ -23,11 +23,7 @@
     <div class="component-display">
       <div class="component-display--title">使用名称</div>
     </div>
-    <gl-tabbar
-      @change="onTabbarChange"
-      activeColor="#66ccff"
-      v-model="activeThird"
-    >
+    <gl-tabbar @change="onTabbarChange" activeColor="#66ccff" v-model="activeThird">
       <gl-tabbar-item name="home" icon="home">首页</gl-tabbar-item>
       <gl-tabbar-item name="sort" icon="sort">分类</gl-tabbar-item>
       <gl-tabbar-item name="cart" icon="cart">购物车</gl-tabbar-item>
@@ -50,15 +46,15 @@ export default {
     return {
       active: 0,
       activeSecond: 0,
-      activeThird: "home"
-    };
+      activeThird: 'home'
+    }
   },
   methods: {
     onTabbarChange(name) {
-      console.log(name);
+      console.log(name)
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped></style>

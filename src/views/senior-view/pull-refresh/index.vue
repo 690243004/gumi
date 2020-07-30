@@ -17,19 +17,19 @@ export default {
   data() {
     return {
       array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-      message: "未刷新",
+      message: '未刷新',
       loading: false
-    };
+    }
   },
   methods: {
     onLoad() {
       setTimeout(() => {
-        this.loading = false;
-        this.message = "刷新了";
-      }, 2000);
+        this.loading = false
+        this.message = '刷新了'
+      }, 2000)
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

@@ -1,18 +1,18 @@
-import { createNamespace } from "../../helper/util";
-import globalMixin from "../../helper/mixins/global";
-import "./index.scss";
-const _createNamespace = createNamespace("button");
-const [createComponent, bem] = _createNamespace;
+import { createNamespace } from '../../helper/util'
+import globalMixin from '../../helper/mixins/global'
+import './index.scss'
+const _createNamespace = createNamespace('button')
+const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
     type: {
       type: String,
-      default: "default"
+      default: 'default'
     },
     size: {
       type: String,
-      default: "normal"
+      default: 'normal'
     },
     link: [String, Object],
     href: String,
@@ -25,20 +25,20 @@ export default createComponent({
   mixins: [globalMixin],
   methods: {
     onClick(e) {
-      e.stopPropagation();
-      if (this.disabled) return;
-      this.$emit("click");
+      e.stopPropagation()
+      if (this.disabled) return
+      this.$emit('click')
       if (this.href) {
-        return (window.location.href = this.href);
+        return (window.location.href = this.href)
       }
       if (this.link) {
-        this.$router.push(this.link);
+        this.$router.push(this.link)
       }
     }
   },
   render(h) {
     return h(
-      "div",
+      'div',
       {
         class:
           bem() +
@@ -57,6 +57,6 @@ export default createComponent({
         }
       },
       this.slot.default
-    );
+    )
   }
-});
+})
