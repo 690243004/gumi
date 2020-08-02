@@ -76,37 +76,22 @@ var render = function() {
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
-      _c("gl-navigation", { attrs: { back: "", title: "默认类型" } }),
+      _c("gl-navigation", { attrs: { title: "导航栏" } }),
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
-      _c("gl-navigation", { attrs: { type: "primary", title: "主要类型" } }),
+      _c("gl-navigation", { attrs: { type: "primary", title: "导航栏" } }),
       _vm._v(" "),
       _vm._m(2),
       _vm._v(" "),
       _c("gl-navigation", {
-        attrs: { back: "", type: "primary", title: "返回" }
+        attrs: { back: "", type: "primary", title: "导航栏" }
       }),
       _vm._v(" "),
       _vm._m(3),
       _vm._v(" "),
       _c("gl-navigation", {
-        attrs: { back: "", type: "primary", title: "右插槽" },
-        scopedSlots: _vm._u([
-          {
-            key: "right",
-            fn: function() {
-              return [_c("gl-icon", { attrs: { name: "gl-icongengduo" } })]
-            },
-            proxy: true
-          }
-        ])
-      }),
-      _vm._v(" "),
-      _vm._m(4),
-      _vm._v(" "),
-      _c("gl-navigation", {
-        attrs: { fixed: "", back: "", type: "primary", title: "使用固钉" }
+        attrs: { fixed: "", back: "", type: "primary", title: "导航栏" }
       }),
       _vm._v(" "),
       _c("div", {
@@ -124,7 +109,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "component-display" }, [
       _c("div", { staticClass: "component-display--title" }, [
-        _vm._v("默认类型")
+        _vm._v("基础用法")
       ])
     ])
   },
@@ -133,9 +118,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "component-display" }, [
-      _c("div", { staticClass: "component-display--title" }, [
-        _vm._v("主要类型")
-      ])
+      _c("div", { staticClass: "component-display--title" }, [_vm._v("类型")])
     ])
   },
   function() {
@@ -144,16 +127,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "component-display" }, [
       _c("div", { staticClass: "component-display--title" }, [_vm._v("返回")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "component-display" }, [
-      _c("div", { staticClass: "component-display--title" }, [
-        _vm._v("使用插槽")
-      ])
     ])
   },
   function() {
@@ -171,11 +144,6 @@ render._withStripped = true
 // CONCATENATED MODULE: ./src/views/base-view/navigation/index.vue?vue&type=template&id=ecb3ef42&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./src/views/base-view/navigation/index.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
 //
 //
 //

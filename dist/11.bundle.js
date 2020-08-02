@@ -38,13 +38,16 @@ var render = function() {
       _vm._v(" "),
       _c("gl-cell", {
         attrs: {
-          icon: "cart",
           meta: "菊花花",
           "is-link": "",
           value: "雷电芽衣",
-          label: "购物车"
+          label: "昵称"
         }
-      })
+      }),
+      _vm._v(" "),
+      _vm._m(3),
+      _vm._v(" "),
+      _c("gl-cell", { attrs: { icon: "cart", "is-link": "", label: "购物车" } })
     ],
     1
   )
@@ -77,9 +80,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "component-display" }, [
-      _c("div", { staticClass: "component-display--title" }, [
-        _vm._v("使用属性")
-      ])
+      _c("div", { staticClass: "component-display--title" }, [_vm._v("属性")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "component-display" }, [
+      _c("div", { staticClass: "component-display--title" }, [_vm._v("图标")])
     ])
   }
 ]
@@ -89,6 +98,11 @@ render._withStripped = true
 // CONCATENATED MODULE: ./src/views/base-view/cell/index.vue?vue&type=template&id=5132222d&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./src/views/base-view/cell/index.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
 //
 //
 //

@@ -14,9 +14,14 @@
     <gl-cell is-link value="女">性别</gl-cell>
 
     <div class="component-display">
-      <div class="component-display--title">使用属性</div>
+      <div class="component-display--title">属性</div>
     </div>
-    <gl-cell icon="cart" meta="菊花花" is-link value="雷电芽衣" label="购物车"></gl-cell>
+    <gl-cell meta="菊花花" is-link value="雷电芽衣" label="昵称"></gl-cell>
+
+    <div class="component-display">
+      <div class="component-display--title">图标</div>
+    </div>
+    <gl-cell icon="cart" is-link label="购物车"></gl-cell>
   </div>
 </template>
 

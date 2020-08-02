@@ -1,6 +1,6 @@
 <template>
   <div class="component-view">
-    <gl-navigation back type="primary" title="弹出框"> </gl-navigation>
+    <gl-navigation back type="primary" title="弹出框"></gl-navigation>
 
     <div class="component-display">
       <div class="component-display--title">基础用法</div>
@@ -18,8 +18,15 @@
         <gl-button @click="onClick('bottom')">下方</gl-button>
       </div>
     </div>
+    <div class="component-display">
+      <div class="component-display--title">圆角</div>
+      <div class="component-display--content component-display--button__type">
+        <gl-button @click="isShowRoundPopup = true">圆角</gl-button>
+      </div>
+    </div>
 
     <gl-popup :position="position" v-model="isShowPopup"></gl-popup>
+    <gl-popup round v-model="isShowRoundPopup"></gl-popup>
   </div>
 </template>
 
@@ -28,6 +35,7 @@ export default {
   data() {
     return {
       isShowPopup: false,
+      isShowRoundPopup: false,
       position: 'bottom'
     }
   },

@@ -1,5 +1,5 @@
-$duration:.3s;
-$border_width : 50px;
+$duration: 0.3s;
+$border_width: 50px;
 
 .glow-popup {
   position: fixed;
@@ -12,7 +12,7 @@ $border_width : 50px;
   left: 0;
   right: 0;
   top: 0;
-  background-color: rgba($color: #000000, $alpha: .5);
+  background-color: rgba($color: #000000, $alpha: 0.5);
 }
 
 .glow-popup--top {
@@ -20,36 +20,43 @@ $border_width : 50px;
   top: 0;
   left: 0;
   right: 0;
+}
+
+.glow-popup--top.glow-popup--round {
   border-radius: 0 0 $border_width $border_width;
 }
 
+.glow-popup--bottom.glow-popup--round {
+  border-radius: $border_width $border_width 0 0;
+}
+
 .glow-popup--top-enter-active {
-  animation: slideInDown .3s;
+  animation: slideInDown 0.3s;
 }
 
 .glow-popup--top-leave-active {
-  animation: slideOutUp .3s;
+  animation: slideOutUp 0.3s;
 }
 .glow-popup--bottom-enter-active {
-  animation: slideInUp .3s;
+  animation: slideInUp 0.3s;
 }
 
 .glow-popup--bottom-leave-active {
-  animation: slideOutDown .3s;
+  animation: slideOutDown 0.3s;
 }
 .glow-popup--left-enter-active {
-  animation: slideInLeft .3s;
+  animation: slideInLeft 0.3s;
 }
 
 .glow-popup--left-leave-active {
-  animation: slideOutLeft .3s;
+  animation: slideOutLeft 0.3s;
 }
 .glow-popup--right-enter-active {
-  animation: slideInRight .3s;
+  animation: slideInRight 0.3s;
 }
 
 .glow-popup--right-leave-active {
-  animation: slideOutRight .3s;
+  animation: slideOutRight 0.3s;
 }
 
 .glow-popup--bottom {
@@ -57,7 +64,6 @@ $border_width : 50px;
   bottom: 0;
   left: 0;
   right: 0;
-  border-radius: $border_width $border_width 0 0;
 }
 
 .glow-popup--left {
@@ -74,7 +80,7 @@ $border_width : 50px;
   right: 0;
 }
 
-// left 
+// left
 @keyframes slideInLeft {
   from {
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -101,7 +107,7 @@ $border_width : 50px;
   }
 }
 
-// right 
+// right
 @keyframes slideInRight {
   from {
     -webkit-transform: translate3d(100%, 0, 0);
@@ -128,8 +134,7 @@ $border_width : 50px;
   }
 }
 
-
-// top 
+// top
 @keyframes slideInDown {
   from {
     -webkit-transform: translate3d(0, -100%, 0);
@@ -156,7 +161,7 @@ $border_width : 50px;
   }
 }
 
-// bottom 
+// bottom
 @keyframes slideInUp {
   from {
     -webkit-transform: translate3d(0, 100%, 0);

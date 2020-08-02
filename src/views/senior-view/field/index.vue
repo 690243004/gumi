@@ -1,10 +1,10 @@
 <template>
   <div class="component-view">
-    <gl-navigation back type="primary" title="输入框"> </gl-navigation>
+    <gl-navigation back type="primary" title="输入框"></gl-navigation>
     <div class="component-display">
       <div class="component-display--title">基本使用</div>
     </div>
-    <gl-field label="姓名" value="雷电芽衣"></gl-field>
+    <gl-field label="姓名" v-model="name"></gl-field>
     <div class="component-display">
       <div class="component-display--title">必填</div>
     </div>
@@ -33,7 +33,8 @@
 export default {
   data() {
     return {
-      remark: ''
+      remark: '',
+      name: '雷电芽衣'
     }
   }
 }

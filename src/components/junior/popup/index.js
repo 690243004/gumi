@@ -18,7 +18,8 @@ export default createComponent({
     position: {
       type: String,
       default: 'bottom'
-    }
+    },
+    round: Boolean
   },
   mixins: [globalMixin],
   data() {
@@ -44,6 +45,7 @@ export default createComponent({
     removeOverlay() {
       const el = this.overlayInstance.$el
       el.parentNode.removeChild(el)
+      this.overlayInstance = null
     },
     updateOverlay() {
       this.overlayInstance.value = this.value
@@ -73,7 +75,14 @@ export default createComponent({
         h(
           'div',
           {
-            class: bem() + bem(this.position),
+            class:
+              bem() +
+              bem([
+                this.position,
+                {
+                  round: this.round
+                }
+              ]),
             ref: 'popup',
             style: {
               zIndex: this.zIndex
@@ -89,14 +98,5 @@ export default createComponent({
         )
       ]
     )
-    // return h(
-    //   "div",
-    //   {
-    //     class: bem() + bem([this.value ? "active" : "unactive", this.position]),
-    //     style: this.style,
-    //     ref: "popup"
-    //   },
-    //   this.$slots.default
-    // );
   }
 })

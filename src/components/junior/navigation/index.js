@@ -29,63 +29,65 @@ export default createComponent({
     }
   },
   render(h) {
-    const iconNodes = []
-    const rightIconNodes = []
+    let iconNode, rightIconNode
+
     if (this.back) {
-      iconNodes[0] = h(Icon, {
+      iconNode = h(Icon, {
         props: {
           name: 'left'
         }
       })
+    } else if (this.slot.icon) {
+      iconNode = this.slot.icon
     }
-    if (this.slot.icon) {
-      iconNodes[0] = this.slot.icon
-    }
+
     if (this.more) {
-      rightIconNodes[0] = h(Icon, {
+      rightIconNode = h(Icon, {
         props: {
           name: 'more'
         }
       })
     }
     if (this.slot.right) {
-      rightIconNodes[0] = this.slot.right
+      rightIconNode = this.slot.right
     }
+
+    const icon = h(
+      'div',
+      {
+        class: bem('icon'),
+        on: {
+          click: this.onLeftIconClick
+        }
+      },
+      [iconNode]
+    )
+
+    const title = h(
+      'div',
+      {
+        class: bem('title')
+      },
+      [this.slot.title || this.title]
+    )
+
+    const rightIcon = h(
+      'div',
+      {
+        class: bem('right-icon'),
+        on: {
+          click: this.onRightIconClick
+        }
+      },
+      [rightIconNode]
+    )
 
     let navigation = h(
       'div',
       {
         class: bem() + bem(this.type)
       },
-      [
-        h(
-          'div',
-          {
-            class: bem('icon'),
-            on: {
-              click: this.onLeftIconClick
-            }
-          },
-          iconNodes
-        ),
-        h(
-          'div',
-          {
-            class: bem('title')
-          },
-          [this.title]
-        ),
-        h(
-          'div',
-          {
-            class: bem('right-icon'),
-            on: {
-              click: this.onRightIconClick
-            }
-          },
-          rightIconNodes
-        )
-      ]
+      [icon, title, rightIcon]
     )
 
     if (this.fixed) {

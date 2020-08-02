@@ -1,5 +1,5 @@
-@import "../../scss/vars.scss";
-@import "../../scss/mixin.scss";
+@import '../../scss/vars.scss';
+@import '../../scss/mixin.scss';
 
 .glow-cell {
   min-height: $bravery;
@@ -24,7 +24,7 @@
   border-color: $black;
   border-radius: inherit;
   opacity: 0;
-  content: " ";
+  content: ' ';
   @include absoluteCenter;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .glow-cell--border::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   bottom: 0;
@@ -45,9 +45,8 @@
 }
 
 .glow-cell--icon {
-  margin-right: 10px;
-
   i {
+    margin-right: 10px;
     font-size: $fontSize_1;
   }
 }
@@ -61,11 +60,15 @@
     font-size: $fontSize_0;
     transform: scale(0.9);
   }
+
+  &--text {
+    line-height: $beauty;
+    min-height: $beauty;
+  }
 }
 
 .glow-cell--icon,
 .glow-cell--label,
-.glow-cell--meta,
 .glow-cell--value {
   line-height: $beauty;
   min-height: $beauty;

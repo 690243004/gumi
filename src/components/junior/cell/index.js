@@ -20,21 +20,19 @@ export default createComponent({
   mixins: [globalMixin],
   render(h) {
     // slot better then props
-    let icon
-    if (this.slot.icon || this.icon) {
-      icon = h(
-        'div',
-        {
-          class: bem('icon')
-        },
-        [
-          this.slot.icon ||
-            h(Icon, {
+    const icon = h(
+      'div',
+      {
+        class: bem('icon')
+      },
+      [
+        this.slot.icon || this.icon
+          ? h(Icon, {
               attrs: { name: this.icon }
             })
-        ]
-      )
-    }
+          : undefined
+      ]
+    )
 
     const label = h(
       'div',
@@ -53,25 +51,22 @@ export default createComponent({
         })
       : undefined
 
-    let meta
-    if (this.slot.meta || this.meta) {
-      meta = h(
-        'div',
-        {
-          class: bem('meta')
-        },
-        [
-          this.slot.meta ||
-            h(
-              'span',
-              {
-                class: bem('meta') + '--text'
-              },
-              this.meta
-            )
-        ]
-      )
-    }
+    const meta = h(
+      'div',
+      {
+        class: bem('meta')
+      },
+      [
+        this.slot.meta ||
+          h(
+            'span',
+            {
+              class: bem('meta--text')
+            },
+            this.meta
+          )
+      ]
+    )
 
     const value = h(
       'div',

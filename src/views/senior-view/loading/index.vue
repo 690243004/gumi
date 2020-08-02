@@ -1,6 +1,6 @@
 <template>
   <div class="component-view">
-    <gl-navigation back type="primary" title="加载中"> </gl-navigation>
+    <gl-navigation back type="primary" title="加载中"></gl-navigation>
 
     <div class="component-display">
       <div class="component-display--title">默认类型</div>
@@ -38,11 +38,9 @@
     </div>
 
     <div class="component-display">
-      <div class="component-display--title">
-        继承父节点的宽度(用于自适应布局)
-      </div>
+      <div class="component-display--title">继承父节点的宽度(用于自适应布局)</div>
       <div class="component-display--content inherit-parent">
-        <gl-loading backgroundColor="#f9f9f9" color="#66ccff" inherit size="80" title="width:150px" />
+        <gl-loading backgroundColor="#f9f9f9" color="#66ccff" inherit />
       </div>
     </div>
   </div>

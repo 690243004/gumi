@@ -17,8 +17,7 @@
             size="large"
             round
             :link="item.path"
-            >{{ item.name }}</gl-button
-          >
+          >{{ item.name }}</gl-button>
         </gl-tab-panel>
         <gl-tab-panel title="高级组件">
           <gl-button
@@ -29,8 +28,7 @@
             size="large"
             round
             :link="item.path"
-            >{{ item.name }}</gl-button
-          >
+          >{{ item.name }}</gl-button>
         </gl-tab-panel>
       </gl-tab>
     </div>
@@ -77,32 +75,32 @@ export default {
           path: '/senior/field'
         },
         {
-          name: '单选框',
-          path: '/senior/radio'
+          name: '上拉加载',
+          path: '/senior/loadMore'
         },
         {
-          name: '步进器',
-          path: '/senior/stepper'
+          name: '加载中',
+          path: '/senior/loading'
         },
         {
           name: '下拉刷新',
           path: '/senior/pullRefresh'
         },
         {
-          name: '上拉加载',
-          path: '/senior/loadMore'
+          name: '单选框',
+          path: '/senior/radio'
         },
         {
           name: '轮播图',
           path: '/senior/swipe'
         },
         {
-          name: '标签栏',
-          path: '/senior/tab'
+          name: '步进器',
+          path: '/senior/stepper'
         },
         {
-          name: '加载中',
-          path: '/senior/loading'
+          name: '标签栏',
+          path: '/senior/tab'
         }
       ]
     }

@@ -25,7 +25,7 @@
       <div class="component-display--title">按钮大小</div>
       <div class="component-display--content component-display--button__type">
         <gl-button size="small">小按钮</gl-button>
-        <gl-button type="primary">默认</gl-button>
+        <gl-button type="primary">默认按钮</gl-button>
         <gl-button size="large" type="success">大按钮</gl-button>
       </div>
     </div>

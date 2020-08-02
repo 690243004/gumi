@@ -32,14 +32,14 @@
 }
 
 .glow-button--default {
-  color: $white;
-  background-color: $silver;
+  color: $mineShaft;
+  background-color: $white;
   border: 1px solid $silver;
 }
 
 .glow-button--plain.glow-button--default {
   background-color: $white;
-  color: $silver;
+  color: $mineShaft;
 }
 
 .glow-button--primary {

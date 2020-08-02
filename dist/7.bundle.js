@@ -72,7 +72,7 @@ render._withStripped = true
 /* harmony default export */ var load_morevue_type_script_lang_js_ = ({
   data() {
     return {
-      array: [],
+      array: new Array(10).fill(''),
       loading: false,
       finished: false
     };
@@ -87,24 +87,14 @@ render._withStripped = true
       }, 2000);
     },
 
-    setup() {
-      this.array = [];
-
-      for (let index = 1; index <= 12; index++) {
-        this.array.push(index);
-      }
-    },
-
     onLoad() {
       setTimeout(() => {
         if (this.array.length >= 30) {
           return this.finished = true;
         }
 
-        const lastItem = this.array[this.array.length - 1];
-
-        for (let index = 1; index <= 12; index++) {
-          this.array.push(lastItem + index);
+        for (let index = 0; index < 10; index++) {
+          this.array.push('');
         }
 
         this.loading = false;

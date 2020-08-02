@@ -153,7 +153,7 @@ var render = function() {
       _vm._v(" "),
       _c("div", { staticClass: "component-display" }, [
         _c("div", { staticClass: "component-display--title" }, [
-          _vm._v("\n      继承父节点的宽度(用于自适应布局)\n    ")
+          _vm._v("继承父节点的宽度(用于自适应布局)")
         ]),
         _vm._v(" "),
         _c(
@@ -164,9 +164,7 @@ var render = function() {
               attrs: {
                 backgroundColor: "#f9f9f9",
                 color: "#66ccff",
-                inherit: "",
-                size: "80",
-                title: "width:150px"
+                inherit: ""
               }
             })
           ],
@@ -184,8 +182,6 @@ render._withStripped = true
 // CONCATENATED MODULE: ./src/views/senior-view/loading/index.vue?vue&type=template&id=2d972168&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./src/views/senior-view/loading/index.vue?vue&type=script&lang=js&
-//
-//
 //
 //
 //

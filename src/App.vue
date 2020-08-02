@@ -1,6 +1,6 @@
 <template>
   <keep-alive>
-    <router-view> </router-view>
+    <router-view></router-view>
   </keep-alive>
 </template>
 
@@ -8,4 +8,4 @@
 export default {}
 </script>
 
-<style lang="scss" scoped></style>
+

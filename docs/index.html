@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  <style>
-      .cover-main > p:nth-child(1) > img:nth-child(1) { 
-          max-height: 400px;
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
+    <style>
+      .cover-main > p:nth-child(1) > img:nth-child(1) {
+        max-height: 400px;
       }
-  </style>
-</head>
-<body>
-    
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: '',
-      repo: '',
-      loadSidebar: true,
-      subMaxLevel: 1,
-      loadNavbar: true,
-      coverpage: true,
-      onlyCover: true,  // 只在访问主页时加载封面 
-    }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-</body>
+      .mdoc {
+        display: flex;
+      }
+      .mdoc-main {
+        flex: 1;
+      }
+      .mdoc-section {
+        flex: 0 0 750px;
+        width: 750px;
+      }
+      .mdoc-section iframe {
+        width: 375px !important;
+        height: 567px !important;
+        min-width: 0 !important;
+        position: fixed;
+        right: 50px;
+        top: 75px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: '',
+        repo: '',
+        loadSidebar: true,
+        subMaxLevel: 1,
+        loadNavbar: true,
+        coverpage: true,
+        onlyCover: true, // 只在访问主页时加载封面
+        auto2top: true
+      }
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  </body>
 </html>

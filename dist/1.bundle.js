@@ -138,7 +138,9 @@ var render = function() {
           [
             _c("gl-button", { attrs: { size: "small" } }, [_vm._v("小按钮")]),
             _vm._v(" "),
-            _c("gl-button", { attrs: { type: "primary" } }, [_vm._v("默认")]),
+            _c("gl-button", { attrs: { type: "primary" } }, [
+              _vm._v("默认按钮")
+            ]),
             _vm._v(" "),
             _c("gl-button", { attrs: { size: "large", type: "success" } }, [
               _vm._v("大按钮")

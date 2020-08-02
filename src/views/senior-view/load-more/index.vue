@@ -14,7 +14,7 @@
 export default {
   data() {
     return {
-      array: [],
+      array: new Array(10).fill(''),
       loading: false,
       finished: false
     }
@@ -27,20 +27,13 @@ export default {
         this.finished = false
       }, 2000)
     },
-    setup() {
-      this.array = []
-      for (let index = 1; index <= 12; index++) {
-        this.array.push(index)
-      }
-    },
     onLoad() {
       setTimeout(() => {
         if (this.array.length >= 30) {
           return (this.finished = true)
         }
-        const lastItem = this.array[this.array.length - 1]
-        for (let index = 1; index <= 12; index++) {
-          this.array.push(lastItem + index)
+        for (let index = 0; index < 10; index++) {
+          this.array.push('')
         }
         this.loading = false
       }, 1000)
@@ -64,6 +57,7 @@ export default {
   margin-bottom: 10px;
   padding: 20px 30px;
   box-sizing: border-box;
+  user-select: none;
   &:last-child {
     border-bottom: none;
   }

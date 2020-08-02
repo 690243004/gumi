@@ -163,6 +163,34 @@ var render = function() {
         )
       ]),
       _vm._v(" "),
+      _c("div", { staticClass: "component-display" }, [
+        _c("div", { staticClass: "component-display--title" }, [
+          _vm._v("圆角")
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "component-display--content component-display--button__type"
+          },
+          [
+            _c(
+              "gl-button",
+              {
+                on: {
+                  click: function($event) {
+                    _vm.isShowRoundPopup = true
+                  }
+                }
+              },
+              [_vm._v("圆角")]
+            )
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
       _c("gl-popup", {
         attrs: { position: _vm.position },
         model: {
@@ -171,6 +199,17 @@ var render = function() {
             _vm.isShowPopup = $$v
           },
           expression: "isShowPopup"
+        }
+      }),
+      _vm._v(" "),
+      _c("gl-popup", {
+        attrs: { round: "" },
+        model: {
+          value: _vm.isShowRoundPopup,
+          callback: function($$v) {
+            _vm.isShowRoundPopup = $$v
+          },
+          expression: "isShowRoundPopup"
         }
       })
     ],
@@ -209,10 +248,18 @@ render._withStripped = true
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ var popupvue_type_script_lang_js_ = ({
   data() {
     return {
       isShowPopup: false,
+      isShowRoundPopup: false,
       position: 'bottom'
     };
   },

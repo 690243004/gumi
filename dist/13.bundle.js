@@ -22,7 +22,16 @@ var render = function() {
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
-      _c("gl-field", { attrs: { label: "姓名", value: "雷电芽衣" } }),
+      _c("gl-field", {
+        attrs: { label: "姓名" },
+        model: {
+          value: _vm.name,
+          callback: function($$v) {
+            _vm.name = $$v
+          },
+          expression: "name"
+        }
+      }),
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
@@ -155,7 +164,8 @@ render._withStripped = true
 /* harmony default export */ var fieldvue_type_script_lang_js_ = ({
   data() {
     return {
-      remark: ''
+      remark: '',
+      name: '雷电芽衣'
     };
   }
 

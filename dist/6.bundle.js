@@ -188,8 +188,6 @@ render._withStripped = true
 //
 //
 //
-//
-//
 
 /* harmony default export */ var viewsvue_type_script_lang_js_ = ({
   name: 'App',
@@ -221,26 +219,26 @@ render._withStripped = true
         name: '输入框',
         path: '/senior/field'
       }, {
-        name: '单选框',
-        path: '/senior/radio'
+        name: '上拉加载',
+        path: '/senior/loadMore'
       }, {
-        name: '步进器',
-        path: '/senior/stepper'
+        name: '加载中',
+        path: '/senior/loading'
       }, {
         name: '下拉刷新',
         path: '/senior/pullRefresh'
       }, {
-        name: '上拉加载',
-        path: '/senior/loadMore'
+        name: '单选框',
+        path: '/senior/radio'
       }, {
         name: '轮播图',
         path: '/senior/swipe'
       }, {
+        name: '步进器',
+        path: '/senior/stepper'
+      }, {
         name: '标签栏',
         path: '/senior/tab'
-      }, {
-        name: '加载中',
-        path: '/senior/loading'
       }]
     };
   }
