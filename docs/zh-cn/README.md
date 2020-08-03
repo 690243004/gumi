@@ -1,4 +1,4 @@
-# GlowUI {docsify-ignore-all}
+# Gumi {docsify-ignore-all}
 
 > 轻量级移动端 UI 框架
 
@@ -7,7 +7,7 @@
 ## npm 安装
 
 ```
-npm i glow-ui --save
+npm i gumi --save
 ```
 
 ## cdn
@@ -19,14 +19,14 @@ npm i glow-ui --save
 全局加载
 
 ```js
-import { install } from 'glow-ui'
+import { install } from 'gumi'
 install()
 ```
 
 按需加载
 
 ```js
-import { Button } from 'glow-ui'
+import { Button } from 'gumi'
 Vue.component(Button.name, Button)
 ```
 

@@ -6,28 +6,35 @@ const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
-    type: {
-      type: String,
-      default: 'default'
-    },
+    // 块状
+    block: Boolean,
+    // 禁用状态
+    disabled: Boolean,
+    // 重定向连接
+    href: String,
+    // 路由连接
+    link: [String, Object],
+    // 朴素按钮
+    plain: Boolean,
+    // 按钮大小
     size: {
       type: String,
       default: 'normal'
     },
-    link: [String, Object],
-    href: String,
-    disabled: Boolean,
+    // 圆角
     round: Boolean,
-    block: Boolean,
-    partLine: Boolean,
-    plain: Boolean
+    // 按钮类型
+    type: {
+      type: String,
+      default: 'default'
+    }
   },
   mixins: [globalMixin],
   methods: {
     onClick(e) {
       e.stopPropagation()
       if (this.disabled) return
-      this.$emit('click')
+      this.$emit('click',e)
       if (this.href) {
         return (window.location.href = this.href)
       }

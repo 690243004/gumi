@@ -1,7 +1,7 @@
 @import '../../scss/vars.scss';
 @import '../../scss/mixin.scss';
 
-.glow-cell {
+.gumi-cell {
   min-height: $bravery;
   box-sizing: border-box;
   padding: 12px 30px;
@@ -12,11 +12,11 @@
   align-items: center;
 }
 
-.glow-cell--isLink {
+.gumi-cell--isLink {
   cursor: pointer;
 }
 
-.glow-cell--isLink::before {
+.gumi-cell--isLink::before {
   width: 100%;
   height: 100%;
   background-color: $black;
@@ -28,11 +28,11 @@
   @include absoluteCenter;
 }
 
-.glow-cell--isLink:active::before {
+.gumi-cell--isLink:active::before {
   opacity: 0.1;
 }
 
-.glow-cell--border::after {
+.gumi-cell--border::after {
   content: '';
   display: block;
   position: absolute;
@@ -44,14 +44,14 @@
   transform: scaleY(0.5);
 }
 
-.glow-cell--icon {
+.gumi-cell--icon {
   i {
     margin-right: 10px;
     font-size: $fontSize_1;
   }
 }
 
-.glow-cell--meta {
+.gumi-cell--meta {
   flex-basis: 100%;
   flex-shrink: 0;
 
@@ -67,21 +67,21 @@
   }
 }
 
-.glow-cell--icon,
-.glow-cell--label,
-.glow-cell--value {
+.gumi-cell--icon,
+.gumi-cell--label,
+.gumi-cell--value {
   line-height: $beauty;
   min-height: $beauty;
 }
 
-.glow-cell--label {
+.gumi-cell--label {
   flex: 0 0 200px;
   position: relative;
   font-size: $fontSize_1;
   color: $mineShaft;
 }
 
-.glow-cell--value {
+.gumi-cell--value {
   text-align: right;
   // align-self: center;
   flex: 1;
@@ -89,7 +89,7 @@
   color: $osloGray;
 }
 
-.glow-cell--link {
+.gumi-cell--link {
   margin-left: 10px;
 
   i {

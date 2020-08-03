@@ -1,7 +1,7 @@
 @import "../../scss/vars.scss";
 @import "../../scss/mixin.scss";
 
-.glow-navigation {
+.gumi-navigation {
   height: $brutality;
   padding: 0 30px;
   display: flex;
@@ -10,8 +10,8 @@
   box-sizing: border-box;
 }
 
-.glow-navigation--icon,
-.glow-navigation--right-icon {
+.gumi-navigation--icon,
+.gumi-navigation--right-icon {
   flex: 0 0 32px;
   @include center;
   i {
@@ -19,35 +19,35 @@
   }
 }
 
-.glow-navigation--title {
+.gumi-navigation--title {
   flex: 1;
   text-align: center;
   line-height: $brutality;
   font-size: $fontSize_2;
 }
 
-.glow-navigation--default {
+.gumi-navigation--default {
   background-color: $white;
 
-  .glow-navigation--title {
+  .gumi-navigation--title {
     color: $mineShaft;
   }
 
-  .glow-navigation--icon,
-  .glow-navigation--right-icon {
+  .gumi-navigation--icon,
+  .gumi-navigation--right-icon {
     color: $mineShaft;
   }
 }
 
-.glow-navigation--primary {
+.gumi-navigation--primary {
   background-color: $miku;
 
-  .glow-navigation--title {
+  .gumi-navigation--title {
     color: $white;
   }
 
-  .glow-navigation--icon,
-  .glow-navigation--right-icon {
+  .gumi-navigation--icon,
+  .gumi-navigation--right-icon {
     color: $white;
   }
 }

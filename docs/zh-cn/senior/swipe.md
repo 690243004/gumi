@@ -8,7 +8,7 @@
 ## 导入
 
 ```js
-import { Swipe, SwipeItem } from 'glow-ui'
+import { Swipe, SwipeItem } from 'gumi'
 export default {
   components: {
     [Swipe.name]: Swipe,
@@ -20,20 +20,20 @@ export default {
 ## 基础用法
 
 ```html
-<gl-swipe>
-  <gl-swipe-item>
+<gu-swipe>
+  <gu-swipe-item>
     <img src="/scenery_1.jpg" />
-  </gl-swipe-item>
-  <gl-swipe-item>
+  </gu-swipe-item>
+  <gu-swipe-item>
     <img src="/scenery_2.jpg" />
-  </gl-swipe-item>
-  <gl-swipe-item>
+  </gu-swipe-item>
+  <gu-swipe-item>
     <img src="/scenery_3.jpg" />
-  </gl-swipe-item>
-  <gl-swipe-item>
+  </gu-swipe-item>
+  <gu-swipe-item>
     <img src="/scenery_4.jpg" />
-  </gl-swipe-item>
-</gl-swipe>
+  </gu-swipe-item>
+</gu-swipe>
 ```
 
 ## 自动播放
@@ -41,27 +41,27 @@ export default {
 可以设置`autoplay`获得自动播放的轮播图
 
 ```html
-<gl-swipe autoplay="2000">
-  <gl-swipe-item>
+<gu-swipe autoplay="2000">
+  <gu-swipe-item>
     <img src="/scenery_1.jpg" />
-  </gl-swipe-item>
-  <gl-swipe-item>
+  </gu-swipe-item>
+  <gu-swipe-item>
     <img src="/scenery_2.jpg" />
-  </gl-swipe-item>
-  <gl-swipe-item>
+  </gu-swipe-item>
+  <gu-swipe-item>
     <img src="/scenery_3.jpg" />
-  </gl-swipe-item>
-  <gl-swipe-item>
+  </gu-swipe-item>
+  <gu-swipe-item>
     <img src="/scenery_4.jpg" />
-  </gl-swipe-item>
-</gl-swipe>
+  </gu-swipe-item>
+</gu-swipe>
 ```
 
 </div>
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/swipe ':include :type=iframe ')
+[cinwell website](http://localhost:8080/#/senior/swipe ':include :type=iframe frameborder=no ')
 
 </div>
 

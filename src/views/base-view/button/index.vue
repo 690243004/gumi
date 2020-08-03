@@ -1,62 +1,62 @@
 <template>
   <div class="component-view">
-    <gl-navigation back type="primary" title="按钮组件"> </gl-navigation>
+    <gu-navigation back type="primary" title="按钮组件"> </gu-navigation>
 
     <div class="component-display">
       <div class="component-display--title">默认类型</div>
       <div class="component-display--content component-display--button__type">
-        <gl-button>默认</gl-button>
-        <gl-button type="primary">主要</gl-button>
-        <gl-button type="success">成功</gl-button>
-        <gl-button type="danger">危险</gl-button>
-        <gl-button type="warn">警告</gl-button>
+        <gu-button>默认</gu-button>
+        <gu-button type="primary">主要</gu-button>
+        <gu-button type="success">成功</gu-button>
+        <gu-button type="danger">危险</gu-button>
+        <gu-button type="warn">警告</gu-button>
       </div>
     </div>
 
     <div class="component-display">
       <div class="component-display--title">朴素按钮</div>
       <div class="component-display--content component-display--button__type">
-        <gl-button plain type="primary">主要</gl-button>
-        <gl-button plain type="success">成功</gl-button>
+        <gu-button plain type="primary">主要</gu-button>
+        <gu-button plain type="success">成功</gu-button>
       </div>
     </div>
 
     <div class="component-display">
       <div class="component-display--title">按钮大小</div>
       <div class="component-display--content component-display--button__type">
-        <gl-button size="small">小按钮</gl-button>
-        <gl-button type="primary">默认按钮</gl-button>
-        <gl-button size="large" type="success">大按钮</gl-button>
+        <gu-button size="small">小按钮</gu-button>
+        <gu-button type="primary">默认按钮</gu-button>
+        <gu-button size="large" type="success">大按钮</gu-button>
       </div>
     </div>
 
     <div class="component-display">
       <div class="component-display--title">禁用状态</div>
       <div class="component-display--content component-display--button__type">
-        <gl-button disabled>禁用</gl-button>
-        <gl-button disabled type="primary">禁用</gl-button>
+        <gu-button disabled>禁用</gu-button>
+        <gu-button disabled type="primary">禁用</gu-button>
       </div>
     </div>
 
     <div class="component-display">
       <div class="component-display--title">圆角按钮</div>
       <div class="component-display--content component-display--button__type">
-        <gl-button round size="large" type="primary">圆角按钮</gl-button>
+        <gu-button round size="large" type="primary">圆角按钮</gu-button>
       </div>
     </div>
 
     <div class="component-display">
       <div class="component-display--title">块级元素</div>
       <div class="component-display--content component-display--button__type">
-        <gl-button block round size="large" type="primary">提交订单</gl-button>
+        <gu-button block round size="large" type="primary">提交订单</gu-button>
       </div>
     </div>
 
     <div class="component-display">
       <div class="component-display--title">按钮链接</div>
       <div class="component-display--content component-display--button__type">
-        <gl-button link="/">首页</gl-button>
-        <gl-button type="primary" href="https://cn.bing.com/">必应</gl-button>
+        <gu-button link="/">首页</gu-button>
+        <gu-button type="primary" href="https://cn.bing.com/">必应</gu-button>
       </div>
     </div>
   </div>
@@ -68,8 +68,8 @@ export default {}
 
 <style lang="scss" scoped>
 .component-display--button__type {
-  .gl-button {
-    & + .gl-button {
+  .gu-button {
+    & + .gu-button {
       margin-left: 20px;
     }
   }

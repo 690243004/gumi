@@ -6,7 +6,7 @@ Vue.config.productionTip = false
 import '@/assets/normal.scss'
 import '@/assets/global.scss'
 import { install } from './components'
-
+import './utils/mobile-site'
 install(Vue)
 new Vue({
   router,

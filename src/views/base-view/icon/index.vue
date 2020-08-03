@@ -1,32 +1,32 @@
 <template>
   <div class="component-view">
-    <gl-navigation fixed back type="primary" title="图标"> </gl-navigation>
-    <gl-tab v-model="active">
-      <gl-tab-panel title="基础图标">
+    <gu-navigation fixed back type="primary" title="图标"> </gu-navigation>
+    <gu-tab v-model="active">
+      <gu-tab-panel title="基础图标">
         <div class="icon-wrapper">
           <div class="icon-wrapper-item" v-for="(name, index) in baseIcons" :key="index">
-            <gl-icon :size="20" :name="name" />
+            <gu-icon :size="20" :name="name" />
             <div class="icon-wrapper-item-name">{{ name }}</div>
           </div>
         </div>
-      </gl-tab-panel>
-      <gl-tab-panel title="线性图标">
+      </gu-tab-panel>
+      <gu-tab-panel title="线性图标">
         <div class="icon-wrapper">
           <div class="icon-wrapper-item" v-for="(name, index) in lineIcons" :key="index">
-            <gl-icon :size="20" :name="name" />
+            <gu-icon :size="20" :name="name" />
             <div class="icon-wrapper-item-name">{{ name }}</div>
           </div>
         </div>
-      </gl-tab-panel>
-      <gl-tab-panel title="非线性图标">
+      </gu-tab-panel>
+      <gu-tab-panel title="非线性图标">
         <div class="icon-wrapper">
           <div class="icon-wrapper-item" v-for="(name, index) in entityIcons" :key="index">
-            <gl-icon :size="20" :name="name" />
+            <gu-icon :size="20" :name="name" />
             <div class="icon-wrapper-item-name">{{ name }}</div>
           </div>
         </div>
-      </gl-tab-panel>
-    </gl-tab>
+      </gu-tab-panel>
+    </gu-tab>
   </div>
 </template>
 

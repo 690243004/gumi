@@ -2,14 +2,14 @@
   <div id="app">
     <div class="app-tile">
       <img :src="mainIcon" />
-      <span>Glow</span>
+      <span>Gumi</span>
     </div>
     <div class="app-meta">轻量vue移动端ui库</div>
 
     <div class="app-components">
-      <gl-tab v-model="active">
-        <gl-tab-panel title="基础组件">
-          <gl-button
+      <gu-tab v-model="active">
+        <gu-tab-panel title="基础组件">
+          <gu-button
             type="primary"
             :key="index"
             v-for="(item, index) in basicList"
@@ -17,10 +17,10 @@
             size="large"
             round
             :link="item.path"
-          >{{ item.name }}</gl-button>
-        </gl-tab-panel>
-        <gl-tab-panel title="高级组件">
-          <gl-button
+          >{{ item.name }}</gu-button>
+        </gu-tab-panel>
+        <gu-tab-panel title="高级组件">
+          <gu-button
             type="primary"
             :key="index"
             v-for="(item, index) in seniorList"
@@ -28,9 +28,9 @@
             size="large"
             round
             :link="item.path"
-          >{{ item.name }}</gl-button>
-        </gl-tab-panel>
-      </gl-tab>
+          >{{ item.name }}</gu-button>
+        </gu-tab-panel>
+      </gu-tab>
     </div>
   </div>
 </template>
@@ -143,8 +143,8 @@ export default {
     line-height: 100px;
     font-size: 48px;
   }
-  .glow-button {
-    & + .glow-button {
+  .gumi-button {
+    & + .gumi-button {
       margin-top: 20px;
     }
   }

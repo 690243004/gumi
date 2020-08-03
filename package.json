@@ -1,8 +1,9 @@
 {
-  "name": "glow-ui",
-  "version": "1.0.0",
+  "name": "gumi",
+  "version": "1.0.1",
   "description": "a good vue components",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
@@ -18,6 +19,10 @@
       "pre-commit": "lint-staged"
     }
   },
+  "files": [
+    "es",
+    "lib"
+  ],
   "lint-staged": {
     "*.{js,vue}": [
       "npm run eslint",

@@ -8,7 +8,7 @@
 ## 导入
 
 ```js
-import { Tab } from 'glow-ui'
+import { Tab } from 'gumi'
 export default {
   components: {
     [Tab.name]: Tab,
@@ -20,14 +20,14 @@ export default {
 ## 基础用法
 
 ```html
-<gl-tab v-model="active">
-  <gl-tab-panel title="标签栏1">
+<gu-tab v-model="active">
+  <gu-tab-panel title="标签栏1">
     <div class="content1">内容1</div>
-  </gl-tab-panel>
-  <gl-tab-panel title="标签栏2">
+  </gu-tab-panel>
+  <gu-tab-panel title="标签栏2">
     <div class="content2">内容2</div>
-  </gl-tab-panel>
-</gl-tab>
+  </gu-tab-panel>
+</gu-tab>
 ```
 
 ## 过度
@@ -35,21 +35,21 @@ export default {
 可以设置`animatable`属性让标签切换时增加过度效果
 
 ```html
-<gl-tab v-model="active" animatable>
-  <gl-tab-panel title="标签栏1">
+<gu-tab v-model="active" animatable>
+  <gu-tab-panel title="标签栏1">
     <div class="content1">内容1</div>
-  </gl-tab-panel>
-  <gl-tab-panel title="标签栏2">
+  </gu-tab-panel>
+  <gu-tab-panel title="标签栏2">
     <div class="content2">内容2</div>
-  </gl-tab-panel>
-</gl-tab>
+  </gu-tab-panel>
+</gu-tab>
 ```
 
 </div>
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/tab ':include :type=iframe')
+[cinwell website](http://localhost:8080/#/senior/tab ':include :type=iframe frameborder=no')
 
 </div>
 

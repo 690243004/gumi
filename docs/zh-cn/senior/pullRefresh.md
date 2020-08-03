@@ -8,7 +8,7 @@
 ## 导入
 
 ```js
-import { PullRefresh } from 'glow-ui'
+import { PullRefresh } from 'gumi'
 export default {
   components: {
     [PullRefresh.name]: PullRefresh
@@ -21,12 +21,12 @@ export default {
 加载更多组件会自动检查列表是否到达了底部，所以首屏加载的数据最好占满一屏幕内容使其滚动
 
 ```html
-<gl-load-more @load="onLoad" v-model="loading" :finished="finished">
+<gu-load-more @load="onLoad" v-model="loading" :finished="finished">
   <div class="load-more-content-item" v-for="(item, index) in array" :key="index">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae rerum illo tempora quas placeat sunt aliquam
     provident, deserunt cum optio consequatur nulla tenetur libero voluptatibus ipsa accusantium nemo explicabo!
   </div>
-</gl-load-more>
+</gu-load-more>
 ```
 
 ```js
@@ -65,7 +65,7 @@ export default {
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/pullRefresh ':include :type=iframe class=iframe-pointer')
+[cinwell website](http://localhost:8080/#/senior/pullRefresh ':include :type=iframe frameborder=no class=iframe-pointer')
 
 </div>
 

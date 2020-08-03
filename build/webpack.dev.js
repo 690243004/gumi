@@ -37,7 +37,7 @@ module.exports = merge(common, {
       template: path.resolve(__dirname, '../public/index.html'),
       filename: 'index.html',
       chunks: ['bundle'],
-      title: 'Glow UI'
+      title: 'Gumi UI'
     })
   ]
 })

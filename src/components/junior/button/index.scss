@@ -1,7 +1,7 @@
 @import "../../scss/vars.scss";
 @import "../../scss/mixin.scss";
 
-.glow-button {
+.gumi-button {
   position: relative;
   display: inline-block;
   box-sizing: border-box;
@@ -15,7 +15,7 @@
   user-select: none;
 }
 
-.glow-button::before {
+.gumi-button::before {
   @include absoluteCenter;
   width: 100%;
   height: 100%;
@@ -27,89 +27,89 @@
   content: " ";
 }
 
-.glow-button:active::before {
+.gumi-button:active::before {
   opacity: 0.1;
 }
 
-.glow-button--default {
+.gumi-button--default {
   color: $mineShaft;
   background-color: $white;
   border: 1px solid $silver;
 }
 
-.glow-button--plain.glow-button--default {
+.gumi-button--plain.gumi-button--default {
   background-color: $white;
   color: $mineShaft;
 }
 
-.glow-button--primary {
+.gumi-button--primary {
   color: $white;
   background-color: $miku;
   border: 1px solid $border-miku;
 }
 
-.glow-button--plain.glow-button--primary {
+.gumi-button--plain.gumi-button--primary {
   background-color: $white;
   color: $miku;
 }
 
-.glow-button--success {
+.gumi-button--success {
   color: $white;
   background-color: $fern;
   border: 1px solid $border-fern;
 }
 
-.glow-button--plain.glow-button--success {
+.gumi-button--plain.gumi-button--success {
   background-color: $white;
   color: $fern;
 }
 
-.glow-button--danger {
+.gumi-button--danger {
   color: $white;
   background-color: $froly;
   border: 1px solid $border-froly ;
 }
 
-.glow-button--plain.glow-button--danger {
+.gumi-button--plain.gumi-button--danger {
   background-color: $white;
   color: $froly;
 }
 
-.glow-button--warn {
+.gumi-button--warn {
   color: $white;
   background-color: $tulipTree;
   border: 1px solid $border-tulipTree ;
 }
 
-.glow-button--plain.glow-button--warn {
+.gumi-button--plain.gumi-button--warn {
   background-color: $white;
   color: $tulipTree;
 }
 
-.glow-button--small {
+.gumi-button--small {
   padding: 12px 18px;
 }
 
-.glow-button--normal {
+.gumi-button--normal {
   padding: 18px 27px;
 }
 
-.glow-button--large {
+.gumi-button--large {
   padding: 24px 36px;
 }
 
-.glow-button--round {
+.gumi-button--round {
   border-radius: 999px;
 }
 
-.glow-button--block {
+.gumi-button--block {
   display: block;
 }
 
-.glow-button--disabled {
+.gumi-button--disabled {
   opacity: .5;
 }
 
-.glow-button--disabled:active::before {
+.gumi-button--disabled:active::before {
   opacity: 0;
 }

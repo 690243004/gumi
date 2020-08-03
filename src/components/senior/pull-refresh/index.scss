@@ -1,17 +1,17 @@
 @import "../../scss/vars.scss";
 @import "../../scss/mixin.scss";
 
-.glow-pull-refresh {
+.gumi-pull-refresh {
   position: relative;
   overflow: hidden;
   user-select: none;
 }
 
-.glow-pull-refresh--track {
+.gumi-pull-refresh--track {
   background-color: $alabaster;
 }
 
-.glow-pull-refresh--track--header {
+.gumi-pull-refresh--track--header {
   @include center;
   color: $mineShaft;
   font-size: $fontSize_1;
@@ -21,11 +21,11 @@
   height: 100px;
 }
 
-.glow-pull-refresh--track__loading .glow-pull-refresh--track--loadingWrapper {
+.gumi-pull-refresh--track__loading .gumi-pull-refresh--track--loadingWrapper {
   width: 50px;
   height: 50px;
 }
 
-.glow-pull-refresh--track--text {
+.gumi-pull-refresh--track--text {
   color: $osloGray;
 }

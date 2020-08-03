@@ -7,17 +7,30 @@ import './index.scss'
 
 export default createComponent({
   props: {
-    label: String,
-    value: [String, Number],
+    // 边框
     border: Boolean,
+    // 左侧图标
+    icon: String,
+    // 是否可以点击
     isLink: Boolean,
+    // 标签
+    label: String,
+    // 说明
     meta: String,
-    icon: String
+    // 值
+    value: [String, Number]
   },
   components: {
     [Icon.name]: Icon
   },
   mixins: [globalMixin],
+  methods : { 
+    onClick(e) { 
+      if(this.isLink) { 
+        this.$emit('click',e)
+      }
+    }
+  },
   render(h) {
     // slot better then props
     const icon = h(
@@ -84,7 +97,10 @@ export default createComponent({
           bem({
             border: this.border,
             isLink: this.isLink
-          })
+          }),
+          on : { 
+            click : this.onClick
+          }
       },
       [icon, label, value, meta]
     )

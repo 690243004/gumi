@@ -1,14 +1,14 @@
 <template>
   <div class="component-view">
-    <gl-pull-refresh @load="onLoad" v-model="loading">
-      <gl-navigation back type="primary" title="下拉刷新"> </gl-navigation>
+    <gu-pull-refresh @load="onLoad" v-model="loading">
+      <gu-navigation back type="primary" title="下拉刷新"> </gu-navigation>
 
       <div class="component-display">
         <div class="component-display--title">基本使用</div>
       </div>
 
       <div class="refresh-message">{{ message }}</div>
-    </gl-pull-refresh>
+    </gu-pull-refresh>
   </div>
 </template>
 

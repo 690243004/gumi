@@ -2,7 +2,7 @@
 
 ![logo](_media/icon.png)
 
-# GlowUI <small>1.0</small>
+# Gumi <small>1.0</small>
 
 > 一个轻量级的 Vue 移动端 UI 框架
 

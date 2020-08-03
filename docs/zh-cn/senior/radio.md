@@ -8,7 +8,7 @@
 ## 导入
 
 ```js
-import { Radio, RadioGroup } from 'glow-ui'
+import { Radio, RadioGroup } from 'gumi'
 export default {
   components: {
     [Radio.name]: Radio,
@@ -22,17 +22,17 @@ export default {
 可以设置双向绑定关联对应的的单选框
 
 ```html
-<gl-radio-group v-model="active">
-  <gl-radio>选项 1</gl-radio>
-  <gl-radio>选项 2</gl-radio>
-</gl-radio-group>
+<gu-radio-group v-model="active">
+  <gu-radio>选项 1</gu-radio>
+  <gu-radio>选项 2</gu-radio>
+</gu-radio-group>
 ```
 
 </div>
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/radio ':include :type=iframe')
+[cinwell website](http://localhost:8080/#/senior/radio ':include :type=iframe frameborder=no')
 
 </div>
 

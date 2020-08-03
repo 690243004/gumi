@@ -1,17 +1,17 @@
 <template>
   <div class="component-view">
-    <gl-navigation fixed back type="primary" title="步进器"> </gl-navigation>
+    <gu-navigation fixed back type="primary" title="步进器"> </gu-navigation>
     <div class="component-display">
       <div class="component-display--title">基础用法</div>
       <div class="component-display--content">
-        <gl-stepper v-model="num"></gl-stepper>
+        <gu-stepper v-model="num"></gu-stepper>
       </div>
     </div>
 
     <div class="component-display">
       <div class="component-display--title">禁用</div>
       <div class="component-display--content">
-        <gl-stepper disabled v-model="num2"></gl-stepper>
+        <gu-stepper disabled v-model="num2"></gu-stepper>
       </div>
     </div>
   </div>

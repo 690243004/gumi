@@ -1,29 +1,29 @@
 <template>
   <div>
-    <gl-navigation back type="primary" title="标签栏"> </gl-navigation>
+    <gu-navigation back type="primary" title="标签栏"> </gu-navigation>
     <div class="component-display">
       <div class="component-display--title">基础用法</div>
     </div>
-    <gl-tab v-model="active1">
-      <gl-tab-panel title="标签栏1">
+    <gu-tab v-model="active1">
+      <gu-tab-panel title="标签栏1">
         <div class="content1">内容1</div>
-      </gl-tab-panel>
-      <gl-tab-panel title="标签栏2">
+      </gu-tab-panel>
+      <gu-tab-panel title="标签栏2">
         <div class="content2">内容2</div>
-      </gl-tab-panel>
-    </gl-tab>
+      </gu-tab-panel>
+    </gu-tab>
 
     <div class="component-display">
       <div class="component-display--title">视图过度</div>
     </div>
-    <gl-tab v-model="active2" animatable>
-      <gl-tab-panel title="标签栏1">
+    <gu-tab v-model="active2" animatable>
+      <gu-tab-panel title="标签栏1">
         <div class="content1">内容1</div>
-      </gl-tab-panel>
-      <gl-tab-panel title="标签栏2">
+      </gu-tab-panel>
+      <gu-tab-panel title="标签栏2">
         <div class="content2">内容2</div>
-      </gl-tab-panel>
-    </gl-tab>
+      </gu-tab-panel>
+    </gu-tab>
   </div>
 </template>
 

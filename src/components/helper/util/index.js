@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
-const COMPONENT_NAME = 'glow'
-const COMPONENT_PREFIX = 'gl'
+const COMPONENT_NAME = 'gumi'
+const COMPONENT_PREFIX = 'gu'
 /**
  * 判断是否对象
  * @param {*} val 目标对象

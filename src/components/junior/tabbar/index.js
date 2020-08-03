@@ -12,11 +12,11 @@ export default createComponent({
     }
   },
   props: {
-    value: [String, Number],
-    route: Boolean,
-    bottom: Boolean,
     activeColor: String,
-    color: String
+    bottom: Boolean,
+    color: String,
+    route: Boolean,
+    value: [String, Number],
   },
   methods: {
     onChange(index) {

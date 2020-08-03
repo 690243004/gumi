@@ -10,7 +10,6 @@ const [createComponent, bem] = _createNamespace
 let zIndex = 2000
 export default createComponent({
   props: {
-    value: Boolean,
     overlay: {
       type: Boolean,
       default: true
@@ -19,7 +18,8 @@ export default createComponent({
       type: String,
       default: 'bottom'
     },
-    round: Boolean
+    round: Boolean,
+    value: Boolean,
   },
   mixins: [globalMixin],
   data() {

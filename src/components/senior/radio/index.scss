@@ -1,14 +1,15 @@
 @import "../../scss/vars.scss";
 @import "../../scss/mixin.scss";
 
-.glow-radio {
+.gumi-radio {
   display: flex;
   align-items: center;
   font-size: $fontSize_1;
   color: $mineShaft;
+  user-select: none;
 }
 
-.glow-radio--icon {
+.gumi-radio--icon {
   height: $fontSize_1;
   width: $fontSize_1;
   margin-right: 15px;
@@ -20,8 +21,8 @@
   }
 }
 
-.glow-radio--unselected {
-  .glow-radio--icon {
+.gumi-radio--unselected {
+  .gumi-radio--icon {
     border: 1px solid $osloGray;
 
     &::after {
@@ -36,10 +37,10 @@
   }
 }
 
-.glow-radio--selected {
+.gumi-radio--selected {
   color: $miku;
 
-  .glow-radio--icon {
+  .gumi-radio--icon {
     border: 1px solid $miku;
 
     &::after {

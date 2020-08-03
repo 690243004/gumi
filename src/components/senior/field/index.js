@@ -6,14 +6,14 @@ import './index.scss'
 
 export default createComponent({
   props: {
-    label: String,
-    value: [String, Number],
-    disabled: Boolean,
-    password: Boolean,
-    border: Boolean,
     alignRight: Boolean,
+    border: Boolean,
+    disabled: Boolean,
+    label: String,
+    password: Boolean,
     required: Boolean,
-    textarea: Boolean
+    textarea: Boolean,
+    value: [String, Number]
   },
   computed: {
     placeholder() {

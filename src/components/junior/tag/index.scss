@@ -1,6 +1,6 @@
 @import "../../scss/color.scss";
 
-.glow-tag {
+.gumi-tag {
   position: relative;
   display: inline-block;
   box-sizing: border-box;
@@ -13,12 +13,12 @@
   user-select: none;
 }
 
-.glow-tag--default {
+.gumi-tag--default {
   color: #fff;
   background-color: #aaa;
 }
 
-.glow-tag--primary {
+.gumi-tag--primary {
   color: $white;
   background-color: $miku;
 }

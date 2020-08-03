@@ -1,12 +1,12 @@
 $duration: 0.3s;
 $border_width: 50px;
 
-.glow-popup {
+.gumi-popup {
   position: fixed;
   background-color: #fff;
 }
 
-.glow-popup--overlay {
+.gumi-popup--overlay {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -15,65 +15,65 @@ $border_width: 50px;
   background-color: rgba($color: #000000, $alpha: 0.5);
 }
 
-.glow-popup--top {
+.gumi-popup--top {
   min-height: 10%;
   top: 0;
   left: 0;
   right: 0;
 }
 
-.glow-popup--top.glow-popup--round {
+.gumi-popup--top.gumi-popup--round {
   border-radius: 0 0 $border_width $border_width;
 }
 
-.glow-popup--bottom.glow-popup--round {
+.gumi-popup--bottom.gumi-popup--round {
   border-radius: $border_width $border_width 0 0;
 }
 
-.glow-popup--top-enter-active {
+.gumi-popup--top-enter-active {
   animation: slideInDown 0.3s;
 }
 
-.glow-popup--top-leave-active {
+.gumi-popup--top-leave-active {
   animation: slideOutUp 0.3s;
 }
-.glow-popup--bottom-enter-active {
+.gumi-popup--bottom-enter-active {
   animation: slideInUp 0.3s;
 }
 
-.glow-popup--bottom-leave-active {
+.gumi-popup--bottom-leave-active {
   animation: slideOutDown 0.3s;
 }
-.glow-popup--left-enter-active {
+.gumi-popup--left-enter-active {
   animation: slideInLeft 0.3s;
 }
 
-.glow-popup--left-leave-active {
+.gumi-popup--left-leave-active {
   animation: slideOutLeft 0.3s;
 }
-.glow-popup--right-enter-active {
+.gumi-popup--right-enter-active {
   animation: slideInRight 0.3s;
 }
 
-.glow-popup--right-leave-active {
+.gumi-popup--right-leave-active {
   animation: slideOutRight 0.3s;
 }
 
-.glow-popup--bottom {
+.gumi-popup--bottom {
   min-height: 10%;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-.glow-popup--left {
+.gumi-popup--left {
   min-width: 10%;
   top: 0;
   bottom: 0;
   left: 0;
 }
 
-.glow-popup--right {
+.gumi-popup--right {
   min-width: 10%;
   top: 0;
   bottom: 0;

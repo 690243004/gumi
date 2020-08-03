@@ -1,10 +1,10 @@
 @import "../../scss/vars.scss";
 
-.glow-tab {
+.gumi-tab {
   overflow: hidden;
 }
 
-.glow-tab--label {
+.gumi-tab--label {
   display: flex;
   height: $brilliance;
   width: 100%;
@@ -18,7 +18,7 @@
   }
 }
 
-.glow-tab--label--item {
+.gumi-tab--label--item {
   line-height: $brilliance;
   text-align: center;
   flex: 1;
@@ -29,12 +29,12 @@
   height: 100%;
 }
 
-.glow-tab--label--item__active {
+.gumi-tab--label--item__active {
   font-size: $fontSize_2;
   color: $miku;
 }
 
-.glow-tab--line {
+.gumi-tab--line {
   width: 50px;
   height: 5px;
   background-color: $miku;
@@ -43,6 +43,6 @@
   border-radius: 2.5px;
 }
 
-.glow-tab--main {
+.gumi-tab--main {
   display: flex;
 }

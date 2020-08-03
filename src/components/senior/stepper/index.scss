@@ -2,7 +2,7 @@
 @import "../../scss/mixin.scss";
 
 
-.glow-stepper {
+.gumi-stepper {
   width: 175px;
   height: $beauty;
   box-sizing: border-box;
@@ -13,8 +13,8 @@
   justify-content: space-between;
 }
 
-.glow-stepper--increase,
-.glow-stepper--decrease {
+.gumi-stepper--increase,
+.gumi-stepper--decrease {
   height: $bella;
   width: $bella;
   border-radius: 50%;
@@ -31,8 +31,8 @@
   }
 }
 
-.glow-stepper--increase::before,
-.glow-stepper--decrease::before {
+.gumi-stepper--increase::before,
+.gumi-stepper--decrease::before {
   width: 100%;
   height: 100%;
   background-color: $black;
@@ -44,12 +44,12 @@
   @include absoluteCenter;
 }
 
-.glow-stepper--increase:active::before,
-.glow-stepper--decrease:active::before {
+.gumi-stepper--increase:active::before,
+.gumi-stepper--decrease:active::before {
   opacity: 0.1;
 }
 
-.glow-stepper--increase {
+.gumi-stepper--increase {
   background-color: $miku;
 
   i {
@@ -57,7 +57,7 @@
   }
 }
 
-.glow-stepper--decrease {
+.gumi-stepper--decrease {
   border: 1px solid $miku;
 
   i {
@@ -65,17 +65,17 @@
   }
 }
 
-.glow-stepper--num {
+.gumi-stepper--num {
   font-size: $fontSize_3;
   color: $osloGray;
   user-select: none;
 }
 
-.glow-stepper--disabled {
+.gumi-stepper--disabled {
   opacity: .5;
 }
 
-.glow-stepper--disabled .glow-stepper--increase:active::before,
-.glow-stepper--disabled .glow-stepper--decrease:active::before {
+.gumi-stepper--disabled .gumi-stepper--increase:active::before,
+.gumi-stepper--disabled .gumi-stepper--decrease:active::before {
   opacity: 0;
 }

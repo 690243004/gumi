@@ -1,6 +1,6 @@
 @import "../../scss/vars.scss";
 
-.glow-overlay {
+.gumi-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,11 +10,11 @@
   z-index: 2020;
 }
 
-.glow-overlay-fade-enter-active {
+.gumi-overlay-fade-enter-active {
   animation: fadeIn 0.3s;
 }
 
-.glow-overlay-fade-leave-active {
+.gumi-overlay-fade-leave-active {
   animation: fadeOut 0.3s;
 }
 

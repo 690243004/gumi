@@ -9,25 +9,6 @@ const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
-    // 文字
-    title: String,
-    // 加载样式类型
-    type: {
-      type: String,
-      default: 'round'
-    },
-    // 加载动画时间 默认2000ms
-    duration: {
-      type: [Number, String],
-      default: 2000
-    },
-    // loading组件大小
-    size: {
-      type: [Number, String],
-      default: 40
-    },
-    // loading颜色
-    color: String,
     // round 类型 loading背景颜色必须与父元素的背景颜色一致 默认为 #f5f5f5
     backgroundColor: {
       type: String,
@@ -43,8 +24,27 @@ export default createComponent({
       type: Number,
       default: 3
     },
+    // loading颜色
+    color: String,
+    // 加载动画时间 默认2000ms
+    duration: {
+      type: [Number, String],
+      default: 2000
+    },
     // 是否继承父节点的宽度(用于自适应布局)
-    inherit: Boolean
+    inherit: Boolean,
+    // loading组件大小
+    size: {
+      type: [Number, String],
+      default: 40
+    },
+    // 文字
+    title: String,
+    // 加载样式类型
+    type: {
+      type: String,
+      default: 'round'
+    }
   },
   data() {
     return {

@@ -1,7 +1,7 @@
 @import "../../scss/vars.scss";
 $bravery : 72px;
 
-.glow-field {
+.gumi-field {
   min-height: $bravery;
   padding: 12px 30px;
   display: flex;
@@ -23,7 +23,7 @@ $bravery : 72px;
   }
 }
 
-.glow-field--button {
+.gumi-field--button {
   position: absolute;
   right: 30px;
   top: 50%;
@@ -31,7 +31,7 @@ $bravery : 72px;
 }
 
 
-.glow-field--border::after {
+.gumi-field--border::after {
   content: '';
   display: block;
   position: absolute;
@@ -43,7 +43,7 @@ $bravery : 72px;
   transform: scaleY(.5);
 }
 
-.glow-field--label {
+.gumi-field--label {
   flex: 0 0 200px;
   line-height: $beauty;
   min-height: $beauty;
@@ -54,8 +54,8 @@ $bravery : 72px;
   color: $mineShaft;
 }
 
-.glow-field--input,
-.glow-field--textarea {
+.gumi-field--input,
+.gumi-field--textarea {
   flex: 1;
   overflow: hidden;
   display: block;
@@ -77,6 +77,6 @@ $bravery : 72px;
   }
 }
 
-.glow-field--input {
+.gumi-field--input {
   height: $beauty;
 }

@@ -7,25 +7,25 @@ const [createComponent, bem] = _createNamespace
 import './index.scss'
 export default createComponent({
   props: {
-    title: String,
     back: Boolean,
+    fixed: Boolean,
     more: Boolean,
+    title: String,
     type: {
       type: String,
       default: 'default'
-    },
-    fixed: Boolean
+    }
   },
   mixins: [globalMixin],
   methods: {
-    onLeftIconClick() {
-      this.$emit('onLeftClick')
-      if (this.back) {
+    onLeftIconClick(e) {
+      this.$emit('leftClick',e)
+      if (this.back && this.$router) {
         this.$router.go(-1)
       }
     },
-    onRightIconClick() {
-      this.$emit('onRightClick')
+    onRightIconClick(e) {
+      this.$emit('rightClick',e)
     }
   },
   render(h) {
