@@ -10,10 +10,34 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const commonConfig = {
   module: {
     rules: [
-      { test: /\.css$/, use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'] },
+      {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: [require('autoprefixer')()]
+            }
+          }
+        ]
+      },
       {
         test: /\.scss$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader']
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: [require('autoprefixer')()]
+            }
+          },
+          'sass-loader'
+        ]
       }
     ]
   }
@@ -22,8 +46,16 @@ const commonConfig = {
 module.exports = [
   // mobile-site output configuration
   merge(common, {
-    ...commonConfig,
     mode: 'production',
+    module: {
+      rules: [
+        { test: /\.css$/, use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'] },
+        {
+          test: /\.scss$/,
+          use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader']
+        }
+      ]
+    },
     entry: {
       bundle: path.resolve(__dirname, '../src/index.js')
     },
@@ -66,7 +98,7 @@ module.exports = [
     plugins: [
       new CleanWebpackPlugin(),
       new MiniCssExtractPlugin({
-        filename: 'common.css'
+        filename: 'index.css'
       }),
       new OptimizeCSSAssetsPlugin({
         assetNameRegExp: /\.css$/g,
@@ -88,7 +120,7 @@ module.exports = [
     plugins: [
       new CleanWebpackPlugin(),
       new MiniCssExtractPlugin({
-        filename: 'common.css'
+        filename: 'index.css'
       }),
       new OptimizeCSSAssetsPlugin({
         assetNameRegExp: /\.css$/g,

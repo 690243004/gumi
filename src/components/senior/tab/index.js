@@ -8,29 +8,37 @@ const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
-    value: {
-      type: Number,
-      default: 0
-    },
-    rate: {
-      tyep: Number,
-      default: 0.26
-    },
-    scrollNum: {
-      type: Number,
-      default: 4
-    },
+    // 视图是否可以过渡
+    animatable: [Boolean],
+    // 过渡事件
     duration: {
       type: Number,
       default: 0.3
     },
-    scrollspy: [Boolean],
-    touchable: [Boolean],
-    animatable: [Boolean],
+    // 固钉
     fixed: [Boolean],
+    // 是否懒加载视图
     lazyRender: {
       type: Boolean,
       default: true
+    },
+    // 下划线占标签的百分比宽度
+    rate: {
+      tyep: Number,
+      default: 0.26
+    },
+    // 超过该数量，tab标签会进行滚动
+    scrollNum: {
+      type: Number,
+      default: 4
+    },
+    // 是否可以滚动
+    scrollspy: [Boolean],
+    // 是否可以触摸
+    touchable: [Boolean],
+    value: {
+      type: Number,
+      default: 0
     }
   },
   data() {
@@ -69,6 +77,7 @@ export default createComponent({
     })
   ],
   methods: {
+    // 固钉效果
     check() {
       this.$nextTick(() => {
         const el = this.$el
@@ -83,6 +92,7 @@ export default createComponent({
         this.wrapStyle = wrapStyle
       })
     },
+    // 初始化标签以及视图位置
     initialize() {
       this.$nextTick(() => {
         if (this.active > -1) {
@@ -108,7 +118,6 @@ export default createComponent({
                 leftDistance = this.active * elWidth,
                 maxScrollLeft = this.count * elWidth - Math.floor((this.count * elWidth) / listWidth) * listWidth,
                 nextScrollLeft = leftDistance - offsetCenter
-
               this.scrollTo(nextScrollLeft < 0 ? 0 : nextScrollLeft > maxScrollLeft ? maxScrollLeft : nextScrollLeft)
             }
           }
@@ -209,6 +218,14 @@ export default createComponent({
   mounted() {
     this.initialize()
     this.setup()
+    this._originalResize = window.onrize
+    window.onresize = () => {
+      this._originalResize && this._originalResize()
+      this.initialize()
+    }
+  },
+  beforeDestory() {
+    window.onresize = this._originalResize
   },
   render(h) {
     const labels = this.getLabels()
