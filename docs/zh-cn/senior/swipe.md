@@ -57,6 +57,15 @@ export default {
 </gu-swipe>
 ```
 
+## Props
+
+| 属性名        | 类型    | 默认值 | 说明                                       |
+| :------------ | :------ | :----- | :----------------------------------------- |
+| autoplay      | number  | `null` | 轮播图自动播放间隔，设置后，将开启自动播放 |
+| duration      | number  | `200`  | 轮播图过渡间隔，单位为`ms`                 |
+| loop          | boolean | `true` | 是否开启循环播放                           |
+| showIndicator | boolean | `true` | 是否显示指示器                             |
+
 </div>
 
 <div class="mdoc-section">

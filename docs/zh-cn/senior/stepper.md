@@ -32,6 +32,16 @@ export default {
 <gu-stepper disabled></gu-stepper>
 ```
 
+## Props
+
+| 属性名   | 类型    | 默认值  | 说明                          |
+| :------- | :------ | :------ | :---------------------------- |
+| disabled | boolean | `false` | 是否为禁用状态                |
+| max      | number  | `null`   | 步进器最大值                  |
+| min      | number  | `null`     | 步进器最小值                  |
+| value    | Number  | `0`     | 步进器对应值                  |
+| zeroHide | boolean | `true`  | 步进器为 0 是是否隐藏部分视图 |
+
 </div>
 
 <div class="mdoc-section">

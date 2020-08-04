@@ -6,35 +6,29 @@ const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
+    disabled: Boolean,
+    max: Number,
+    min: Number,
     value: {
-      type: Number,
-      default: 0
-    },
-    max: {
-      type: Number,
-      default: 200
-    },
-    min: {
       type: Number,
       default: 0
     },
     zeroHide: {
       type: Boolean,
       default: true
-    },
-    disabled: Boolean
+    }
   },
   methods: {
     onIncrease() {
       if (this.disabled) return
       const result = this.value + 1
-      if (result > this.max) return
+      if (this.max !== undefined && result > this.max) return
       this.$emit('input', this.value + 1)
     },
     onDecrease() {
       if (this.disabled) return
       const result = this.value - 1
-      if (result < this.min) return
+      if (this.max !== undefined && result < this.min) return
       this.$emit('input', this.value - 1)
     }
   },

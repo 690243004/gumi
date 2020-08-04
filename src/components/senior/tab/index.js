@@ -13,7 +13,7 @@ export default createComponent({
     // 过渡事件
     duration: {
       type: Number,
-      default: 0.3
+      default: 300
     },
     // 固钉
     fixed: [Boolean],
@@ -27,13 +27,13 @@ export default createComponent({
       tyep: Number,
       default: 0.26
     },
+    // 是否可以滚动
+    scrollspy: [Boolean],
     // 超过该数量，tab标签会进行滚动
     scrollNum: {
       type: Number,
       default: 4
     },
-    // 是否可以滚动
-    scrollspy: [Boolean],
     // 是否可以触摸
     touchable: [Boolean],
     value: {
@@ -107,7 +107,7 @@ export default createComponent({
             }
 
             if (this.inited) {
-              lineStyle.transitionDuration = `${this.duration}s`
+              lineStyle.transitionDuration = `${this.duration}ms`
             }
 
             this.lineStyle = lineStyle
@@ -143,6 +143,7 @@ export default createComponent({
                 click: (e) => {
                   e.stopPropagation()
                   this.$emit('input', _name)
+                  this.$emit('change', _name)
                 }
               }
             },
@@ -181,7 +182,7 @@ export default createComponent({
         this.labelStyle.flexBasis = '22%'
       }
       ra2(() => {
-        this.labelStyle.transitionDuration = `${this.duration - 0.1}s`
+        this.labelStyle.transitionDuration = `${this.duration - 100}ms`
       })
       this.$nextTick(() => {
         this.inited = true
@@ -209,7 +210,7 @@ export default createComponent({
     active() {
       if (this.animatable) {
         if (this.inited) {
-          this.mainStyle.transitionDuration = `${this.duration}s`
+          this.mainStyle.transitionDuration = `${this.duration}ms`
         }
       }
       this.mainStyle.transform = `translate3d(-${this.active * 100}%,0px,0px)`
