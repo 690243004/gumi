@@ -20,7 +20,8 @@ npm i gumi --save
 
 ```js
 import { install } from 'gumi'
-install()
+import Vue from 'vue'
+install(Vue)
 ```
 
 按需加载
