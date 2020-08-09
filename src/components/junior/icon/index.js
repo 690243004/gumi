@@ -18,17 +18,9 @@ export default createComponent({
       iconStyle.color = this.color
     }
 
-    return h(
-      'div',
-      {
-        class: bem()
-      },
-      [
-        h('i', {
-          style: iconStyle,
-          class: `glow-icon ${this.name}`
-        })
-      ]
-    )
+    return h('i', {
+      style: iconStyle,
+      class: `${bem()} glow-icon ${this.name}`
+    })
   }
 })

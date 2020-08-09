@@ -1,5 +1,5 @@
 @import "../../scss/vars.scss";
-$bravery : 72px;
+$bravery: 72px;
 
 .gumi-field {
   min-height: $bravery;
@@ -14,7 +14,7 @@ $bravery : 72px;
   }
 
   &--required::before {
-    content: '*';
+    content: "*";
     position: absolute;
     left: 15px;
     top: 20px;
@@ -30,9 +30,8 @@ $bravery : 72px;
   transform: translateY(-50%);
 }
 
-
 .gumi-field--border::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   bottom: 0;
@@ -40,7 +39,7 @@ $bravery : 72px;
   left: 30px;
   right: 30px;
   background-color: $miku;
-  transform: scaleY(.5);
+  transform: scaleY(0.5);
 }
 
 .gumi-field--label {
@@ -64,12 +63,13 @@ $bravery : 72px;
   outline: none;
   line-height: $beauty;
   height: $beauty;
-
   &:disabled {
     background-color: $white;
     color: $silver;
   }
+}
 
+.gumi-field--input {
   &__right {
     text-align: right;
     justify-content: flex-end;
@@ -77,6 +77,7 @@ $bravery : 72px;
   }
 }
 
-.gumi-field--input {
-  height: $beauty;
+.gumi-field--textarea {
+  resize: none;
+  overflow: hidden;
 }

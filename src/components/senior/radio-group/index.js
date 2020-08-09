@@ -5,9 +5,7 @@ const [createComponent, bem] = _createNamespace
 import './index.scss'
 export default createComponent({
   props: {
-    value: {
-      type: [String, Number]
-    }
+    value: [String, Number]
   },
   mixin: [globalMixin],
   data() {
@@ -19,6 +17,7 @@ export default createComponent({
     onChange(name) {
       if (this.value === name) return
       this.$emit('input', name)
+      this.$emit('change', name)
     }
   },
   render(h) {

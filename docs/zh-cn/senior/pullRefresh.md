@@ -61,6 +61,19 @@ export default {
 }
 ```
 
+## Props
+
+| 属性名   | 类型    | 默认值 | 说明               |
+| :------- | :------ | :----- | :----------------- |
+| distance | number  | 200    | 最大下拉距离       |
+| value    | boolean | false  | 是否为下拉刷新状态 |
+
+## Events
+
+| 事件名 | 回调参数 | 说明             |
+| ------ | -------- | ---------------- |
+| load   | `null`   | 刷新时触发该事件 |
+
 </div>
 
 <div class="mdoc-section">

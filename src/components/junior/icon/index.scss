@@ -1,4 +1,6 @@
-.gumi-icon { 
+.gumi-icon {
   display: inline-block;
-  line-height: 1;
+  text-rendering: auto;
+  // 抗锯齿
+  -webkit-font-smoothing: antialiased;
 }

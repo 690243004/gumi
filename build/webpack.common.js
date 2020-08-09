@@ -9,10 +9,6 @@ const config = {
         use: ['url-loader?limit=17631&name=[hash:8]-[name].[ext]']
       },
       { test: /\.js$/, use: ['babel-loader'], exclude: /node_modules/ },
-      {
-        test: /\.ts$/,
-        use: 'ts-loader'
-      },
       { test: /\.(ttf|eot|svg|woff|woff2|otf)$/, use: 'url-loader' },
       {
         test: /\.vue$/,

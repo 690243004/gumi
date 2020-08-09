@@ -61,6 +61,23 @@ export default {
 }
 ```
 
+## Props
+
+| 属性名        | 类型    | 默认值           | 说明                                                       |
+| :------------ | :------ | :--------------- | :--------------------------------------------------------- |
+| imediateCheck | boolean | `false`          | 组件加载后，立即检查是否到达底部，若是则立即执行 load 方法 |
+| finished      | boolean | `false`          | 是否已没有更多数据加载                                     |
+| finishedText  | string  | `已没有更多数据` | 没有更多数据加载时底部显示文字                             |
+| offset        | number  | `30`             | 该值表示距离底部的距离，会触发加载事件                     |
+| valueText     | string  | `正在加载更多`   | 加载时底部显示文字                                         |
+| value         | boolean | false            | 是否为加载中状态                                           |
+
+## Events
+
+| 事件名 | 回调参数 | 说明                     |
+| ------ | -------- | ------------------------ |
+| load   |      `null`    | 列表到底部时会触发该事件 |
+
 </div>
 
 <div class="mdoc-section">
