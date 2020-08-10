@@ -78,7 +78,7 @@ export default {
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/pullRefresh ':include :type=iframe frameborder=no class=iframe-pointer')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/senior/pullRefresh ':include :type=iframe frameborder=no class=iframe-pointer')
 
 </div>
 

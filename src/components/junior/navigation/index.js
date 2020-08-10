@@ -19,13 +19,13 @@ export default createComponent({
   mixins: [globalMixin],
   methods: {
     onLeftIconClick(e) {
-      this.$emit('leftClick',e)
+      this.$emit('leftClick', e)
       if (this.back && this.$router) {
         this.$router.go(-1)
       }
     },
     onRightIconClick(e) {
-      this.$emit('rightClick',e)
+      this.$emit('rightClick', e)
     }
   },
   render(h) {

@@ -51,7 +51,7 @@ export default {
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/base/icon ':include :type=iframe frameborder=no')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/base/icon ':include :type=iframe frameborder=no')
 
 </div>
 </div>

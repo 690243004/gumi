@@ -56,7 +56,7 @@ export default {
 <gu-cell icon="cart" is-link label="购物车"></gu-cell>
 ```
 
-## Props 
+## Props
 
 | 属性名 |  类型   |  默认值   |                           说明                           |
 | :----: | :-----: | :-------: | :------------------------------------------------------: |
@@ -69,17 +69,13 @@ export default {
 | round  | boolean |  `false`  |                      是否为圆角按钮                      |
 |  type  | string  | `default` | 按钮类型，可设置为`primary`、`scucess`、`danger`、`warn` |
 
-
-
 ## Events
 
 | 事件名 | 回调参数      | 说明                                         |
 | ------ | ------------- | -------------------------------------------- |
 | click  | event : Event | 若`isLink`为`true`，则点击单元格时触发该事件 |
 
-
-
-## Slots 
+## Slots
 
 | 插槽名称 | 说明           |
 | -------- | -------------- |
@@ -87,15 +83,11 @@ export default {
 | icon     | 单元格左侧图标 |
 | meta     | 单元格描述     |
 
-
-
 </div>
 
 <div class="mdoc-section">
 
-
-
-[cinwell website](http://localhost:8080/#/base/cell ':include :type=iframe frameborder=no')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/base/cell ':include :type=iframe frameborder=no')
 
 </div>
 

@@ -64,8 +64,6 @@ export default {
 <gu-loading backgroundColor="#f9f9f9" color="#66ccff" inherit />
 ```
 
-
-
 ## Props
 
 | 属性名          | 类型           | 默认值    | 说明                                              |
@@ -83,7 +81,7 @@ export default {
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/loading ':include :type=iframe frameborder=no')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/senior/loading ':include :type=iframe frameborder=no')
 
 </div>
 

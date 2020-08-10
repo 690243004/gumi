@@ -34,7 +34,7 @@ export default createComponent({
     onClick(e) {
       e.stopPropagation()
       if (this.disabled) return
-      this.$emit('click',e)
+      this.$emit('click', e)
       if (this.href) {
         return (window.location.href = this.href)
       }

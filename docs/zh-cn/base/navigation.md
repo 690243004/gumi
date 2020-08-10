@@ -66,14 +66,12 @@ export default {
 
 ## Props
 
-| 属性名 |  类型   |  默认值   |       说明       |
-| :----: | :-----: | :-------: | :--------------: |
+| 属性名 |  类型   |  默认值   |                                 说明                                 |
+| :----: | :-----: | :-------: | :------------------------------------------------------------------: |
 |  back  | boolean |  `false`  | 是否显示返回按钮，若为`true`<br/>点击返回时会自动调用`router.go(-1)` |
-| fixed  | boolean |  `false`  |  是否固定在顶部  |
-| title  | string  |  `null`   |    导航栏标题    |
-|  type  | string  | `default` |    导航栏类型    |
-
-
+| fixed  | boolean |  `false`  |                            是否固定在顶部                            |
+| title  | string  |  `null`   |                              导航栏标题                              |
+|  type  | string  | `default` |                              导航栏类型                              |
 
 ## Events
 
@@ -82,20 +80,19 @@ export default {
 | leftClick | event : Event | 点击导航栏左侧图标时触发 |
 | rigtClick | event : Event | 点击导航栏右侧图标时触发 |
 
-## Slots 
+## Slots
 
 | 插槽名称 | 说明           |
 | -------- | -------------- |
-| icon  | 导航栏左侧图标     |
-| right     | 导航栏右侧图标 |
-| title     | 导航栏标题     |
-
+| icon     | 导航栏左侧图标 |
+| right    | 导航栏右侧图标 |
+| title    | 导航栏标题     |
 
 </div>
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/base/navigation ':include :type=iframe frameborder=no')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/base/navigation ':include :type=iframe frameborder=no')
 
 </div>
 
