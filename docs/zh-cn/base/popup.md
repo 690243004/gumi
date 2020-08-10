@@ -42,26 +42,24 @@ export default {
 
 ## Props
 
-| 属性名 |  类型   |  默认值   |       说明       |
-| :----: | :-----: | :-------: | :--------------: |
-|  overlay  | boolean |  `true`  | 是否显示遮罩层 |
-| position  | string |  `bottom`  |  弹出位置，可以设置为`top`、`bottom`、`left`、`right`  |
-| round  | boolean  |  `false`   |    是否为圆角    |
-|  value  | boolean  | `false` |    是否显示弹出层    |
+|  属性名  |  类型   |  默认值  |                         说明                         |
+| :------: | :-----: | :------: | :--------------------------------------------------: |
+| overlay  | boolean |  `true`  |                    是否显示遮罩层                    |
+| position | string  | `bottom` | 弹出位置，可以设置为`top`、`bottom`、`left`、`right` |
+|  round   | boolean | `false`  |                      是否为圆角                      |
+|  value   | boolean | `false`  |                    是否显示弹出层                    |
 
+## Slots
 
-## Slots 
-
-| 插槽名称 | 说明           |
-| -------- | -------------- |
-| default  |    弹出层内容   |
-
+| 插槽名称 | 说明       |
+| -------- | ---------- |
+| default  | 弹出层内容 |
 
 </div>
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/base/popup ':include :type=iframe frameborder=no')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/base/popup ':include :type=iframe frameborder=no')
 
 </div>
 

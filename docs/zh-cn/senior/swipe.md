@@ -70,7 +70,7 @@ export default {
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/swipe ':include :type=iframe frameborder=no ')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/senior/swipe ':include :type=iframe frameborder=no ')
 
 </div>
 

@@ -30,14 +30,14 @@ export default {
 
 ## Props(Radio-Group)
 
-| 属性名 | 类型   | 默认值 | 说明   |
-| :----- | :----- | :----- | :----- |
+| 属性名 | 类型             | 默认值 | 说明               |
+| :----- | :--------------- | :----- | :----------------- |
 | value  | string \| number | `null` | 单选框组当前选择项 |
 
 ## Props (Radio)
 
-| 属性名 | 类型   | 默认值 | 说明   |
-| :----- | :----- | :----- | :----- |
+| 属性名 | 类型             | 默认值 | 说明           |
+| :----- | :--------------- | :----- | :------------- |
 | name   | string \| number | `null` | 单选框对应索引 |
 
 ## Events(Radio-Group)
@@ -50,7 +50,7 @@ export default {
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/radio ':include :type=iframe frameborder=no')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/senior/radio ':include :type=iframe frameborder=no')
 
 </div>
 

@@ -24,10 +24,10 @@ export default createComponent({
     [Icon.name]: Icon
   },
   mixins: [globalMixin],
-  methods : { 
-    onClick(e) { 
-      if(this.isLink) { 
-        this.$emit('click',e)
+  methods: {
+    onClick(e) {
+      if (this.isLink) {
+        this.$emit('click', e)
       }
     }
   },
@@ -98,9 +98,9 @@ export default createComponent({
             border: this.border,
             isLink: this.isLink
           }),
-          on : { 
-            click : this.onClick
-          }
+        on: {
+          click: this.onClick
+        }
       },
       [icon, label, value, meta]
     )

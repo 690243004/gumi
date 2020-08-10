@@ -19,7 +19,7 @@ export default createComponent({
       default: 'bottom'
     },
     round: Boolean,
-    value: Boolean,
+    value: Boolean
   },
   mixins: [globalMixin],
   data() {

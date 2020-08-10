@@ -82,7 +82,7 @@ export default {
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/base/button ':include :type=iframe frameborder=no ')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/base/button ':include :type=iframe frameborder=no ')
 
 </div>
 
@@ -101,11 +101,8 @@ export default {
 |  round   |     boolean      |  `false`  |                      是否为圆角按钮                      |
 |   type   |      string      | `default` | 按钮类型，可设置为`primary`、`scucess`、`danger`、`warn` |
 
-
-
 ## Events
 
 | 事件名 | 回调参数      | 说明                         |
 | ------ | ------------- | ---------------------------- |
 | click  | event : Event | 点击按钮，不为禁用状态时触发 |
-

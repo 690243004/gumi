@@ -26,7 +26,7 @@ export default createComponent({
       type: String,
       default: '正在加载更多'
     },
-    value: Boolean,
+    value: Boolean
   },
   data() {
     return {

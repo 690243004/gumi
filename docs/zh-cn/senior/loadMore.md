@@ -76,13 +76,13 @@ export default {
 
 | 事件名 | 回调参数 | 说明                     |
 | ------ | -------- | ------------------------ |
-| load   |      `null`    | 列表到底部时会触发该事件 |
+| load   | `null`   | 列表到底部时会触发该事件 |
 
 </div>
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/loadMore ':include :type=iframe frameborder=no ')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/senior/loadMore ':include :type=iframe frameborder=no ')
 
 </div>
 
