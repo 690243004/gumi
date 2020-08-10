@@ -12,7 +12,9 @@ npm i gumi --save
 
 ## cdn
 
-待完善
+```
+https://cdn.jsdelivr.net/npm/gumi/dist/gumi.min.js
+```
 
 ## 导入
 
@@ -31,6 +33,4 @@ import { Button } from 'gumi'
 Vue.component(Button.name, Button)
 ```
 
-```
-https://www.zdxhyangyan.cn/test/mobile/glow
-```
+<!-- https://www.zdxhyangyan.cn/test/mobile/glow -->
