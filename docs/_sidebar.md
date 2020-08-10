@@ -5,6 +5,7 @@
 
   - [Button 按钮](zh-cn/base/button)
   - [Cell 单元格](zh-cn/base/cell)
+  - [Icon 图标](zh-cn/base/icon)
   - [Navigation 导航栏](zh-cn/base/navigation)
   - [popup 弹出框](zh-cn/base/popup)
   - [Tabbar 底部标签栏](zh-cn/base/tabbar)
