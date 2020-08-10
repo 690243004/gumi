@@ -20,7 +20,7 @@ module.exports = {
   // always 总是有括号
   arrowParens: 'always',
   // 每行最多多少个字符换行
-  printWidth: 120,
+  printWidth: 120
   // JSX标签闭合位置 默认false
   // false: <div
   //          className=""

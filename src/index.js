@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import eruda from 'eruda'
 Vue.config.productionTip = false
 import '@/assets/normal.scss'
 import '@/assets/global.scss'
@@ -13,4 +12,7 @@ new Vue({
   render: (h) => h(App)
 }).$mount('#app')
 
-eruda.init()
+if (process.env.NODE_ENV === 'development') {
+  const eruda = require('eruda')
+  eruda.init()
+}

@@ -17,7 +17,8 @@
             size="large"
             round
             :link="item.path"
-          >{{ item.name }}</gu-button>
+            >{{ item.name }}</gu-button
+          >
         </gu-tab-panel>
         <gu-tab-panel title="高级组件">
           <gu-button
@@ -28,7 +29,8 @@
             size="large"
             round
             :link="item.path"
-          >{{ item.name }}</gu-button>
+            >{{ item.name }}</gu-button
+          >
         </gu-tab-panel>
       </gu-tab>
     </div>

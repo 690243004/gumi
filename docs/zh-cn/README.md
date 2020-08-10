@@ -2,6 +2,8 @@
 
 > 轻量级移动端 UI 框架
 
+<div class="mdoc">
+<div class="mdoc-main">
 ## 安装
 
 ## npm 安装
@@ -37,3 +39,13 @@ Vue.component(Button.name, Button)
 ```
 
 <!-- https://www.zdxhyangyan.cn/test/mobile/glow -->
+
+</div>
+
+<div class="mdoc-section">
+
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/ ':include :type=iframe frameborder=no')
+
+</div>
+
+</div>

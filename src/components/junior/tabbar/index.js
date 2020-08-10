@@ -16,7 +16,7 @@ export default createComponent({
     bottom: Boolean,
     color: String,
     route: Boolean,
-    value: [String, Number],
+    value: [String, Number]
   },
   methods: {
     onChange(index) {

@@ -66,26 +66,24 @@ export default {
 
 ## Props
 
-| 属性名 |  类型   |  默认值   |       说明       |
-| ---- | :-----: | ------- | -------------- |
-|  activeColor  | string |  `null`  | 标签激活时颜色 |
-| bottom | boolean |  `false`  |  是否固定在页面底部  |
-| color | string |  `null`  |    标签未激活时颜色    |
-| route       | boolean  | `false` |    是否同步`vue`路由    |
-
+| 属性名      |  类型   | 默认值  | 说明               |
+| ----------- | :-----: | ------- | ------------------ |
+| activeColor | string  | `null`  | 标签激活时颜色     |
+| bottom      | boolean | `false` | 是否固定在页面底部 |
+| color       | string  | `null`  | 标签未激活时颜色   |
+| route       | boolean | `false` | 是否同步`vue`路由  |
 
 ## Events
 
-| 事件名 | 回调参数      | 说明                                         |
-| ------ | ------------- | -------------------------------------------- |
-| change  | name : string | 标签对应索引 |
-
+| 事件名 | 回调参数      | 说明         |
+| ------ | ------------- | ------------ |
+| change | name : string | 标签对应索引 |
 
 </div>
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/base/tabbar ':include :type=iframe frameborder=no')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/base/tabbar ':include :type=iframe frameborder=no')
 
 </div>
 

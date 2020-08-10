@@ -60,21 +60,19 @@ export default {
 <gu-field textarea v-model="remark" label="留言"></gu-field>
 ```
 
-## Props 
+## Props
 
-| 属性名 |  类型   |  默认值   |                           说明                           |
-| :----- | :------ | :-------- | :------------------------------------------------------- |
-| alignRight | boolean | `false` | 是否右对齐输入框 |
-| border | boolean | `false` | 是否显示 |
-| label | string |  `null`  |                      输入框标签                      |
-| password | boolean | `false` | 是否为密码框，同`input`属性 |
-|  require  | boolean |  `false`  |    是否显示必填图标    |
-| textarea | boolean |  `false`  |                     输入框是否为文本框                     |
-| value | string\|number |  `null`   |                      输入框的值                      |
+| 属性名     | 类型           | 默认值  | 说明                        |
+| :--------- | :------------- | :------ | :-------------------------- |
+| alignRight | boolean        | `false` | 是否右对齐输入框            |
+| border     | boolean        | `false` | 是否显示                    |
+| label      | string         | `null`  | 输入框标签                  |
+| password   | boolean        | `false` | 是否为密码框，同`input`属性 |
+| require    | boolean        | `false` | 是否显示必填图标            |
+| textarea   | boolean        | `false` | 输入框是否为文本框          |
+| value      | string\|number | `null`  | 输入框的值                  |
 
-
-
-## Slots 
+## Slots
 
 | 插槽名称 | 说明                                 |
 | -------- | ------------------------------------ |
@@ -85,7 +83,7 @@ export default {
 
 <div class="mdoc-section">
 
-[cinwell website](http://localhost:8080/#/senior/field ':include :type=iframe frameborder=no')
+[cinwell website](https://www.zdxhyangyan.cn/github/gumi/site/#/senior/field ':include :type=iframe frameborder=no')
 
 </div>
 
