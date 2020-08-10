@@ -9,12 +9,10 @@ const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
+    autoplay: Number,
     duration: {
-      type: [Number, String],
+      type: Number,
       default: 200
-    },
-    autoplay: {
-      type: [Number, String]
     },
     // 是否循环，默认开启，需要在以下函数做切面
     // onTouchMove : 当为最后一个时，不能让执行next offset > this.containerWidth - this.clientWidth，当为第一个时，不能让他向执行pre

@@ -3,10 +3,12 @@
   "version": "1.0.1",
   "description": "a good vue components",
   "main": "lib/index.js",
+  "style": "lib/index.css",
   "module": "es/index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
+    "build:site": "webpack --config build/webpack.site.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint --ext .js,.vue --fix ./src"
   },
@@ -20,6 +22,7 @@
     }
   },
   "files": [
+    "dist",
     "es",
     "lib"
   ],

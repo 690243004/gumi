@@ -7,6 +7,7 @@ import './index.scss'
 export default createComponent({
   props: {
     alignRight: Boolean,
+    autoFix: Boolean,
     border: Boolean,
     disabled: Boolean,
     label: String,
@@ -27,6 +28,9 @@ export default createComponent({
       } else {
         this.$refs.inputRef.value = this.value || ''
       }
+    },
+    onTextAreaKeyup() {
+      this.$refs.inputRef.style.height = this.$refs.inputRef.scrollHeight + 'px'
     }
   },
   mixins: [globalMixin],
@@ -58,6 +62,18 @@ export default createComponent({
       )
     }
 
+    let inputType
+    const inputEvent = {
+      on: this.onInput
+    }
+    if (this.textarea) {
+      inputType = 'textarea'
+      if (this.autoFix) {
+        inputEvent.keyup = this.onTextAreaKeyup
+      }
+    } else {
+      inputType = 'input'
+    }
     return h(
       'div',
       {
@@ -70,17 +86,15 @@ export default createComponent({
       },
       [
         label,
-        h(this.textarea ? 'textarea' : 'input', {
+        h(inputType, {
           class: bem([
-            this.textarea ? 'textarea' : 'input',
+            inputType,
             {
               input__right: this.alignRight
             }
           ]),
           attrs: inputProps,
-          on: {
-            input: this.onInput
-          },
+          on: inputEvent,
           ref: 'inputRef'
         }),
         button

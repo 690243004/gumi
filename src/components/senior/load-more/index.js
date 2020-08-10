@@ -9,6 +9,7 @@ const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
+    imediateCheck: Boolean,
     finished: {
       type: Boolean,
       default: false
@@ -17,16 +18,15 @@ export default createComponent({
       type: String,
       default: '已没有更多数据'
     },
-    valueText: {
-      type: String,
-      default: '正在加载更多'
-    },
     offset: {
       type: Number,
       default: 30
     },
+    valueText: {
+      type: String,
+      default: '正在加载更多'
+    },
     value: Boolean,
-    imediateCheck: Boolean
   },
   data() {
     return {

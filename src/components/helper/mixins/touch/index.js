@@ -55,28 +55,5 @@ export default () => {
         this.horizonDirection = getHorizonDirection(this.deltaX)
       }
     }
-    // mounted() {
-    //   this.touchContext = isGlobal ? document : this.$el;
-    //   const touchStart = this.touchStart.bind(this);
-    //   const touchMove = this.touchMove.bind(this);
-    //   const touchEnd = this.touchEnd.bind(this);
-    //   this.touchContext.addEventListener("touchstart", touchStart, {
-    //     passive: true
-    //   });
-    //   this.touchContext.addEventListener("touchmove", touchMove, {
-    //     passive: true
-    //   });
-    //   this.touchContext.addEventListener("touchend", touchEnd, {
-    //     passive: true
-    //   });
-    //   this.remove = () => {
-    //     this.touchContext.removeEventListener("touchstart", touchStart);
-    //     this.touchContext.removeEventListener("touchmove", touchMove);
-    //     this.touchContext.removeEventListener("touchmove", touchEnd);
-    //   };
-    // },
-    // destoryed() {
-    //   this.remove && this.remove();
-    // }
   }
 }

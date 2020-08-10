@@ -8,29 +8,37 @@ const [createComponent, bem] = _createNamespace
 
 export default createComponent({
   props: {
-    value: {
+    // 视图是否可以过渡
+    animatable: [Boolean],
+    // 过渡事件
+    duration: {
       type: Number,
-      default: 0
+      default: 300
     },
+    // 固钉
+    fixed: [Boolean],
+    // 是否懒加载视图
+    lazyRender: {
+      type: Boolean,
+      default: true
+    },
+    // 下划线占标签的百分比宽度
     rate: {
       tyep: Number,
       default: 0.26
     },
+    // 是否可以滚动
+    scrollspy: [Boolean],
+    // 超过该数量，tab标签会进行滚动
     scrollNum: {
       type: Number,
       default: 4
     },
-    duration: {
-      type: Number,
-      default: 0.3
-    },
-    scrollspy: [Boolean],
+    // 是否可以触摸
     touchable: [Boolean],
-    animatable: [Boolean],
-    fixed: [Boolean],
-    lazyRender: {
-      type: Boolean,
-      default: true
+    value: {
+      type: Number,
+      default: 0
     }
   },
   data() {
@@ -69,6 +77,7 @@ export default createComponent({
     })
   ],
   methods: {
+    // 固钉效果
     check() {
       this.$nextTick(() => {
         const el = this.$el
@@ -83,6 +92,7 @@ export default createComponent({
         this.wrapStyle = wrapStyle
       })
     },
+    // 初始化标签以及视图位置
     initialize() {
       this.$nextTick(() => {
         if (this.active > -1) {
@@ -97,7 +107,7 @@ export default createComponent({
             }
 
             if (this.inited) {
-              lineStyle.transitionDuration = `${this.duration}s`
+              lineStyle.transitionDuration = `${this.duration}ms`
             }
 
             this.lineStyle = lineStyle
@@ -108,7 +118,6 @@ export default createComponent({
                 leftDistance = this.active * elWidth,
                 maxScrollLeft = this.count * elWidth - Math.floor((this.count * elWidth) / listWidth) * listWidth,
                 nextScrollLeft = leftDistance - offsetCenter
-
               this.scrollTo(nextScrollLeft < 0 ? 0 : nextScrollLeft > maxScrollLeft ? maxScrollLeft : nextScrollLeft)
             }
           }
@@ -134,6 +143,7 @@ export default createComponent({
                 click: (e) => {
                   e.stopPropagation()
                   this.$emit('input', _name)
+                  this.$emit('change', _name)
                 }
               }
             },
@@ -172,7 +182,7 @@ export default createComponent({
         this.labelStyle.flexBasis = '22%'
       }
       ra2(() => {
-        this.labelStyle.transitionDuration = `${this.duration - 0.1}s`
+        this.labelStyle.transitionDuration = `${this.duration - 100}ms`
       })
       this.$nextTick(() => {
         this.inited = true
@@ -200,7 +210,7 @@ export default createComponent({
     active() {
       if (this.animatable) {
         if (this.inited) {
-          this.mainStyle.transitionDuration = `${this.duration}s`
+          this.mainStyle.transitionDuration = `${this.duration}ms`
         }
       }
       this.mainStyle.transform = `translate3d(-${this.active * 100}%,0px,0px)`
@@ -209,6 +219,14 @@ export default createComponent({
   mounted() {
     this.initialize()
     this.setup()
+    this._originalResize = window.onrize
+    window.onresize = () => {
+      this._originalResize && this._originalResize()
+      this.initialize()
+    }
+  },
+  beforeDestory() {
+    window.onresize = this._originalResize
   },
   render(h) {
     const labels = this.getLabels()
