@@ -1,13 +1,13 @@
 import { createNamespace } from '../../helper/util'
+import './index.scss'
 const _createNamespace = createNamespace('icon')
 const [createComponent, bem] = _createNamespace
-import './index.scss'
 
 export default createComponent({
   props: {
+    color: String,
     name: String,
-    size: [String, Number],
-    color: String
+    size: [String, Number]
   },
   render(h) {
     const iconStyle = {}
