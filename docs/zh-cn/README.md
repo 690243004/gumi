@@ -12,8 +12,11 @@ npm i gumi --save
 
 ## cdn
 
-```
-https://cdn.jsdelivr.net/npm/gumi/dist/gumi.min.js
+```html
+<!-- 引入样式 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gumi/dist/index.css" />
+<!-- 引入组件 -->
+<script src="https://cdn.jsdelivr.net/npm/gumi/dist/gumi.min.js"></script>
 ```
 
 ## 导入
