@@ -1,6 +1,6 @@
 # GUMI
 
-a vue mobile ui components package
+<div style="text-align:center">a vue mobile ui components package </div>
 
 <img width="200" height="200" src="./docs/_media/icon.png" style="display : block;margin:0 auto" />
 
