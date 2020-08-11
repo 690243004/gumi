@@ -1,6 +1,5 @@
-@import "../../scss/vars.scss";
-@import "../../scss/mixin.scss";
-
+@import '../../scss/vars.scss';
+@import '../../scss/mixin.scss';
 
 .gumi-stepper {
   width: 175px;
@@ -23,11 +22,11 @@
   @include center;
 
   .gumi-icon {
-    font-size: $fontSize_3;
+    font-size: $fontSize_0;
     font-weight: bold;
-    transform: scale(.5);
+    overflow: hidden;
+    user-select: none;
   }
-
 }
 
 .gumi-stepper--increase::before,
@@ -39,7 +38,7 @@
   border-color: $black;
   border-radius: inherit;
   opacity: 0;
-  content: " ";
+  content: ' ';
   @include absoluteCenter;
 }
 
@@ -71,7 +70,7 @@
 }
 
 .gumi-stepper--disabled {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .gumi-stepper--disabled .gumi-stepper--increase:active::before,
