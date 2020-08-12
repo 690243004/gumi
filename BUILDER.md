@@ -1,48 +1,52 @@
 # 打包心得
 
 ## 了解常见的打包模式
-- commonjs : node环境的commonjs规范，commonjs仅仅定义了exports，而module.export 是 nodejs对commonjs的实现。commonjs2就是满足规范的同时进一步扩展
-- amd : amd规范，适合requirejs
-- this  : 通过this访问
-- window : 通过window访问，适合在浏览器中
-- UMD : 将你的 library 暴露为所有的模块定义下都可运行的方式。它将在 CommonJS, AMD 环境下运行，或将模块导出到 global 下的变量
-- jsonp ： 这是一种比较特殊的模式，适用于有extrnals依赖的时候(splitChunks)。将把入口起点的返回值，包裹到一个 jsonp 包装容器中
 
-而对于webpack，你可以在target处设置不同的模式 : 
-- node commonjs模式
+- commonjs : node 环境的 commonjs 规范，commonjs 仅仅定义了 exports，而 module.export 是 nodejs 对 commonjs 的实现。commonjs2 就是满足规范的同时进一步扩展
+- amd : amd 规范，适合 requirejs
+- this : 通过 this 访问
+- window : 通过 window 访问，适合在浏览器中
+- UMD : 将你的 library 暴露为所有的模块定义下都可运行的方式。它将在 CommonJS, AMD 环境下运行，或将模块导出到 global 下的变量
+- jsonp ： 这是一种比较特殊的模式，适用于有 extrnals 依赖的时候(splitChunks)。将把入口起点的返回值，包裹到一个 jsonp 包装容器中
+
+而对于 webpack，你可以在 target 处设置不同的模式 :
+
+- node commonjs 模式
 - web 浏览器模式
 - ...
 
 ## 构建多个目标
 
-我在重构axios的时候，发现他们是构建两份js文件，一份 用于es模块，一份用于 commonjs模块。
+我在重构 axios 的时候，发现他们是构建两份 js 文件，一份 用于 es 模块，一份用于 commonjs 模块。
 
-查看webpack文档发现，可以这样构建多个目标
+查看 webpack 文档发现，可以这样构建多个目标
 
 作为导出一个配置对象/配置函数的替代，你可能需要导出多个配置对象（从 webpack 3.1.0 开始支持导出多个函数）。当运行 webpack 时，所有的配置对象都会构建。例如，导出多个配置对象，对于针对多个构建目标（例如 AMD 和 CommonJS）打包一个 library 非常有用。
 
 ```js
-module.exports = [{
-  output: {
-    filename: './dist-amd.js',
-    libraryTarget: 'amd'
+module.exports = [
+  {
+    output: {
+      filename: './dist-amd.js',
+      libraryTarget: 'amd'
+    },
+    entry: './app.js',
+    mode: 'production'
   },
-  entry: './app.js',
-  mode: 'production',
-}, {
-  output: {
-    filename: './dist-commonjs.js',
-    libraryTarget: 'commonjs'
-  },
-  entry: './app.js',
-  mode: 'production',
-}]
+  {
+    output: {
+      filename: './dist-commonjs.js',
+      libraryTarget: 'commonjs'
+    },
+    entry: './app.js',
+    mode: 'production'
+  }
+]
 ```
 
+# 关于 eslint
 
-# 关于eslint 
-
-由于typescript 力推eslint，所以决定使用eslint统一代码风格
+由于 typescript 力推 eslint，所以决定使用 eslint 统一代码风格
 
 同时，我们需要`prettier`来格式化文件，我们希望每个成员的代码格式化工具都是统一的，而不是你的编译器里面设置一个，他的编译器设置另一个.
 
@@ -51,6 +55,7 @@ cnpm i prettier -D
 ```
 
 在根目录下创建 `.prettierrc.js`
+
 ```js
 module.exports = {
   // 缩进格数 默认为2
@@ -86,7 +91,6 @@ module.exports = {
   jsxBracketSameLine: true,
   parser: 'typescript'
 }
-
 ```
 
 另外，我们需要安装 :
@@ -158,17 +162,18 @@ module.exports = {
 }
 ```
 
-> 注意 : 如果eslint检查控制台出现错误，但是编译器上没有，你需要修改vs code 的setting，将typescript 添加到`"eslint.validate" : ["typescript"]`
+> 注意 : 如果 eslint 检查控制台出现错误，但是编译器上没有，你需要修改 vs code 的 setting，将 typescript 添加到`"eslint.validate" : ["typescript"]`
 
 # 添加提交钩子
 
-除了设置 eslint与prettier外，还需要在提交git的时候，触发eslint的检查行为。
+除了设置 eslint 与 prettier 外，还需要在提交 git 的时候，触发 eslint 的检查行为。
 
-在package.json中，设置
+在 package.json 中，设置
+
 ```json
 {
   "scripts": {
-    "eslint": "eslint --ext .tsx,.ts --fix ./src" 
+    "eslint": "eslint --ext .tsx,.ts --fix ./src"
   },
   "husky": {
     "hooks": {
@@ -176,34 +181,34 @@ module.exports = {
       "pre-commit": "lint-staged"
     }
   },
-   "lint-staged": {
-    "*.{ts,tsx}": [
-      "npm run eslint",
-      "prettier .prettierrc.js --write",
-      "git add"
-    ]
+  "lint-staged": {
+    "*.{ts,tsx}": ["npm run eslint", "prettier .prettierrc.js --write", "git add"]
   }
 }
 ```
 
-此外，还需要安装 
+此外，还需要安装
 
 ```
 cnpm i husky lint-staged -D
 ```
+
 - husky：在 .git/hooks 中写入 pre-commit 等脚本激活钩子，在 Git 操作时触发；
 - lint-staged：参考 Git 中 staged 暂存区概念，在每次提交时只检查本次提交的文件。
 
-# 关于prettier
-prettier是一个流行的代码格式化工具的名称，它能够解析代码，使用你自己设定的规则来重新打印出格式规范的代码。
+# 关于 prettier
 
-Prettier具有以下几个有优点：
+prettier 是一个流行的代码格式化工具的名称，它能够解析代码，使用你自己设定的规则来重新打印出格式规范的代码。
+
+Prettier 具有以下几个有优点：
+
 - 可配置化
 - 支持多种语言
 - 集成多数的编辑器
 - 简洁的配置项
 
 它支持的语言有：
+
 - JavaScript, including ES2017
 - JSX
 - Angular
@@ -222,30 +227,39 @@ Prettier具有以下几个有优点：
 npm publish patch/minor/major
 npm publish
 
-- patch：小变动，比如修复bug等，版本号变动 v1.0.0->v1.0.1
+- patch：小变动，比如修复 bug 等，版本号变动 v1.0.0->v1.0.1
 - minor：增加新功能，不影响现有功能,版本号变动 v1.0.0->v1.1.0
 - major：破坏模块对向后的兼容性，版本号变动 v1.0.0->v2.0.0
 
-# 关于libraryTarget
+# 关于 libraryTarget
 
-在webpack的ouput配置下可以选择`libraryTarget`，其实这个是指定你的包导出的后，其他开发者是如何引用你的包的方式。即上面的打包模式
+在 webpack 的 ouput 配置下可以选择`libraryTarget`，其实这个是指定你的包导出的后，其他开发者是如何引用你的包的方式。即上面的打包模式
 
 - var : 会将值作为变量名导出，当使用 script 标签时，其执行后在全局作用域可用
 - window : 当 library 加载完成，入口起点的返回值将分配给 window 对象
 - commonjs : 当 library 加载完成，入口起点的返回值将分配给 exports 对象。这个名称也意味着模块用于 CommonJS 环境
 - umd : 这是一种可以将你的 library 能够在所有的模块定义下都可运行的方式（并且导出的完全不是模块）。它将在 CommonJS, AMD 环境下运行，或将模块导出到 global 下的变量
-最终输出：
+  最终输出：
 
 例如 `commonjs` 模式
+
 ```js
-exports["MyLibrary"] = _entry_return_;
+exports['MyLibrary'] = _entry_return_
 // 使用者将会这样调用你的 library：
-require("MyLibrary").doSomething();
+require('MyLibrary').doSomething()
 ```
 
-另外，我们希望打的包是没有被压缩(UglifyJsPlugin)的，类似`vant`、`vue`那样。所以，我们应该在webpack的配置设置添加
+另外，我们希望打的包是没有被压缩(UglifyJsPlugin)的，类似`vant`、`vue`那样。所以，我们应该在 webpack 的配置设置添加
+
 ```js
 optimization: {
   minimize: false
 },
+```
+
+## 撤销版本
+
+```
+npm unpublish gumi@1.1.0
+npm deprecate gumi@1.1.0 '这个包我已经不再维护了哟～'
 ```
