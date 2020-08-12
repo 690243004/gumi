@@ -39,7 +39,7 @@ export default {
   props: {
     baseIcons: {
       type: Array,
-      default: () => ['top', 'bottom', 'left', 'right', 'decrease', 'increase', 'more', 'search', 'fold']
+      default: () => ['top', 'bottom', 'left', 'right', 'decrease', 'increase', 'more', 'search', 'fold', 'to-top']
     },
     lineIcons: {
       type: Array,

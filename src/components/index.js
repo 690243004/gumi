@@ -22,6 +22,9 @@ import SwipeItem from './senior/swipe-item'
 import Tab from './senior/tab'
 import TabPanel from './senior/tab-panel'
 import Loading from './senior/loading'
+
+import ToTop from './profession/to-top'
+
 const version = '0.0.0'
 
 function install(Vue) {
@@ -48,6 +51,7 @@ function install(Vue) {
     SwipeItem,
     Tab,
     TabPanel,
+    ToTop,
     Loading
   ]
   components.forEach(function (item) {
@@ -84,5 +88,6 @@ export {
   SwipeItem,
   Tab,
   TabPanel,
+  ToTop,
   Loading
 }
