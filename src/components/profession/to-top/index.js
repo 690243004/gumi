@@ -41,7 +41,6 @@ export default createComponent({
       if (!this.scroller) {
         this.scroller = getScroller(this.$el)
       }
-      console.log(this.scroller)
       bind(this.scroller, 'scroll', this.check)
     })
   ],
