@@ -81,6 +81,11 @@ export default new VueRouter({
       component: () => import('@/views/senior-view/tab')
     },
     {
+      path: '/profession/toTop',
+      name: 'tab',
+      component: () => import('@/views/profession-view/to-top')
+    },
+    {
       path: '*',
       name: 'index',
       component: () => import('@/views/index')
