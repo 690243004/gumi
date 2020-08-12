@@ -37,7 +37,7 @@ module.exports = [
         cssProcessor: require('cssnano')
       }),
       new CopyWebpackPlugin({
-        patterns: [{ from: path.resolve(__dirname, '../public/'), to: path.resolve(__dirname, '../dist/') }]
+        patterns: [{ from: path.resolve(__dirname, '../public/'), to: path.resolve(__dirname, '../docs/site') }]
       }),
       new htmlWebpackPlugin({
         template: path.resolve(__dirname, '../public/index.html'),
