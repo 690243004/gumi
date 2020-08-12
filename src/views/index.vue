@@ -32,6 +32,18 @@
             >{{ item.name }}</gu-button
           >
         </gu-tab-panel>
+        <gu-tab-panel title="业务组件">
+          <gu-button
+            type="primary"
+            :key="index"
+            v-for="(item, index) in professionList"
+            block
+            size="large"
+            round
+            :link="item.path"
+            >{{ item.name }}</gu-button
+          >
+        </gu-tab-panel>
       </gu-tab>
     </div>
   </div>
@@ -103,6 +115,12 @@ export default {
         {
           name: '标签栏',
           path: '/senior/tab'
+        }
+      ],
+      professionList: [
+        {
+          name: '回到顶部',
+          path: '/profession/toTop'
         }
       ]
     }

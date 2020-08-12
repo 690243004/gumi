@@ -1,9 +1,10 @@
 export function isScroller(element) {
-  return getComputedStyle(element).overflowY === 'scroll'
+  const { scrollHeight, clientHeight } = element
+  return scrollHeight > clientHeight
 }
 
 export function traceScroller(element) {
-  if (!element || element === document) return false
+  if (!element || element === document || element === document.body) return false
   if (isScroller(element)) return element
   return traceScroller(element.parentNode)
 }

@@ -22,7 +22,7 @@
     <div class="component-display">
       <div class="component-display--title">自动播放</div>
     </div>
-    <gu-swipe autoplay="2000">
+    <gu-swipe :autoplay="2000">
       <gu-swipe-item>
         <img src="/scenery_1.jpg" />
       </gu-swipe-item>

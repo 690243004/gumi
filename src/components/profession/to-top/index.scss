@@ -1,0 +1,28 @@
+@import '../../scss/vars.scss';
+@import '../../scss/mixin.scss';
+
+.gumi-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+}
+
+.gumi-to-top--dot {
+  background-color: $miku;
+  z-index: 100;
+  width: 75px;
+  height: 75px;
+  border-radius: 999px;
+  box-shadow: 0 3px 7px 0px rgba($color: #000000, $alpha: 0.35);
+  @include center;
+  .gumi-icon {
+    font-size: 32px;
+  }
+}
+
+// photoshop translate box-shadow
+// color : same
+// x-offset : ps-edg(距离) * cos(180 - angle)
+// y-offset : px-edg(距离) * sin(180 - angle)
+// blur-radius: ps-size - ps-spread
+// spread-radius: ps-size(大小) * ps-spread(扩展 0% 也就是 0，60%就是0.6)
